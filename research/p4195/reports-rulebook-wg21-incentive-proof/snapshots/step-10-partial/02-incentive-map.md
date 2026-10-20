@@ -1,0 +1,49 @@
+# Incentive map
+
+One line per candidate incentive: ID | spine key or keys that carry it, or the prediction it becomes | how much of it survives. Built from `triage.md` final verdicts and the Step 3 and Step 5 changes.
+
+- I1 | p:persuasion-not-required | weakened: the "aim to outlast" motive is dropped
+- I2 | l:chair-role | weakened: narrowed to SD-4 and WG21's rooms; ISO appeals can decide technical matters
+- I3 | p:early-polls | proved
+- I4 | p:challenger-bar | weakened: per-voter share of the reversal cost; the standing component is dropped
+- I5 | p:money-vs-presence | proved, with ISO's remote participation and no-fee checks
+- I6 | p:large-position, ind:adopted-parts, p:parts | weakened: no claim about pushing hardest or resisting late correction
+- I7 | p:chair-no-reasons | weakened: plenary may ask the subgroup chair for the reason
+- I8 | p:record-indistinct; c:pred-written-answers | weakened to "need not show"; the liability claim is a prediction
+- I9 | p:incumbent-start | weakened: rivals without papers do not block; rivals with papers can be polled alongside
+- I10 | p:review-share | weakened: conditional on a stake that does not grow with length
+- I11 | p:who-votes, m:moves-user, l:settled-user | weakened: no vote, and the cost of becoming a participant
+- I12 | p:least-cost-response, l:settled-large-author | proved, with the users' gain from a larger change weighed
+- I13 | p:prefer-vs-stop | weakened: what the rules give, not a cost to the speaker
+- I14 | p:late-objection | weakened: plenary only
+- I15 | p:review-share | weakened (as I10)
+- I16 | p:against-costs-more | proved
+- I17 | p:least-cost-response | proved
+- I18 | l:plenary-priority, p:private-channel | weakened: SD-4's priority categories; no record required of a private request
+- I19 | p:newcomer, p:private-channel | weakened: SD-4 expects every participant to know its procedures
+- I20 | p:chair-default | weakened: more than twice, with the Neutral caveat
+- I21 | l:poll-wording | weakened: participants ask, the chair chooses
+- I22 | p:dissent-needs-paper | weakened: the only record a holder can produce alone
+- I23 | p:newcomer | weakened: learning only; no cost comparison
+- I24 | p:repeat-objection | weakened: only outside judicious escalation and new information
+- I25 | p:small-position, p:attrition; c:pred-small-fade | weakened; "fades rather than rejected" is a prediction
+- I26 | l:one-third-against, l:room-size, l:consensus-test | weakened: one Against vote decides only in two counts; the consensus test does not ask whether an objection is correct
+- I27 | p:plenary-ratifies | weakened: escalation and the convenor's question, not national positions alone
+- I28 | none | conjecture; its prediction was cut in the Step 8 reconcile because no item links showing alternatives to an author's early polls
+- I29 | ind:adopted-parts, p:parts | weakened: no claim about foreclosing rivals
+- I30 | none | conjecture; its prediction was cut in the Step 8 reconcile because no item links how a paper describes its scope to its polls
+- I31 | p:repeat-objection | weakened (as I24)
+- I32 | p:prefer-is | weakened: unless the TS's experience is worth its delay; white papers noted
+- I33 | p:attrition | weakened: authors avoid asking for an A-or-B poll; the chair chooses polls
+- I34 | p:change-list | weakened: an objection in any form names no change
+- I35 | l:plenary-priority, ind:adopted-parts | weakened (as I18 and I29)
+- I36 | p:nb-route | weakened: escalation in time, not a national position, gives weight in plenary
+- I37 | p:mutual-support | weakened: no trading of concessions; unless harm exceeds the cost of opposing
+- I38 | p:review-share | merged
+- I39 | p:nb-early | weakened: no claim that silence counts as no objection
+- I40 | p:nb-comment; c:pred-nb-positions | weakened; national bodies forming few positions is a prediction
+- I41 | p:review-share | merged
+- I42 | none | conjecture; its prediction was cut in the Step 8 reconcile because the pattern gives objectors no choice after a lost poll
+- I43 | none | conjecture; its prediction was cut in the Step 8 reconcile because no item shows a rebutter does better waiting for the meeting
+- I44 | none | conjecture; its prediction was cut in the Step 8 reconcile because no item ties standing to attendance
+- I45 | none | conjecture; its prediction was cut in the Step 8 reconcile because a rival's past revisions are costs already spent

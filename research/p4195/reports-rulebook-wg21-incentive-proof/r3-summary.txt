@@ -1,0 +1,20 @@
+counts by disposition: A 61, S 44, M 20, R 13
+fixes by type (applied and sent): type 1 8, type 2 13, type 3 37, type 4 7, wording 35, proof step 5
+applied by type: type 1 3, type 2 11, type 3 23, type 4 5, wording 18, proof step 1
+sent by type: type 1 5, type 2 2, type 3 14, type 4 2, wording 17, proof step 4
+type 4 IDs: 12.3R3 (p:reasons-unrecorded), 12.3R4 (l:concern-followup), 12.3R6 (l:traced-voters), 12.3L8 (thm:settled), 12.3L14 (inf:pa-ease), 12.3L16 (inf:nb-few), 12.3A45 (c:pred-defects)
+rejected: 12.3D1, 12.3A1, 12.3A10, 12.3A14, 12.3A20, 12.3A22, 12.3A23, 12.3A24, 12.3A29, 12.3A32, 12.3A38, 12.3B13, 12.3B19
+merged: 12.3R5, 12.3L3, 12.3L5, 12.3L13, 12.3A4, 12.3A7, 12.3A21, 12.3A27, 12.3A28, 12.3A34, 12.3A35, 12.3A41, 12.3A49, 12.3B3, 12.3B5, 12.3B6, 12.3B8, 12.3B10, 12.3B14, 12.3B18
+by reviewer and status: Rules check {'A': 8, 'S': 6, 'M': 1}; Reader {'R': 1, 'A': 16, 'S': 16}; Logician {'A': 10, 'M': 3, 'S': 6}; Skeptics A {'R': 10, 'A': 20, 'M': 9, 'S': 10}; Skeptics B {'A': 7, 'S': 6, 'M': 7, 'R': 2}
+dispatch: chapter | findings sent | spine lines | follow-on lines | new-proof findings | spine children to change | total | role
+  ch-02 | 0 | 4 | 0 | 0 | 1 | 1 | fix-instructions
+  ch-03 | 0 | 2 | 1 | 0 | 0 | 0 | fix-instructions
+  ch-04 | 4 | 4 | 0 | 0 | 2 | 2 | fix-instructions
+  ch-05 | 1 | 1 | 2 | 0 | 1 | 1 | fix-instructions
+  ch-06 | 0 | 2 | 1 | 0 | 1 | 1 | fix-instructions
+  ch-07 | 0 | 2 | 0 | 0 | 0 | 0 | fix-instructions
+  ch-08 | 0 | 5 | 0 | 0 | 2 | 2 | fix-instructions
+  ch-09 | 2 | 1 | 1 | 0 | 1 | 1 | fix-instructions
+  ch-10 | 0 | 3 | 0 | 0 | 1 | 1 | fix-instructions
+  ch-11 | 15 | 5 | 4 | 4 | 4 | 8 | fix-instructions
+  ch-12 | 22 | 17 | 0 | 5 | 16 | 21 | chapter-fill-instructions

@@ -1,0 +1,25 @@
+# Round 2 fixes, chapter 2
+
+Context from the round 2 reconcile, which changed the foundation and the spine before this file was written:
+
+- Absence facts. `f:no-drawbacks-asked` and `f:no-interest-statement` now cover SD-4 and every quoted ISO clause, so "the rules ask no ..." is supported for drawbacks, who pays, and interests. Write "no proposal paper" where the claim is about drawbacks, since SD-4 asks a TS or white paper for its must-address controversial issues.
+- Scope. `d:follows-norm` now says what advances in a subgroup, and what Against votes block there, is what happens under a chair who follows the norm and finds no sustained opposition. Do not add that condition to sentences; cite `d:follows-norm`.
+- `ax:support` now says a vote the colleague cannot attribute gives no reason for less ready support.
+- New facts: `f:plenary-polls` (plenary voters and the convenor's polls), `f:report-followup` (file the issue or write the paper), `f:meeting-access` (ISO 5.3.1 on invitation letters, accessibility, and locations), `f:in-situ` (drafts the wording rooms reviewed with the changes applied). Extended facts: `f:minutes` (minute-taking), `f:negative-welcome` (broad understanding), `f:iso-early` (substantial comments tabled at meetings), `f:presenter` (qualified to answer detailed questions).
+- The Theorem now names polling rivals side by side for design room chairs, and ends its first paragraph with a sentence on the choices it leaves open, which each player makes in the way that does best for them given the others' choices. `l:checks-attendance` is cut from the spine and chapter 11.
+- Words. Write "the next edition", not "the next IS"; "subgroup", not "room", where a subgroup is meant; "the 2:1 threshold" or "meeting the 2:1 norm", not "the line"; and in chapter 12, "the model predicts" for every prediction a step states.
+- Length. Each item has at most two sentences of at most 30 words. Where a statement needs more, keep its claim in the item and make each other sentence a child step with its own key, one sentence each.
+- Citations. A child may cite only foundation items, spine items of earlier chapters, earlier items of its own chapter, or its own children.
+- Spine lines below quote statements already changed in this chapter and in `02-spine.md`. Do not edit those statements; make their children prove them, or cut children that no longer serve them. Never soften a plain, sharp, true statement.
+
+## Spine statements changed by the reconcile
+
+p:who-decides | spine change, round 2 reconcile | statement changed | The spine statement now reads: "The participants present decide a design's content: chairs call consensus on their votes, counted under the 2:1 norm, in the design rooms and the study groups that send them proposals. SD-4 assigns no one to rule on a design's quality, wording rooms check only that wording expresses the design, and national bodies vote on each balloted draft as a whole." Make its children prove it, or cut children that no longer serve it.
+m:players | spine change, round 2 reconcile | statement changed | The spine statement now reads: "The players are result-seeking authors, design-bound authors, regulars, study group chairs, design room chairs, the convenor, national bodies, sponsors, and users. The proof takes as given SD-4's text, the convenor's identity, appointments, study groups, and guest invitations, and the choices of wording room chairs, guests, non-regular participants, and the direction group." Make its children prove it, or cut children that no longer serve it.
+m:moves-chair | spine change, round 2 reconcile | statement changed | The spine statement now reads: "Any chair can choose the polls, order the agenda by SD-4's priorities, re-poll after discussion, ask Against voters for reasons, and allow limited exploration of alternatives. Each chair can call consensus on its room's polls, and design room chairs can also time-box a new proposal or delay one a meeting for a paperless rival." Make its children prove it, or cut children that no longer serve it.
+m:moves-convenor | spine change, round 2 reconcile | statement changed | The spine statement now reads: "The convenor can appoint chairs, form study groups, invite a guest for up to two meetings, take any plenary polls, and make plenary consensus calls. In plenary the convenor can ask whether Against votes are personal or national body positions." Make its children prove it, or cut children that no longer serve it.
+m:moves-nb | spine change, round 2 reconcile | statement changed | The spine statement now reads: "A national body can appoint experts, vote Yes, No, or abstain on ballots, comment, state national positions in plenary, appeal, and object in SC22 and JTC 1 to off-agenda action. It can vote on or confirm the convenor's appointment and, with at least one other P-member, have a draft discussed when they disagree with the SC22 chair's decision." Make its children prove it, or cut children that no longer serve it.
+p:who-votes | spine change, round 2 reconcile | basis | Its basis now also cites f:plenary-polls; the statement is unchanged.
+
+## Findings
+

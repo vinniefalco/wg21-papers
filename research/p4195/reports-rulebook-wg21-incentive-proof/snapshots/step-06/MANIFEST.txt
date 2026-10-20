@@ -1,0 +1,9 @@
+tag: step-06
+taken: 2026-10-19 02:43:39
+note: Checkpoint 1 foundation, reconstructed: the pre-Step 8 copy, assumed unchanged through Step 7 (57 top-level items, as approved); labeled emit from Step 6; extract and kit as of Step 9 minus the 02:02 kit sentence
+
+01-foundation.md	53266	0d449fe538464eefcdc54ea4c7332749642a732edf7551c6b095578b8dc7743d	c:\Users\Vinnie\cursor\cabinet\_scratch\reports-rulebook-wg21-incentive-proof\01-foundation.md
+foundation-labeled.md	50099	a68f37c58c48ab96a127bbb98a69492ea43c550e66a1d739f4b34e051c6fcda3	c:\Users\Vinnie\cursor\cabinet\_scratch\reports-rulebook-wg21-incentive-proof\foundation-labeled.md
+kit.md	77313	b42e56b2aa7323ee75e63c681684a6facbd1dd3f6a1f40f2f6ce11baa9c11278	c:\Users\Vinnie\cursor\wg21-papers\research\p4195\support\kit.md
+rules-extract.md	95641	768c4565202d377cc07d50d0c2dc50c01aa3882efc8cef76961dca51a58182fa	c:\Users\Vinnie\cursor\wg21-papers\research\p4195\support\rules-extract.md
+triage.md	50909	924f7c3d9913e037c618589a90967d3cbd9238385273901c6c7df46e02c79b75	c:\Users\Vinnie\cursor\wg21-papers\research\p4195\support\triage.md

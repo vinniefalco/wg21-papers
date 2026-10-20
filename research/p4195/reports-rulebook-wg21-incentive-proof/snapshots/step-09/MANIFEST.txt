@@ -1,0 +1,11 @@
+tag: step-09
+taken: 2026-10-19 02:43:39
+note: Step 9 gate state (spine frozen): current foundation, spine, map, extract, modules check, labeled spine; kit minus the 02:02 sentence; spine 147 top-level items, 6 tables
+
+01-foundation.md	60131	a0b48c417977e524c46d35cd882708f7e9566e9dcda4e705701f9c1ff87a1ce0	c:\Users\Vinnie\cursor\cabinet\_scratch\reports-rulebook-wg21-incentive-proof\01-foundation.md
+02-incentive-map.md	4412	9554f4f3859908a91128ed4eab0c08d2ac503a9580b2d752bbcd0290bc64dcb3	c:\Users\Vinnie\cursor\cabinet\_scratch\reports-rulebook-wg21-incentive-proof\02-incentive-map.md
+02-spine.md	55404	f3ec9438fd0857bc1222bf34752750b2ab36fdcb141a4e63b6ad0f05171e4367	c:\Users\Vinnie\cursor\cabinet\_scratch\reports-rulebook-wg21-incentive-proof\02-spine.md
+check_modules.py	1756	39558ad8db999d997ea3767e0d7af079d64c904d904949b9935780e009d7a687	c:\Users\Vinnie\cursor\cabinet\_scratch\reports-rulebook-wg21-incentive-proof\check_modules.py
+kit.md	77313	b42e56b2aa7323ee75e63c681684a6facbd1dd3f6a1f40f2f6ce11baa9c11278	c:\Users\Vinnie\cursor\wg21-papers\research\p4195\support\kit.md
+rules-extract.md	101993	d754a77e324b3b885693a78116e343bee0f5ca0c91814669fcadf166ae23b0f1	c:\Users\Vinnie\cursor\wg21-papers\research\p4195\support\rules-extract.md
+spine-labeled.md	102419	0ead9a30250442dc665b09442c3abc44442434d4f624984a5f6cd266a48f14a1	c:\Users\Vinnie\cursor\cabinet\_scratch\reports-rulebook-wg21-incentive-proof\spine-labeled.md

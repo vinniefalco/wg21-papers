@@ -1,0 +1,188 @@
+# Step 12 round 1 decisions, part A: rules check and reader. One line per finding:
+# ID|status|type|chapter|short problem|disposition note or fix to apply
+# status: A applied by the reconcile (foundation or spine), S sent to fix-r1-chNN, M merged, R rejected
+# type: 1 scope or definition, 2 added premise or fact, 3 narrower subject, 4 weaker wording, W wording with the claim unchanged, P proof step added with no new premise
+12.1R1|A|4||"or of judging a design's quality" is contradicted by the direction group's opinions and the design rooms' selecting|narrowed to ruling: "ruling which side of a technical dispute is correct or how good a design is"; search widened to judg, opinion, select, pursu
+12.1R2|A|4||p:who-decides says "SD-4 assigns no one to judge a design's quality"|"SD-4 assigns no one to rule on a design's quality" (headline; force kept: no one rules on quality)
+12.1R3|A|3||"national bodies ballot only on whole documents" is wider than ISO's votes on questions and appointments|"national bodies vote on each draft as a whole"
+12.1R4|S|4|02|the recap's first sentence says "SD-4 assigns no one to judge a design's quality"|Write "SD-4 assigns no one to rule on a design's quality", matching p:who-decides.
+12.1R5|A|4||"only Against voters can be asked for reasons" turns an absence into a bar|"SD-4 tells only Against voters to be ready to give reasons, which take time to prepare" (headline; force kept: the cost asymmetry stands)
+12.1R6|A|3||p:persuasion-not-required applies the 2:1 norm at plenary, where SD-4 states no ratio|"consensus calls, under the 2:1 norm in the rooms and by the convenor at plenary"; p:advance-unanswered matched
+12.1R7|A|4||"SD-4's own steps are" reads as a complete list|"SD-4's own steps for an objection include" (force kept: the first sentence makes the claim)
+12.1R8|S|3|04|l:records-protected says "meeting records" where SD-4 protects "records of subgroup discussion"|Write "SD-4 keeps records of subgroup discussion, meeting wikis, and non-public email lists password-protected, and allows quoting from them publicly only poll questions, numeric results, and words a person consents to have attributed." p:dissent-needs-paper's list now reads "records of subgroup discussion" in the spine.
+12.1R9|S|4|04|l:minutes-others: an objection to minutes leaves them unconfirmed until the next meeting, so the officer alone does not settle what minutes keep|Write "Under ISO, the secretary or convenor sees that meeting outcomes are documented and addresses comments on the minutes, so what minutes keep of an objection's argument rests first with that officer, and an objection to the minutes leaves them unconfirmed until the next meeting approves any changes." p:dissent-needs-paper's "without anyone else's help" still holds.
+12.1R10|S|4|08|inf:call-above-norm treats a re-poll above 2:1 as a departure, but the norm itself includes "possibly a re-poll"|Write "On a count above 2:1 after discussion, with Neutral votes short of a majority, a chair who follows the 2:1 norm declares consensus, so declining departs from it, while a re-poll fits the norm at any count." Cite d:follows-norm. In inf:call-above-post and inf:call-above-gain drop "or re-polling".
+12.1R11|S|1|08|inf:call-below-norm reads "normally advances if" as a necessary condition|d:follows-norm now defines following the norm: consensus on a count above 2:1 after discussion and any re-poll, and on no other count. Write "On a count at or below 2:1 after discussion, a chair who follows the norm does not declare consensus, so declaring it departs from the norm, while declining, after any re-poll, does not." Cite d:follows-norm. In inf:call-below-post cite ax:post-risk; in inf:call-below-gain drop "or re-polling".
+12.1R12|A|2||p:written-answer omits the Disposition of Comments SD-4 requires for a TS ballot's comments|third exception added, with new fact f:ts-disposition
+12.1R13|S|1|10|l:norm-forwarding puts an "only" into the norm|Rest the lemma on d:follows-norm: "A chair who follows the 2:1 norm forwards a proposal only on a count above 2:1 after discussion." Cite d:follows-norm in place of the reading of f:two-to-one.
+12.1R14|S|4|11|inf:directed-change's "unless the author defends the decision with new information" is not in SD-4|Write "Declining a change the room directs harms the proposal's chances, and SD-4 asks an author who declines to defend that decision and bring new information."
+12.1R15|A|4||the Theorem's "The rules ask no author to state a trade-off" overlooks SD-4's request to show why alternatives were not pursued|"The rules ask no author to state their own design's drawbacks" (Theorem; force kept)
+12.1R16|S|4|11|l:thm-disclosure repeats "ask no author to state a trade-off"|Write "The rules ask no author to state their own design's drawbacks." as its first sentence, matching the Theorem; inf:thm-no-request already proves it.
+12.1R17|S|4|11|the chapter recap repeats "ask no author to state a trade-off"|Write "The rules ask no author to state their own design's drawbacks", matching the Theorem.
+12.1R18|A|3||c:predictions says SD-4 keeps "meeting records" protected|"SD-4 keeps records of subgroup discussion password-protected"
+12.1R19|A|3||c:lever-reasons-all treats the present rule as barring a chair from asking others|"If SD-4 asked voters of every position to be ready to give reasons when the chair asks"
+12.1R20|S|4|12|inf:nm-unsettled: "only when it holds no national position" is in neither SD-4 nor l:settled-convenor|Write that SD-4's plenary procedure fixes the convenor's call only when opposition is unescalated and holds no national position, and otherwise leaves the call to the convenor (l:settled-convenor); a national position signals a possible No at ballot (p:credible-threat). c:lever-nb-more's spine statement now says the weight of opposition holding national positions is left "to the convenor rather than the count"; rebuild inf:nm-changes and inf:nm-weight on that.
+12.1D1|A|W||ax:prefer's first sentence is 49 words|applied in part: shortened to 33 words ("Other things equal, each participant ... prefers whatever brings it more of what it values, sooner and at less cost to it, weighing gains against losses on one scale of its own"); the value list stays one sentence (12.1D2)
+12.1D2|R|||ax:prefer's value list is 100 words|rejected: moving the list to its own axiom changes no claim and would force 87 chapter citations of ax:prefer to change; the list is scanned, not parsed
+12.1D3|A|W||d:positions is 49 words|the 2:1 norm sentence is 30 words; following the norm moved to the new d:follows-norm
+12.1D4|A|W||d:positions term: "those voting against ... in favor as against"|"after discussion of Against voters' concerns, its Favor votes in a subgroup poll exceed twice its Against votes"
+12.1D5|A|W||f:absences is 48 words|split into two sentences
+12.1D6|A|W||f:no-sustained-procedure is 45 words|split into two sentences, source unchanged
+12.1D7|A|W||f:no-paper-objections is 46 words|split into two sentences, source unchanged
+12.1D8|A|W||the foundation recap's first sentence is 46 words|split; the recap has three sentences
+12.1D9|A|W||p:who-decides: "the study groups feeding them" is a figure of speech|"the study groups that send them proposals"
+12.1D10|A|4||p:who-votes: "casts one vote" claims everyone votes|"has one vote" (headline; force kept)
+12.1D11|A|W||m:moves-chair first sentence: "and poll whether to go on" repeats choosing the polls|cut
+12.1D12|A|W||m:moves-chair second sentence is 47 words|applied in part: 33 words, item kept at two sentences
+12.1D13|A|W||m:moves-sponsor: "a category C liaison's representatives act for it" is unclear|"a sponsor that is a category C liaison has representatives who act for it"
+12.1D14|S|W|02|the recap's second sentence is 31 words|Write "No user votes in WG21's polls or ballots, and a sponsor has no vote of its own there unless it is an ISO member body or a liaison organization."
+12.1D15|A|W||l:neutral-outside is in the negative form|"The 2:1 comparison counts only Favor and Against votes, though SD-4 says a Neutral majority of those voting can be concerning."
+12.1D16|M|||p:against-costs-more: "only Against voters can be asked for reasons"|merged with 12.1R5
+12.1D17|A|W||p:doubt-outside-count holds by definition ("only if it is worth the extra cost")|names what makes it true: "a regular does better voting Against only when the change that vote can make outweighs the standing and time it costs"
+12.1D18|M|||p:doubt-outside-count: "doubt ... enters the 2:1 count" is a figure of speech|merged with 12.1D17
+12.1D19|A|W||l:vote-below holds by definition|cut with t:vote-choice; its citers now cite p:doubt-outside-count
+12.1D20|A|W||inf:below-rank holds by definition|cut with its parent l:vote-below
+12.1D21|A|W||l:vote-above holds by definition|cut; citers re-pointed to p:doubt-outside-count
+12.1D22|A|W||inf:above-rank holds by definition|cut with its parent l:vote-above
+12.1D23|A|W||t:vote-choice ranks the option worth more above the one worth less|table and its citation line cut; the proof now has five tables
+12.1D24|A|W||p:mutual-support: "neither opposes" states what regulars do|"each does better refraining whatever the other does"
+12.1D25|A|W||l:mutual-refrain holds by definition|now states the costs (standing and time) against what the vote can change
+12.1D26|S|W|03|inf:refrain-rank only applies d:does-better|Cut inf:refrain-rank. l:mutual-refrain's second sentence follows from inf:refrain-worth and d:does-better; cite d:does-better in l:mutual-refrain's *[from ...]* and keep inf:refrain-worth as its one child.
+12.1D27|S|W|03|inf:own-vs-other-rank only applies d:does-better|Cut inf:own-vs-other-rank. l:mutual-own-vs-other then rests on inf:own-vs-other-costs, ax:prefer, and d:does-better.
+12.1D28|A|W||t:mutual-support's caption first sentence is 38 words|caption split into sentences with the strict "by less than" condition (global decision 2)
+12.1D29|S|W|03|recap first sentence is 39 words|Rewrite the recap in at most three sentences of at most 30 words that restate the new statements: Against votes raise by two the Favor votes needed and a third of the Favor-plus-Against votes cast Against keeps the norm unmet; an Against vote costs a regular standing and time and changes the result only one or two votes above the line; two regulars with pending proposals each do better refraining when neither doubt outweighs the risk to their own proposal and the time for reasons.
+12.1D30|S|W|03|recap second sentence is 32 words|Covered by the recap rewrite under 12.1D29.
+12.1D31|S|W|03|recap: "a doubt enters the count" is a figure of speech|Covered by the recap rewrite under 12.1D29; do not say a doubt enters the count.
+12.1D32|S|W|03|recap third sentence is 44 words|Covered by the recap rewrite under 12.1D29.
+12.1D33|S|W|03|recap: "neither opposes" states what regulars do|Covered by the recap rewrite under 12.1D29: say each does better refraining.
+12.1D34|A|W||p:definition-without-procedure first sentence is 37 words|32 words; "turns on" replaced by "marked by"
+12.1D35|A|W||p:definition-without-procedure second sentence is 33 words|applied in part (31 words) with 12.1R7's "include"
+12.1D36|A|W||p:change-list: "weighs in the poll only as a vote" is a figure of speech|"counts in the poll only as a vote"
+12.1D37|A|W||p:fluency: "No design is considered on merit alone" is a negative form|"Every design needs more than merit to be considered"
+12.1D38|S|W|04|recap first sentence is 35 words|Rewrite the recap in at most three sentences of at most 30 words: a proposal can advance with objections unresolved, and the record SD-4 and the searched ISO clauses require need not show whether an objection was answered; the count measures votes, not whether objectors are right, and outside the protected records an objection's argument outlasts its hearers only in writing; every design needs more than merit to be considered.
+12.1D39|S|W|04|recap second sentence is 41 words|Covered by the recap rewrite under 12.1D38.
+12.1D40|A|W||the chapter 5 heading "Momentum" is a figure of speech|heading now "5. Incumbents and the cost of reversal" in the spine and the chapter
+12.1D41|A|W||p:challenger-bar: "hurdle" is a figure of speech|"The advantage a rival needs grows with each decision built on the incumbent, while keeping the incumbent needs none."
+12.1D42|S|W|05|recap first sentence is 41 words|Rewrite the recap in at most three sentences of at most 30 words that restate p:early-polls, p:light-review, and p:burden-flip as now worded (a rival or later change must redo work built on an incumbent at a growing cost; a proposal costing more to read than most stakes in it can advance unchanged unless objectors cast a third of the Favor-plus-Against votes; removal needs the 2:1 norm too).
+12.1D43|S|W|05|recap second sentence is 42 words|Covered by the recap rewrite under 12.1D42.
+12.1D44|S|W|05|recap third sentence is 41 words|Covered by the recap rewrite under 12.1D42.
+12.1D45|A|W||p:small-position: "SD-4's statement ... applies to them" holds by definition|"Where a study group incubates proposals on its topic, a small proposal can start there" (EWGI and LEWGI cut, global decision 6)
+12.1D46|S|W|06|recap second sentence is 35 words|Rewrite the recap in at most three sentences of at most 30 words that restate p:sponsor-votes (each paid participant has a vote and values the sponsor's interests, and no rule limits how many it pays), p:first-part, and p:small-position with p:size-attributes.
+12.1D47|A|W||p:attrition: "the first holds and the second yields" states what groups do|"the first does better holding and the second yielding"
+12.1D48|A|W||l:hold-yield-both-hold term: "Members"|"A group's participants whose costs sponsors pay"
+12.1D49|S|W|07|inf:whole-rank is obvious|Cut inf:whole-rank; l:hold-yield-whole-over-half cites inf:whole-vs-half, ax:prefer, and d:does-better.
+12.1D50|S|W|07|inf:half-beats-deadlock is obvious|Cut inf:half-beats-deadlock; l:hold-yield-half-over-deadlock cites inf:both-hold-net, ax:prefer, and d:does-better.
+12.1D51|S|W|07|inf:half-rank is obvious|Cut inf:half-rank; l:hold-yield-half-over-none cites inf:half-vs-none, ax:prefer, and d:does-better.
+12.1D52|S|W|07|inf:cheap-rank is obvious|Cut inf:cheap-rank; l:hold-yield-cheap-holds cites inf:cheap-net, ax:prefer, and d:does-better.
+12.1D53|S|W|07|inf:costly-rank is obvious|Cut inf:costly-rank; l:hold-yield-costly-yields then has no children and rests on l:hold-yield-both-hold, l:hold-yield-holder-gains, ax:prefer, and d:does-better (cite inf:cheap-net if the comparison needs it, or state it in the lemma).
+12.1D54|A|W||t:hold-or-yield caption is 34 words|caption split, with 12.1L24's stated thresholds
+12.1D55|S|W|07|recap first sentence is 41 words|Rewrite the recap in at most three sentences of at most 30 words: the design room starts from the design a study group sends on, and the fewer Favor-plus-Against votes others cast there, the fewer paid participants can block or meet the norm; two groups each casting a third against the other's design deadlock until votes, designs, or voters change; in a long deadlock a group whose sponsors keep paying its costs does better holding, whichever design is better.
+12.1D56|S|W|07|recap second sentence is 52 words|Covered by the recap rewrite under 12.1D55.
+12.1D57|S|W|07|recap third sentence is 40 words|Covered by the recap rewrite under 12.1D55.
+12.1D58|S|W|07|recap: "the first holds and the second yields"|Covered by the recap rewrite under 12.1D55: say "does better holding".
+12.1D59|A|W||p:chair-default: "makes the call the norm gives" states what chairs do|"does better following the norm"
+12.1D60|A|W||t:chair-call caption is 37 words|caption split; rows now "Declare consensus" and "Decline"
+12.1D61|S|W|08|recap first sentence is 36 words|Rewrite the recap in at most three sentences of at most 30 words that restate p:chair-threshold (every contested call has a cost, and departing from SD-4's stated practice can cost a post), p:chair-default (a chair whose stake is worth less than that risk does better following the norm), and p:chair-confidence as now worded.
+12.1D62|S|W|08|recap: "makes the call the norm gives"|Covered by the recap rewrite under 12.1D61: say "does better following the norm".
+12.1D63|S|W|08|recap second sentence is 34 words|Covered by the recap rewrite under 12.1D61.
+12.1D64|S|W|09|recap first sentence is 32 words|Rewrite the recap in at most three sentences of at most 30 words: no user votes, and users' interests reach decisions only through what participants value, papers a participant presents, TS feedback, and national bodies; winning a consensus call and serving users best coincide only as far as voters can judge that and no other value outweighs it; SD-4 asks no paper to state its design's drawbacks, and no SD-4 step checks whether separately approved designs work together.
+12.1D65|S|W|09|recap second sentence is 40 words|Covered by the recap rewrite under 12.1D64.
+12.1D66|A|W||l:ballot-rules first sentence is 39 words|two sentences of 32 and 31 words, every rule kept
+12.1D67|A|W||t:nb-ballot caption is 38 words|caption split, with the case definitions of 12.1B38 and 12.1A25
+12.1D68|A|W||l:incits-votes is 61 words|split into l:incits-votes (counting) and the new spine child l:incits-positions (forming positions)
+12.1D69|S|W|10|recap first sentence is 38 words|Rewrite the recap in at most three sentences of at most 30 words: at the feature cutoff a one-meeting delay for a paperless rival, or a count at or below 2:1, sends a proposal to the next planned edition; a national body's No opposes every feature in a document at once, so in the table's case only a body valuing removal of one feature above the rest on schedule does better voting No; whether paid participants add weight to a national position depends on each body's rules.
+12.1D70|S|W|10|recap second sentence is 34 words|Covered by the recap rewrite under 12.1D69.
+12.1D71|A|W||l:settled-regular first sentence is 34 words|15 and 30 words
+12.1D72|A|W||l:settled-regular: "does no better than" is a negative form|"does best" (d:does-better now defines it as no other option worth more)
+12.1D73|A|W||l:settled-regular: "Against does best only when worth more than its added cost" holds by definition|"only when the change it can make outweighs the standing and time it costs"
+12.1D74|A|W||l:settled-regular second sentence is 40 words|reasons left to its children
+12.1D75|A|W||l:settled-design-bound first sentence is 46 words|applied in part: 38 words; the item lists six choices in two sentences
+12.1D76|A|W||l:settled-design-bound: "does no better than"|"does best"
+12.1D77|A|W||l:settled-design-bound second sentence is 46 words|applied in part: 43 words with 12.1L40's and 12.1A39's conditions
+12.1D78|A|W||l:settled-design-bound: "does no better than"|"does best"
+12.1D79|S|W|11|l:bound-early: "does no better than"|Write "does best seeking direction polls as early as they can pass".
+12.1D80|S|W|11|l:bound-omit: "does no better than"|Write "does best"; see 12.1L40 for the statement.
+12.1D81|S|W|11|l:bound-no-losing-poll: "does no better than"|Write "A design-bound author does best asking for no poll against a rival it expects to lose."
+12.1D82|S|W|11|l:bound-cheapest: "does no better than"|Write "does best"; see 12.1L41 for the statement.
+12.1D83|A|W||l:settled-result-seeking first sentence is 38 words|29 words
+12.1D84|A|W||l:settled-result-seeking: "does no better than"|"does best"
+12.1D85|A|W||l:settled-result-seeking second sentence is 47 words|applied in part: 39 words
+12.1D86|A|W||l:settled-result-seeking: "does no better than"|"does best"
+12.1D87|A|W||t:disclose caption is 55 words|split into sentences
+12.1D88|A|W||l:settled-small-author first sentence is 40 words|presenter list left to l:small-presenter
+12.1D89|A|W||l:settled-small-author: "does no better than to keep it presented"|"does best keeping it presented"
+12.1D90|A|W||l:settled-small-author: "does no better than to let it stop"|"does best letting it stop"
+12.1D91|A|W||l:settled-sg-chair first sentence is 39 words|30 words
+12.1D92|A|W||l:settled-sg-chair: "does no better than"|"does best"
+12.1D93|S|W|11|l:sg-side-by-side: "does no better than"|Write "does best polling them side by side".
+12.1D94|A|W||l:settled-design-chair first sentence is 49 words|"does best following the 2:1 norm after discussion" (d:follows-norm holds the call for each count)
+12.1D95|A|W||l:settled-design-chair: "does no better than"|"does best"
+12.1D96|A|W||l:settled-design-chair: "does no better than"|"does best"
+12.1D97|A|W||l:settled-convenor: "does no better than"|"does best"
+12.1D98|A|W||l:settled-nb: "does no better than"|"does best"
+12.1D99|A|W||l:settled-nb: "does no better than"|"does best"
+12.1D100|S|W|11|l:nb-no: "does no better than to vote No"|Write "does best voting No".
+12.1D101|S|W|11|l:nb-early: "does no better than"|Write "A national body does best raising its objections early."
+12.1D102|A|W||l:settled-sponsor: "does no better than"|"does best"
+12.1D103|A|W||l:settled-user: "the move with the largest positive net gain" holds by definition|now states the asymmetry: the full price borne alone against a gain that goes to all users
+12.1D104|A|W||l:settled-user first sentence is 38 words|35 words, with 12.1B23's narrower subject
+12.1D105|A|W||l:settled-user: "does no better than"|"does best"
+12.1D106|A|W||l:settled-user second sentence is 33 words|24 words
+12.1D107|A|W||l:checks-record first sentence is 47 words|applied in part: 39 words, every check kept
+12.1D108|A|W||l:checks-record second sentence is 49 words|applied in part: 46 words, every check kept; a shorter split would drop checks it cites
+12.1D109|S|W|11|l:sg-call: "makes the call that norm gives" states what chairs do|Write "does better making the call that norm gives".
+12.1D110|S|W|11|inf:sg-call-default: "makes the call the norm gives"|Write "does better making the call the norm gives".
+12.1D111|A|W||thm:settled: "In it, no player improves their position by changing only their own choice" restates d:settled-pattern|sentence cut
+12.1D112|A|W||thm:settled: the regular's Against clause holds by definition|"Against one they doubt only when the change that vote can make outweighs the standing and time it costs"
+12.1D113|A|W||thm:settled: "these obstacles" has no antecedent|names them: a paper or ballot comment meeting the 2:1 norm, a grown reversal cost, and unwritten objections kept only in memory
+12.1D114|A|W||thm:settled: "a hidden flaw" is a judging word|"a flaw found only in implementation and use" (global decision 1)
+12.1D115|S|W|11|l:thm-costs-gains: "a hidden flaw"|Write "Authors get the adoption they value at the poll, while a flaw found only in implementation and use costs users later.", matching the Theorem and p:reward-timing.
+12.1D116|S|W|11|inf:thm-deadlock: "the first holds and the second yields"|Write "the first does better holding and the second yielding".
+12.1D117|S|W|11|inf:thm-incumbent-edge: "faces no reversal hurdle"|Write "An incumbent needs no advantage to stay, while a rival wins a voter from it only with an advantage worth more than that voter's share of the reversal's cost."
+12.1D118|S|W|11|inf:thm-authors-regulars: "do no better than"|Write "do best with the choices the Theorem names for them".
+12.1D119|S|W|11|inf:thm-others: "do no better than"|Write "do best with the choices the Theorem names for them".
+12.1D120|S|W|11|recap first sentence is 43 words|Rewrite the recap in at most three sentences of at most 30 words: the choices the rules reward form a settled pattern, in which a design's content can be fixed when it is least reviewed; the rules ask no author to state their own design's drawbacks, so leaving one out costs a design-bound author no step the rules require before adoption, while stating one can cost a result-seeking author votes; the rules also provide checks such as the one-third block and national body ballots.
+12.1D121|S|W|11|recap: "no player improves their position" holds by definition|Covered by the recap rewrite under 12.1D120.
+12.1D122|A|W||c:predictions: "an innocent explanation" judges|"another explanation" (global decision 1)
+12.1D123|A|W||c:pred-sponsor-against reads as what voters do|"the model predicts"
+12.1D124|A|W||c:pred-sponsor-against first sentence is 61 words|applied in part: two sentences of 37 and 39 words
+12.1D125|A|W||c:pred-sponsor-against: "An innocent explanation"|the other explanation is named, shared technical views
+12.1D126|A|W||c:pred-sponsor-against second sentence is 43 words|applied in part, with 12.1A44's comparison
+12.1D127|A|W||c:pred-abstention-length reads as what participants do|"the model predicts"
+12.1D128|A|W||c:pred-abstention-length: "An innocent explanation"|"another explanation"
+12.1D129|A|W||c:pred-parts reads as what authors do|"The model predicts that large proposals tend to arrive as sequences of papers" (global decision 7)
+12.1D130|A|W||c:pred-parts: "An innocent explanation"|"Another explanation"
+12.1D131|A|W||c:pred-first-part reads as what authors do|"The model predicts"
+12.1D132|A|W||c:pred-first-part first sentence is 42 words|applied in part: 39 words
+12.1D133|A|W||c:pred-first-part: "An innocent explanation"|"Another explanation"
+12.1D134|A|W||c:pred-first-part second sentence is 38 words|28 words with 12.1A47's test
+12.1D135|S|W|12|inf:fp-tell-apart: "favors the innocent explanation"|Write "favors the other explanation", and rebuild the step on the new test (later parts that already existed when the first was presented).
+12.1D136|A|W||c:pred-rival-polls reads as what authors and chairs do|"The model predicts"
+12.1D137|A|W||c:pred-rival-polls first sentence is 47 words|applied in part with the restated prediction (12.1L53)
+12.1D138|A|W||c:pred-rival-polls: "An innocent explanation"|"Another explanation"
+12.1D139|A|W||c:pred-removals reads as a claim about the record|"The model predicts rare removals"
+12.1D140|A|W||c:pred-removals first sentence is 52 words|applied in part: 36 words
+12.1D141|A|W||c:pred-removals: "An innocent explanation"|"another explanation"
+12.1D142|S|W|12|inf:rm-tell-apart: "the innocent explanation predicts"|Write "the other explanation predicts", and rebuild the comparison on papers or comments asking for removal (12.1A28).
+12.1D143|S|W|12|inf:sf-small: "does no better than to stop presenting it"|Write "does best stopping it".
+12.1D144|A|W||c:pred-small-fade reads as what authors do|"The model predicts"
+12.1D145|A|W||c:pred-small-fade: "An innocent explanation"|"Another explanation"
+12.1D146|A|W||c:pred-nb-positions reads as what national bodies do|"The model predicts"
+12.1D147|A|W||c:pred-nb-positions: "An innocent explanation"|"Another explanation"
+12.1D148|A|W||c:pred-written-answers reads as what authors do|"The model predicts"
+12.1D149|A|W||c:pred-written-answers first sentence is 45 words|applied in part: 35 words
+12.1D150|A|W||c:pred-written-answers: "An innocent explanation"|"Another explanation"
+12.1D151|S|W|12|inf:wa-tell-apart: "favor the innocent explanation"|Write "favor the other explanation", and limit the comparison to objections raised at plenary (12.1L55).
+12.1D152|A|W||c:pred-defects reads as a claim about features|"the model predicts"
+12.1D153|A|W||c:pred-defects first sentence is 45 words|applied in part: 42 words with the groups defined at the forwarding poll
+12.1D154|A|W||c:pred-defects: "An innocent explanation"|"another explanation"
+12.1D155|A|W||c:pred-defects second sentence is 38 words|30 words
+12.1D156|S|W|12|inf:de-tell-apart: "none favors the innocent explanation"|Write "none favors the other explanation".
+12.1D157|A|W||c:pred-competing reads as a claim about topics|"the model predicts"
+12.1D158|A|W||c:pred-competing first sentence is 48 words|applied in part: 39 words
+12.1D159|A|W||c:pred-competing: "An innocent explanation"|"another explanation"
+12.1D160|S|W|12|inf:co-tell-apart: "none favors the innocent explanation"|Write "none favors the other explanation".
+12.1D161|M|||c:lever-reasons-all: "If a chair could ask"|merged with 12.1R19
+12.1D162|S|W|12|recap first sentence is 44 words|Rewrite the recap in at most three sentences of at most 30 words that restate the predictions and levers as now worded, saying "another explanation" and "the model predicts".
+12.1D163|S|W|12|recap: "an innocent explanation"|Covered by the recap rewrite under 12.1D162.
+12.1D164|S|W|12|recap third sentence is 37 words|Covered by the recap rewrite under 12.1D162.

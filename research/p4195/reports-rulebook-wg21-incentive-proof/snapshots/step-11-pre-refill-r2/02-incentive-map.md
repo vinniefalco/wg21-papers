@@ -1,0 +1,49 @@
+# Incentive map
+
+One line per candidate incentive: ID | spine key or keys that carry it, or the prediction it becomes | how much of it survives. Built from `triage.md` final verdicts and the Step 3 and Step 5 changes; keys updated for the Step 11 spine revision.
+
+- I1 | p:persuasion-not-required | weakened: the "aim to outlast" motive is dropped
+- I2 | p:who-decides | weakened: narrowed to SD-4 and WG21's rooms; ISO appeals can decide technical matters
+- I3 | p:early-polls, l:settled-design-bound, l:settled-result-seeking | proved; an early poll is worth more to a design-bound author than to a result-seeking one
+- I4 | p:challenger-bar | weakened: per-voter share of the reversal cost; the standing component is dropped
+- I5 | p:who-takes-part | weakened: no claim that the rules exclude no registered expert, since ISO can remove inactive experts (f:inactive-experts); the no-fee and remote-participation checks stay
+- I6 | p:large-position, ind:adopted-parts, p:parts, p:first-part | weakened: no claim about pushing hardest or resisting late correction; the first-part result holds for design-bound authors only
+- I7 | p:record-indistinct | weakened: plenary may ask the subgroup chair for the reason
+- I8 | p:record-indistinct, p:written-answer; c:pred-written-answers | weakened to "need not show"; a written answer has two effects for the author, and the liability claim is a prediction
+- I9 | p:incumbent-start | weakened: rivals without papers do not block; rivals with papers can be polled alongside
+- I10 | p:review-share, p:light-review | weakened: conditional on a stake that does not grow with length
+- I11 | p:who-votes, m:moves-user, p:users-out, l:settled-user | weakened: no vote, and taking part costs one user while a better design's gain is spread across all
+- I12 | p:least-cost-response, l:settled-design-bound, l:settled-result-seeking | proved by author type: a result-seeking author makes changes that serve users when they are worth their cost
+- I13 | p:prefer-vs-stop | weakened: what the rules give, not a cost to the speaker
+- I14 | p:late-objection | weakened: plenary only
+- I15 | p:review-share | weakened (as I10)
+- I16 | p:against-costs-more | proved
+- I17 | p:least-cost-response | proved
+- I18 | p:roadmap-poll, p:large-position, p:private-channel | weakened: SD-4's priority categories; no record required of a private request
+- I19 | p:newcomer, p:fluency, p:private-channel | weakened: SD-4 expects every participant to know its procedures
+- I20 | p:chair-default | weakened: more than twice, with the Neutral caveat
+- I21 | l:poll-wording | weakened: participants ask, the chair chooses
+- I22 | p:dissent-needs-paper | weakened: of the records the rules name, the only one a holder can produce alone
+- I23 | p:newcomer, p:fluency | weakened: learning and effort, other things equal
+- I24 | p:repeat-objection | weakened: only outside judicious escalation and new information
+- I25 | p:small-position, p:attrition; c:pred-small-fade | weakened; "fades rather than rejected" is a prediction
+- I26 | l:vote-count, l:consensus-test | weakened: one Against vote decides only in two counts; the consensus test does not ask whether an objection is correct
+- I27 | p:plenary-ratifies | weakened: escalation and the convenor's question, not national positions alone
+- I28 | p:disclosure, l:settled-design-bound, p:same-moves, t:disclose | weakened (Step 11, formerly a conjecture): only a design-bound author does better leaving out a trade-off, and only one no reviewer would raise
+- I29 | ind:adopted-parts, p:parts, p:first-part | weakened: no claim about an aim to foreclose rivals
+- I30 | p:first-part; c:pred-first-part | weakened (Step 11, formerly a conjecture): reviewers of a first part cannot study what later parts need; the framing of first papers as small is a prediction
+- I31 | p:repeat-objection | weakened (as I24)
+- I32 | p:prefer-is | weakened: the TS's experience is a gain to a result-seeking author and a risk to a design-bound one; white papers noted
+- I33 | p:attrition | weakened: authors avoid asking for an A-or-B poll; the chair chooses polls
+- I34 | p:change-list | weakened: an objection in any form names no change
+- I35 | p:roadmap-poll, ind:adopted-parts | weakened (as I18 and I29)
+- I36 | p:late-objection | weakened: escalation in time, not a national position, gives weight in plenary
+- I37 | p:mutual-support | weakened: no trading of concessions; neither opposes only when each doubt is worth less than the risk to their own proposal's support
+- I38 | p:review-share | merged
+- I39 | p:credible-threat | weakened: no claim that silence counts as no objection
+- I40 | p:nb-comment; c:pred-nb-positions | weakened; national bodies forming few positions is a prediction
+- I41 | p:review-share | merged
+- I42 | none | conjecture; the pattern gives objectors no choice after a lost poll, and the feelings it names are outside the proof
+- I43 | none | conjecture; no item shows a rebutter does better waiting for the meeting, and timing alone is ordinary preparation
+- I44 | none | conjecture; no item ties standing to attendance or to repair work
+- I45 | none | conjecture; a rival's past revisions are costs already spent

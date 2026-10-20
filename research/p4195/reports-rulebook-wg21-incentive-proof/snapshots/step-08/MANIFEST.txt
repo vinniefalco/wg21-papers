@@ -1,0 +1,10 @@
+tag: step-08
+taken: 2026-10-19 02:43:39
+note: Step 8 gate state, reconstructed by reversing each logged Step 9 edit; build.py reproduces the gate: spine 146 top-level items, 6 tables
+
+01-foundation.md	57277	18274dc4ce0434629a775aa34e5fbdad64d79b556e0b3e35824006bc45045921	c:\Users\Vinnie\cursor\cabinet\_scratch\reports-rulebook-wg21-incentive-proof\01-foundation.md
+02-incentive-map.md	4412	9554f4f3859908a91128ed4eab0c08d2ac503a9580b2d752bbcd0290bc64dcb3	c:\Users\Vinnie\cursor\cabinet\_scratch\reports-rulebook-wg21-incentive-proof\02-incentive-map.md
+02-spine.md	54610	3c2745413ac98bb26ac76dfcec97a546578f1ee485035dfb508df0df972f65ef	c:\Users\Vinnie\cursor\cabinet\_scratch\reports-rulebook-wg21-incentive-proof\02-spine.md
+check_modules.py	1716	bc369f715d2bf3f0681240f18514dd04afc6822d8344f881d2b1ea146abe074c	c:\Users\Vinnie\cursor\cabinet\_scratch\reports-rulebook-wg21-incentive-proof\check_modules.py
+kit.md	77313	b42e56b2aa7323ee75e63c681684a6facbd1dd3f6a1f40f2f6ce11baa9c11278	c:\Users\Vinnie\cursor\wg21-papers\research\p4195\support\kit.md
+rules-extract.md	95641	768c4565202d377cc07d50d0c2dc50c01aa3882efc8cef76961dca51a58182fa	c:\Users\Vinnie\cursor\wg21-papers\research\p4195\support\rules-extract.md

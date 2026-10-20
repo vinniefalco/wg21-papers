@@ -58,23 +58,23 @@ The case histories illustrate these dynamics. Contracts ([P2900](https://www.ope
 
 For the C++ community, the practical consequence is that features entering the standard reflect the priorities of funded, persistent, procedurally fluent authors. That group overlaps with, but is not identical to, the group best positioned to judge what C++ users need.
 
-## Key Judgments
+## Findings
 
-1. WG21's consensus process equilibrium selects for proposals that outlast organized opposition. This can be the best design or an inferior design, and the record SD-4 requires does not encode which of the two occurred. Likelihood: almost certain. Confidence: high (premises 12, 14).
+1. WG21's consensus process selects for proposals that outlast their organized opposition. The survivor can be the best design or an inferior one, and the record SD-4 requires leaves open which of the two occurred.
 
-2. Procedural fluency and technical expertise correlate over time without being identical. Expertise determines whether a participant has something worth proposing; fluency determines whether the institution can hear it. Doing the work builds fluency (section 9), which is why the system appears to select for quality. The separation produces the failure mode: A brilliant outsider with no fluency and a mediocre insider with deep fluency face radically different odds, and SD-4's gates cannot distinguish the two cases. Likelihood: almost certain. Confidence: medium (premises 2, 8, 11).
+2. Procedural fluency and technical expertise are different assets. Expertise determines whether a participant has something worth proposing; fluency determines whether the institution can hear it. Fluency comes from attending, so doing the work builds it (section 9), which is why the system appears to select for quality. The gap is the failure mode: a brilliant outsider with no fluency and a mediocre insider with deep fluency face different odds, because SD-4's gates read procedure.
 
-3. SD-4 does not require the minutes register in ISO/IEC Directives clause 2.5.6.<sup>[9]</sup> Papers on both sides preserve arguments; they are not a finding that an objection was reconciled. A later reader cannot tell from the tally whether objections were answered or outvoted, and the gap compounds as people who were in the room leave. Likelihood: almost certain. Confidence: high (premise 14).
+3. SD-4 keeps the tally and leaves out the register of opposition that ISO/IEC Directives clause 2.5.6 describes.<sup>[9]</sup> Papers on both sides preserve arguments as advocacy. A later reader sees the same tally whether objections were answered or outvoted, and an objection's reasons survive only in writing or in the memories of those present, which fade as they retire or stop attending.
 
-4. SD-4 makes consensus a chair call, not a finding that the remaining objection has been answered. The chair is incentivized to produce a decision rather than to adjudicate the technical claims, so the live question often becomes how strongly the minority will resist rather than whether a defect remains. Consensus does not require persuasion. People can therefore lose a poll without being convinced, and "consensus was achieved" versus "we lost the poll" stays as institutional tension. Likelihood: very likely. Confidence: medium (premises 4, 5, 12, 13; sentiment is not measured).
+4. SD-4 makes consensus a chair's call on a vote count. The decisive question is whether the minority can hold a third of the votes, persuasion is optional, and the record reads the same whether an objection was answered or outvoted.
 
-5. Path dependence governs the framing a challenger is heard in, not the merits it is judged on. Once a proposal accumulates favorable direction polls, a competitor is evaluated as an amendment or an objection to it rather than as an equal design, and must show that its advantage exceeds the cost of reversal (section 12). Merit still decides outcomes, but accumulated state decides the terms on which merit is presented. Likelihood: likely. Confidence: high (premises 9, 10; document titles and poll text in the contracts and networking cases).
+5. Path dependence sets the terms a challenger is heard on. Once a design passes a direction poll, it is the incumbent: the room starts from it, a rival wins a voter only with an advantage worth more than that voter's share of the cost of reversal, and the incumbent stays without one (section 12). Merit still counts, and accumulated state sets the price it must clear.
 
-6. The incentive to protect an institutional investment scales with its size. A three-page paper has negligible reversal cost; a multi-year, employer-funded feature has reversal cost proportional to years of work, reputation, and coalition capital. The proposals that matter most to users are the ones whose authors are most incentivized to lock in early and resist late correction. This is rational investment protection, not moral failure. Likelihood: likely. Confidence: high (premises 1, 3, 9).
+6. The incentive to protect a design grows with what has been built on it. Every reversal redoes or discards the wording, implementations, and dependent proposals built since the last favorable poll, so a short paper is cheap to change and a multi-year, employer-funded feature is expensive. An author whose gain depends on particular features does best seeking direction polls as early as they can pass and answering objections with the cheapest change that keeps the design passing. This is rational investment protection by people acting in good faith.
 
-7. Review is a public good: It is expensive, its benefits are diffuse, and any one reviewer's chance of changing the outcome is small. The system therefore under-produces critical scrutiny relative to the social optimum. Review cost rises with opacity, length, and entanglement with existing wording, so the proposals that need scrutiny most are the ones most likely to be under-reviewed. Likelihood: very likely. Confidence: medium (premises 3, 6, 7; the magnitude is estimated, not measured).
+7. Review is a public good. It costs the reviewer, its benefit is spread across all users, and the most any reviewer can gain is their own stake in the outcome. The system therefore under-produces critical scrutiny: review that pays off for users as a whole costs each reviewer more than it returns, so each reviewer is better off spending that time elsewhere. Review cost rises with length and complexity, and so does the number of places a defect can hide, so the proposals that need the most scrutiny are the ones least likely to receive it.
 
-8. Direction polls happen earliest, when design maturity is lowest. Reversal cost grows monotonically from each state transition, creating maximum lock-in at minimum information. An early architectural mistake becomes progressively harder to correct, not because it becomes less wrong, but because the institutional state surrounding it becomes more expensive to discard. The penalty for an early mistake is catastrophic for users; the incentive to make it irreversible is maximal for authors. Likelihood: likely. Confidence: medium (premises 8, 9, 10).
+8. Direction polls come first, when a design has had the least review it will ever have. Each favorable poll invites more work built on the design, and the cost of reversal grows with that work, so the most binding decisions are taken on the least information. An early mistake gets harder to correct as the design advances: the mistake stays exactly as wrong, and the work around it grows more expensive to discard. Users bear the cost of the mistake, while the author whose gain depends on the design's features does best seeking those polls as early as they can pass.
 
 ## 1. What Reconciliation Looks Like in ISO versus SD-4
 
@@ -554,44 +554,126 @@ Machine-assisted drafting was used in the preparation of this paper. The incenti
 
 \newpage
 
-## Appendix A. P2900 Rebuttal Paper Timeline
+## Appendix A.
 
-| Date | Event | Type |
-|------|-------|------|
-| 2024-11-19 | EWG forwards P2900R11 to CWG/LEWG for C++26 (SF:25, F:17, N:0, A:3, SA:12) | POLL |
-| 2024-11-19 | [P3506R0](https://www.open-std.org/jtc1/sc22/wg21/docs/papers/2025/p3506r0.pdf)<sup>[37]</sup> "P2900 Is Still Not Ready for C++26" (Dos Reis). Published in the January 2025 mailing | OPPOSITION |
-| 2025-01-12 | [P3573R0](https://www.open-std.org/jtc1/sc22/wg21/docs/papers/2025/p3573r0.pdf)<sup>[36]</sup> "Contract concerns" (Hava, Garcia, Regev, Dos Reis, Spicer, Stroustrup, et al.) | OPPOSITION |
-| 2025-01-13 | [P2899R0](https://www.open-std.org/jtc1/sc22/wg21/docs/papers/2025/p2899r0.pdf)<sup>[16]</sup> "Contracts for C++ - Rationale" (Berne, Doumler, Khlebnikov, Krzemie&nacute;ski) | RATIONALE (filed one day after P3573R0; see below) |
-| 2025-02-03 | [P3591R0](https://www.open-std.org/jtc1/sc22/wg21/docs/papers/2025/p3591r0.pdf)<sup>[10]</sup> "Contextualizing Contracts Concerns" (Berne, Doumler). Dated seven days before Hagenberg; published in the post-meeting mailing | REBUTTAL |
-| 2025-02-11 | EWG Hagenberg lists P3573, P3506, and P3591 as "Papers considered" in one session<sup>[14]</sup>; poll "Remove P2900 from CWG's consideration for C++26, find a different ship vehicle" (SF:9, F:8, N:3, A:19, SA:41), consensus against | POLL |
-| 2025-02-15 | Plenary adopts P2900R14 into C++26 Working Draft (100 in favor, 14 opposed, 12 abstain) | POLL |
-| 2025-09-02 | [P3829R0](https://www.open-std.org/jtc1/sc22/wg21/docs/papers/2025/p3829r0.pdf)<sup>[47]</sup> "Contracts do not belong in the language" (Chisnall, Spicer, Dos Reis, et al.) | OPPOSITION |
-| 2025-09-03 | [P3835R0](https://www.open-std.org/jtc1/sc22/wg21/docs/papers/2025/p3835r0.html)<sup>[48]</sup> "Contracts make C++ less safe - full stop" (Spicer, Voutilainen, Garcia) | OPPOSITION |
-| 2025-09-27 | [P3849R0](https://www.open-std.org/jtc1/sc22/wg21/docs/papers/2025/p3849r0.pdf)<sup>[49]</sup> "SIS/TK611 considerations on Contract Assertions" (Achitz) | OPPOSITION |
-| 2025-09-29 | [P3851R0](https://www.open-std.org/jtc1/sc22/wg21/docs/papers/2025/p3851r0.pdf)<sup>[50]</sup> "Position on contracts assertion for C++26" (Garcia et al.) | OPPOSITION |
-| 2025-10-06 | [P3846R0](https://www.open-std.org/jtc1/sc22/wg21/docs/papers/2025/p3846r0.pdf)<sup>[11]</sup> "C++26 Contract Assertions, Reasserted" (Doumler, Berne, et al.). Same mailing as P3849R0 and P3851R0 | REBUTTAL |
-| 2025-11-04 | EWG Kona: seven NB removal comments all fail (~9 SF vs ~40 SA each); P3846R0 listed as the response material after the Netherlands comment, not presented<sup>[17]</sup>; [N5031](https://www.open-std.org/jtc1/sc22/wg21/docs/papers/2025/n5031.pdf)<sup>[5]</sup> records "Rejected all but 2 requests" | POLL |
-| 2025-11-04 | [D3911R0](https://isocpp.org/files/papers/D3911R0.html)<sup>[55]</sup> "Make Contracts Reliably Non-Ignorable" (Nea&tcedil;u, Alexandrescu, Teodorescu, Nichita). Presented at Kona as a draft; tracker issue created by the EWG chair the same day | OPPOSITION |
-| 2025-11-04 | EWG Kona: D3911R0 non-ignorable pre! (SF:18, F:25, N:22, A:7, SA:0), consensus for change<sup>[55]</sup> | POLL |
-| 2025-12-14 | [P3946R0](https://www.open-std.org/jtc1/sc22/wg21/docs/papers/2025/p3946r0.html)<sup>[13]</sup> "Designing enforced assertions" (Krzemie&nacute;ski) | REBUTTAL |
-| 2025-12-15 | [P3912R0](https://www.open-std.org/jtc1/sc22/wg21/docs/papers/2025/p3912r0.pdf)<sup>[12]</sup> "Design considerations for always-enforced contract assertions" (Doumler, Berne, et al.) | REBUTTAL |
-| 2026-01-15 | EWG telecon: "EWG approves of the direction of P3911R2 to resolve RO 2-056 for C++26, and encourages more work in said direction" (SF:4, F:4, N:9, A:13, SA:12), consensus against<sup>[62]</sup> | POLL |
-| 2026-02-02 | [P4005R0](https://www.open-std.org/jtc1/sc22/wg21/docs/papers/2026/p4005r0.html)<sup>[51]</sup> "A proposal for guaranteed-(quick-)enforced contracts" (Voutilainen) | OPPOSITION |
-| 2026-02-05 | EWG telecon: D4005R0 not consensus<sup>[56]</sup> | POLL |
-| 2026-02-09 | [P4009R0](https://www.open-std.org/jtc1/sc22/wg21/docs/papers/2026/p4009r0.html)<sup>[52]</sup> "A proposal for solving all of the contracts concerns" (Voutilainen) | OPPOSITION |
-| 2026-02-12 | EWG telecon: D4009R0 strong consensus against<sup>[57]</sup> | POLL |
-| 2026-03-23 | EWG Croydon: P3912R0 and P3946R0 first discussed, in the session that polls P4044R0 "Just pre!" (SF:3, F:4, N:0, A:22, SA:23), not consensus<sup>[61]</sup> | POLL |
+Each derivation below proves one Key Judgment from the axioms, definitions, and facts in this appendix. Step labels carry the Key Judgment's number, and the labels in parentheses name what each step rests on.
 
-The sequence shows a three-step cycle:
+### Axioms
 
-1. A state-change poll secures the position (forwarding, adoption, or NB rejection).
-2. Opposition papers follow, challenging the secured state.
-3. Rebuttal papers are dated for the next meeting, where the secured state will be challenged, and reach the room alongside the opposition: as a pre-publication draft, or in the same mailing.
+- **A1.** Writing, revising, or reviewing a paper takes time, and a longer or more complex paper takes more.
+- **A2.** A bigger, more complex design has more places for a defect to hide.
+- **A3.** Each participant chooses which papers to study, and what they learn can change their vote.
+- **A4.** A better design benefits every user of the feature, and the reviewer bears the cost of reviewing.
+- **A5.** Each participant weighs what an action gains them against what it costs them.
+- **A6.** A chair who departs from SD-4's stated practice puts their post at risk.
+- **A7.** Attending costs time and money at every meeting.
+- **A8.** How well a design works becomes clear only through implementation and use.
+- **A9.** Some of how the committee applies its rules is learned only by attending, and this knowledge differs from skill at design.
+- **A10.** Participants come and go over the years. Someone absent from a meeting learns what was said there only from writing or from those present who remember it.
+- **A11.** A paper argues its author's side.
+- **A12.** Reversing a decision, or changing a design after work is built on it, redoes or discards that work, which costs its builders and takes meeting time from other papers. After a favorable poll, authors and others build more on the design.
+- **A13.** Review of a design accumulates as it is presented and discussed at more meetings.
 
-The cycle ran three times between November 2024 and March 2026.
+### Definitions
 
-- The Wroclaw forward (November 2024) was followed by P3506/P3573 opposition in the January mailing, which was met by P3591 for Hagenberg (February 2025), where the removal poll failed and plenary adopted. P3591R0 is dated 2025-02-03. It was on the EWG Hagenberg agenda as a paper "considered" before it appeared in any mailing and before its tracker issue existed; the agenda has a placeholder link where the issue number would go.<sup>[14]</sup> The tracker issue, opened after the meeting, describes it in its co-author's words: "Response paper to P3573 'Contracts concerns' published for the Hagenberg meeting. Discussed in EWG in Hagenberg, no further action needed on this paper."<sup>[15]</sup> The rationale paper P2899R0, filed 2025-01-13, one day after P3573R0, is not part of this cycle. P2900R4 named "[D2899R0] - Contracts for C++ - Rationale" as "the sister-paper to this one" on 2024-01-16, 362 days before P3573R0; R5 and R6 repeat the same reference, and P2900R7 cites it under its published number "[P2899R0]" on 2024-05-22.<sup>[60]</sup><sup>[53]</sup> P3573 appears nowhere in its 160 pages.<sup>[16]</sup> Its own authors name the response: P2899R1 records that "A comprehensive response to all these concerns was published in [P3591R0]."<sup>[54]</sup><sup>[10]</sup>
-- After the Hagenberg adoption (February 2025), the NB opposition arrived as P3829, P3835, P3849, and P3851; P3846R0 answered them in the same October mailing as P3849R0 and P3851R0. At Kona, EWG organized the contracts day by National Body comment. P3846R0 was listed after the Netherlands "Contracts are important" comment as the response material; rather than being presented, it was entered as pre-read on the premise that the room had read the papers in the mailing and the key points had already been made.<sup>[17]</sup> All seven removal comments then failed.
-- The Kona removal polls (November 2025) secured the state for the third time. The opposition arrived the same day. D3911R0 was presented as a draft and polled to consensus for change. P3912 and P3946 answered it in the December mailing, ahead of the January telecons that would test the change. P3912 served as telecon input addressing the Romanian NB comment (RO 2-056).<sup>[12]</sup> The January telecon polled P3911R2's direction to consensus against.<sup>[62]</sup> The residual attempts, D4005R0 and D4009R0 in February and P4044R0 at Croydon, each failed,<sup>[56]</sup><sup>[57]</sup><sup>[61]</sup> and P3912 and P3946 were first discussed at Croydon in the session that polled P4044R0.<sup>[61]</sup>
+- **D1.** A participant's stake in a poll is the difference its outcome makes to what they value.
+- **D2.** A direction poll is a poll on whether to continue work on a design.
+- **D3.** The incumbent on a topic is the design that has passed a direction poll in a design room. A rival is another design on the same topic.
+- **D4.** A design-bound author is one whose gain depends on the adopted design keeping particular features.
 
-The rebuttal papers arrive after the state-change they defend, timed to the meeting where that state will next be challenged. The room receives opposition and rebuttal together, and at Kona the record shows the rebuttal going unpresented. Matrix A applies: Verifying a lengthy rebuttal against a detailed opposition paper is expensive, and reviewers who are not parties to the dispute face the same cost threshold that produces the Push/Abstain equilibrium. The direction is already established, so the apparent benefit of scrutinizing the rebuttal is low. Only the objectors are motivated to find errors in it, and their continued challenges face the reversal-cost inequality. The institutional record that results (state-change, opposition paper, rebuttal paper, state survives) reads to a later audience like the reconciliation described in section 1. It is not reconciliation. It is an untested claim that the objection was answered, preserved by the same memory asymmetry described in section 11.
+### Facts
+
+- **F1.** "When a proposal's design achieves a general consensus of the design subgroup, as determined by the subgroup chair, for its design and ship vehicle, it is forwarded to the specification subgroups." (SD-4, "Subgroup responsibility and polls")<sup>[1]</sup>
+- **F2.** "A proposal normally advances if there are more than twice as many in favor of a proposal as against, after discussion of the concerns of those voting against and possibly a re-poll to see if opinions have improved." (SD-4, "Subgroup responsibility and polls")<sup>[1]</sup>
+- **F3.** "Subgroup polls, especially in design subgroups, should favor progress." (SD-4, "Subgroup responsibility and polls")<sup>[1]</sup>
+- **F4.** "Subgroup chairs are appointed by the convener, and are selected to match the current needs of the subgroup. They have no fixed term." (SD-4, "Subgroup responsibility and polls")<sup>[1]</sup>
+- **F5.** "consensus: General agreement, characterized by the absence of sustained opposition to substantial issues by any important part of the concerned interests and by a process that involves seeking to take into account the views of all parties concerned and to reconcile any conflicting arguments." "NOTE Consensus need not imply unanimity." (SD-4, "Consensus")<sup>[1]</sup>
+- **F6.** "...a sustained opposition is not akin to a right to veto. The obligation to address the sustained oppositions does not imply an obligation to resolve them successfully." (ISO/IEC Directives Part 1, 2.5.6)<sup>[9]</sup>
+- **F7.** Meeting records of subgroup discussion are password-protected, and "It is not allowed to quote from these publicly (e.g., in papers and blog posts) except that the following are allowed: (a) quoting straw poll questions and numeric results; and (b) quoting words or positions attributed to a specific person with that person's prior consent." (SD-4, "Other topics")<sup>[1]</sup>
+- **F8.** SD-4 sets no requirement that the record of a poll show how an objection was answered or why a consensus call was made. (SD-4, whole document; searched: record, minute, reason, answer, tally, objection, why)<sup>[1]</sup>
+- **F9.** None of the ISO clauses that govern how decisions, minutes, and oppositions are recorded requires a record of why consensus was judged to exist. (ISO/IEC Directives Part 1, 2026 edition, clauses 1.8.2, 2.5.7, and 5.5; searched: reason, rationale, justif, why)
+- **F10.** SD-4 assigns no one the role of ruling which side of a technical dispute is correct or how good a design is. (SD-4, whole document; searched: rule, ruling, decide, arbiter, correct, authority, quality, judg, evaluat, assess, merit, opinion, select, pursu)<sup>[1]</sup>
+- **F11.** "A proposal that does not have one of its authors, or another qualified and prepared presenter, to present it is not actionable and will not be considered during official meeting time." (SD-4, "Proposals and papers")<sup>[1]</sup>
+- **F12.** "If a proposal doesn't have a paper, it doesn't exist. Any significant proposal requires a paper, including every proposal that is a design addition or change." (SD-4, "Proposals and papers")<sup>[1]</sup>
+- **F13.** "All papers to be considered at a meeting must be received before that meeting's pre-meeting mailing deadline." (SD-4, "Proposals and papers")<sup>[1]</sup>
+- **F14.** "Ideally the issue should be raised on the relevant subgroup's email list immediately following the subgroup discussion to which the objection appertains, but in no case any later than the deadline of 5pm the evening before the closing plenary session..." (SD-4, "Escalating a serious “cannot live with” objection, or significant new information")<sup>[1]</sup>
+- **F15.** "Objections that are not so escalated, but are raised or re-raised in plenary, should not be given weight in plenary." (SD-4, "Escalating a serious “cannot live with” objection, or significant new information")<sup>[1]</sup>
+- **F16.** "...everyone who participates in WG21 is expected to be familiar with this information." (SD-4, "Purpose and audience")<sup>[1]</sup>
+- **F17.** "...the leadership will register the opposition (i.e. in the minutes, records, etc.) and continue to lead the work on the document." (ISO/IEC Directives Part 1, 2.5.6)<sup>[9]</sup>
+- **F18.** "The proposal author is expected to participate in the design subgroup to present the proposal, answer questions, participate in design discussion, and implement any changes directed by the group, typically for subsequent revisions of the proposal to be considered at the next meeting." (SD-4, "Subgroup responsibility and polls")<sup>[1]</sup>
+- **F19.** "The subgroup chair may take any polls they choose." (SD-4, "Subgroup responsibility and polls")<sup>[1]</sup>
+
+### Derivations
+
+#### Key Judgment 1: The process selects for endurance
+
+**Claim.** WG21's consensus process selects for proposals that outlast their organized opposition. The survivor can be the best design or an inferior one, and the record SD-4 requires leaves open which of the two occurred.
+
+- **1.1** The chair decides consensus, and the norm the chair follows is a count: more than twice as many Favor as Against. A proposal advances at any poll where its objectors hold fewer than a third of the Favor and Against votes. *(F1, F2)*
+- **1.2** SD-4's test asks whether an opposition is sustained, concerns a substantial issue, and comes from an important part of the concerned interests. ISO requires a sustained opposition to be addressed and leaves resolving it optional. Persuading the objectors is optional. *(F5, F6)*
+- **1.3** Both sides pay to stay in the contest. A proposal is considered only with a presenter in the room, and an objection counts only while its holders attend and vote Against. Every meeting costs each side time and money. *(A7, F11, 1.1)*
+- **1.4** An objection falls below a third when its holders are answered, and also when they stop paying to attend. The count registers only votes, so the proposals that advance are the ones that outlast their organized opposition. *(A5, 1.1, 1.2, 1.3)*
+- **1.5** At the time of the poll, how well a design works is still unknown, and SD-4 leaves that judgment to the vote count. The proposal that outlasts its opposition can be the best design or an inferior one. *(A8, F10, 1.4)*
+- **1.6** The public record of a poll is its question and its numbers, and the rules leave out how objections were answered and why consensus was called. That record reads the same whether the opposition was answered or outlasted, so it leaves open whether the survivor was the best design or an inferior one. *(F7, F8, F9, 1.4, 1.5)* ∎
+
+#### Key Judgment 2: Fluency decides whether expertise is heard
+
+**Claim.** Procedural fluency and technical expertise are different assets. Expertise determines whether a participant has something worth proposing; fluency determines whether the institution can hear it. Doing the work builds fluency, which is why the system appears to select for quality, and a brilliant outsider with no fluency and a mediocre insider with deep fluency face different odds, because SD-4's gates read procedure.
+
+- **2.1** SD-4's gates are procedural. A proposal exists only as a paper, received before the mailing deadline and presented by someone in the room, and an objection counts at plenary only if it was escalated by 5pm the evening before. *(F11, F12, F13, F14, F15)*
+- **2.2** How the committee applies these rules is learned partly by attending, some of it only that way, and SD-4 expects everyone to know them. Fluency comes from attending, so doing the work builds it. *(A9, F16)*
+- **2.3** Design skill is a separate asset, and it reaches a vote only once a proposal has passed the gates. Expertise determines whether a participant has something worth proposing; fluency determines whether the institution can hear it. *(A9, 2.1, 2.2)*
+- **2.4** Those who do the work attend and gain fluency along with expertise, so the system appears to select for quality. A brilliant outsider with no fluency and a mediocre insider with deep fluency meet the same gates with different command of them, so they face different odds. *(2.2, 2.3)* ∎
+
+#### Key Judgment 3: The record keeps the tally
+
+**Claim.** SD-4 keeps the tally and leaves out the register of opposition that ISO/IEC Directives clause 2.5.6 describes. Papers on both sides preserve arguments as advocacy. A later reader sees the same tally whether objections were answered or outvoted, and an objection's reasons survive only in writing or in the memories of those present, which fade as they retire or stop attending.
+
+- **3.1** ISO has the leadership register an opposition in the minutes and records. SD-4's public record of a poll is its question and its numbers, and SD-4 leaves out how objections were answered. *(F7, F8, F17)*
+- **3.2** A paper argues its author's side, so papers on both sides preserve arguments as advocacy. *(A11)*
+- **3.3** The tally reads the same whether objections were answered or outvoted. *(1.6)*
+- **3.4** Reasons given aloud reach someone absent only through writing or through those present who remember them. As those present retire or stop attending, the reasons survive only in writing. *(A10, 3.1)* ∎
+
+#### Key Judgment 4: Consensus is a chair's count
+
+**Claim.** SD-4 makes consensus a chair's call on a vote count. The decisive question is whether the minority can hold a third of the votes, persuasion is optional, and the record reads the same whether an objection was answered or outvoted.
+
+- **4.1** Chairs serve at the convener's choice, and SD-4 asks subgroup polls to favor progress. Applying the count protects the chair's post and moves work forward, so the chair is rewarded for applying it. *(A6, F3, F4, 1.1)*
+- **4.2** When objectors hold fewer than a third of the Favor and Against votes, the count is met. Every change costs the author time, so the cheapest answer is to change little or nothing. The decisive question is whether the minority can hold a third. *(A1, A5, 1.1)*
+- **4.3** Persuading the objectors is optional, and the record of the poll reads the same whether an objection was answered or outvoted. "Consensus was achieved" and "we lost the poll" describe the same record. *(1.2, 1.6)* ∎
+
+#### Key Judgment 5: Incumbency sets the price of merit
+
+**Claim.** Path dependence sets the terms a challenger is heard on. Once a design passes a direction poll, it is the incumbent: the room starts from it, a rival wins a voter only with an advantage worth more than that voter's share of the cost of reversal, and the incumbent stays without one. Merit still counts, and accumulated state sets the price it must clear.
+
+- **5.1** A design that passes a direction poll in a design room is the incumbent, and its author carries the room's directed changes into the next revision. The room continues from the incumbent. *(D2, D3, F18)*
+- **5.2** Replacing the incumbent is a reversal: it redoes or discards the work built on the design, at a cost to its builders and in meeting time taken from other papers. Each voter bears a share of that cost. *(A12, 5.1)*
+- **5.3** A voter backs a rival only when its advantage is worth more to them than their share of the reversal's cost, and the incumbent stays on the strength of that cost alone. *(A5, 5.2)*
+- **5.4** Merit enters through what voters value, and the reversal cost sets the price a better rival must clear. *(5.3)* ∎
+
+#### Key Judgment 6: Protection grows with what is built
+
+**Claim.** The incentive to protect a design grows with what has been built on it. A short paper is cheap to change and a multi-year, employer-funded feature is expensive. An author whose gain depends on particular features does best seeking direction polls as early as they can pass and answering objections with the cheapest change that keeps the design passing. This is rational investment protection by people acting in good faith.
+
+- **6.1** Every reversal redoes or discards the work built on the design, so its cost grows with what has been built. A short paper has little built on it; a multi-year, employer-funded feature has much. *(A12, 5.2)*
+- **6.2** A design-bound author loses part of their gain with every change to the features it depends on, so they do best answering objections with the cheapest change that keeps the design passing. *(D4, A5, 4.2)*
+- **6.3** A favorable direction poll makes the design the incumbent and raises the bar for every rival from then on, so a design-bound author does best seeking direction polls as early as they can pass. *(D4, 5.1, 5.3, 6.1)*
+- **6.4** Each step weighs costs and gains still to come, which is how anyone acting in good faith protects an investment. *(A5)* ∎
+
+#### Key Judgment 7: Review is a public good
+
+**Claim.** The system under-produces critical scrutiny, and the proposals that need the most scrutiny are the least likely to receive it.
+
+- **7.1** A reviewer's payoff from studying a proposal is its effect on the poll, and that is worth at most the reviewer's own stake in the outcome. *(A3, D1)*
+- **7.2** A better design benefits every user, but each reviewer collects only their own stake. So a review can be worth its cost to users as a whole and still cost the reviewer more than they get back. *(A1, A4, 7.1)*
+- **7.3** Each reviewer is then better off spending the time elsewhere. Every reviewer makes the same choice, so the system under-produces scrutiny. *(A5, 7.2)*
+- **7.4** A bigger design has more places for defects to hide, so its review is worth more to users. The reviewer captures only their own share of that value. As designs grow, the value of review outpaces the reviewer's return, so the proposals that need the most scrutiny are the least likely to receive it. *(A2, A4, 7.2)* ∎
+
+#### Key Judgment 8: The most binding polls come first
+
+**Claim.** Direction polls come first, when a design has had the least review it will ever have. Each favorable poll invites more work built on the design, and the cost of reversal grows with that work, so the most binding decisions are taken on the least information. An early mistake gets harder to correct as the design advances: the mistake stays exactly as wrong, and the work around it grows more expensive to discard. Users bear the cost of the mistake, while the author whose gain depends on the design's features does best seeking those polls as early as they can pass.
+
+- **8.1** The chair may take any poll, so a direction poll can come at the meeting where a proposal is first presented. Review accumulates over meetings, so at that poll the design has had the least review it will ever have. *(D2, A13, F19)*
+- **8.2** Each favorable poll invites more work built on the design, and the cost of reversal grows with that work. The poll that makes a design the incumbent comes when the least is known about it, so the most binding decisions are taken on the least information. *(A8, A12, 5.1, 6.1, 8.1)*
+- **8.3** The reversal cost grows with the work built, whether or not the design is wrong. An early mistake gets harder to correct as the design advances, while the mistake stays exactly as wrong. *(6.1, 8.2)*
+- **8.4** A design in the standard applies to every user of its feature, so users bear the cost of the mistake, while a design-bound author does best seeking direction polls as early as they can pass. *(A4, 6.3)* ∎

@@ -1,0 +1,13 @@
+@@ FILE ch-04.md
+@@ ADD l:argument-writing
+      1. Someone absent learns what was said only from writing or from those present who remember it, so once all the hearers have left, only writing remains. *[from ax:turnover]* {#inf:writing-only}
+      1. Outside the protected records, a paper is the writing that states an objection's argument without anyone else's help, and a regular can write one. *[from p:dissent-needs-paper, m:moves-regular]* {#inf:objector-paper}
+      1. An author's paper can also state it, since SD-4 asks a good paper to show the alternatives considered and an author declining a directed change to defend that. *[from f:show-alternatives, f:direction-implement]* {#inf:author-paper}
+@@ FILE ch-06.md
+@@ ADD l:part-adds-hurdle
+      1. A rival to the whole design must replace every part already adopted, so each adopted part adds work its reversal must redo or discard. *[from ind:adopted-parts, d:reversal]* {#inf:part-replace}
+      1. A rival wins a voter only with an advantage worth more than that voter's share of the reversal's cost, so a costlier reversal raises the advantage it needs. *[from p:challenger-bar, inf:part-replace]* {#inf:part-voter-share}
+@@ FILE ch-09.md
+@@ ADD l:call-from-votes
+      1. The participants present decide a design's content, as chairs call consensus on their votes counted under the 2:1 norm. *[from p:who-decides]* {#inf:calls-on-votes}
+      1. Under SD-4's definition, none of the three conditions under which an objection prevents consensus asks whether the objection is right. *[from l:consensus-test]* {#inf:test-not-right}

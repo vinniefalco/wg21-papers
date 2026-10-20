@@ -1,0 +1,219 @@
+F5
+Derived, weakened (resolved)
+Agreed with the check. p:record-indistinct becomes "The record the rules require need not show whether an objection was answered or outvoted," citing l:record-content and l:iso-register-level. The excellence-versus-persistence contrast is not proved.
+
+F8
+Derived, weakened (resolved)
+Agreed. p:dissent-needs-paper becomes: minutes need not hold an objection's reasons and a ballot comment counts only as a national body position, so a paper is the only record of the argument its holder can produce alone, and writing it takes time. Adds f:comments-national, f:escalate-paper, and writing to ax:review-cost. "Costs as much as writing a proposal" is dropped.
+
+F10
+Derived, weakened (resolved)
+Dispute upheld from the extract: the one-meeting delay is for a rival that "does not yet have a paper," and the TS-merge default holds only if no alternative is "actively progressing." p:incumbent-start becomes: after a design passes a direction poll, a rival without a paper does not block it, though the chair may delay it one meeting so an objector can bring one, and SD-4 asks its author to implement the room's direction. f:ts-default quotes its condition; f:multiple-polls is added as a check.
+
+F11
+Axiom, weakened (agreed)
+Weaker wording adopted and extended to writing: "Writing or reviewing a paper takes time, and, other things equal, a longer or more complex paper takes more."
+
+F12
+Derived, weakened (resolved)
+Agreed. The missing premise is deniable, since a longer paper has more places for a decisive flaw, so it is not added as an axiom. p:review-share becomes conditional: when a reviewer's stake does not grow with a proposal's length or complexity, a longer or more complex proposal gets a smaller share of that reviewer's close study, from ax:review-cost, ax:attention, ax:prefer, and d:stake.
+
+F13
+Axiom, first clause only, weakened (agreed)
+Weaker wording adopted: "A participant who attends regularly expects to meet many of the same colleagues at future meetings."
+
+F14
+Derived, weakened (agreed)
+Verdict set per the note. p:who-votes is fixed as at F30.
+
+F17
+Axiom and Derived, weakened (resolved)
+Agreed. p:reasons-fade becomes: reasons that no written record holds, whether paper, minutes, wiki, or email list, become unavailable to the committee once every participant who heard them has stopped attending.
+
+F18
+Derived, weakened (agreed)
+Verdict set per the note.
+
+F19
+Derived, weakened (resolved)
+Agreed that nothing supports a cost to the speaker. Rather than extend ax:support to speech, p:prefer-vs-stop is weakened to what the rules give: a participant can state a preference for another design and vote Neutral, which leaves the 2:1 count unchanged and is not a position SD-4 names for questions, from l:against-double, l:neutral-outside, and l:reasons-against.
+
+F21
+Axiom, first clause only (agreed)
+Verdict set per the note. f:familiar is added (see F31).
+
+F22
+Corrected, then Derived, weakened (resolved)
+Same resolution as F8.
+
+F26
+Derived, weakened (resolved)
+Dispute upheld: SD-4 accepts "one of its authors, or another qualified and prepared presenter." F26 rests on f:present-required alone: a proposal is actionable only with a qualified, prepared presenter who is invested in it. p:small-position is fixed as at F32.
+
+F30
+Corrected, then Rule (resolved)
+Dispute upheld. p:who-votes becomes: in a subgroup poll each person in the room casts one vote, the people in the room are registered experts and any guest a convenor has invited for up to two meetings, and a user, who by definition does not participate, casts none. Adds f:guests (ISO 1.12.2). d:participant keeps its proof-terms wording. The "favors insiders" half has no destination and is cut.
+
+F31
+Derived, weakened (resolved)
+Agreed. p:private-channel becomes: SD-4 asks a participant who thinks a new proposal should not take up extended subgroup time to tell the chair privately and in advance, the chair may then time-box it, and no rule requires a record of the request (new absence fact f:no-concern-record). p:newcomer becomes: a newcomer has had none of the learning that earlier meetings provide, though SD-4 expects every participant to be familiar with its procedures (new fact f:familiar). The cost comparison is dropped.
+
+F32
+Derived, inert wording, weakened (resolved)
+Dispute upheld. d:small becomes "a proposal by one author who pays their own costs, whose design is reviewed within one meeting." p:small-position becomes: its author pays their own costs, and unless the proposal falls in one of SD-4's priority categories it gets agenda time only after the priority work; like every proposal it needs an on-time paper and a qualified, prepared presenter. Adds f:late-paper. The priority rule is quoted with "..." in place of the paper number it names.
+
+I2
+Weaken (resolved)
+Agreed: ISO 6.1.3 lets appeals decide matters that "may be either technical or administrative in nature." l:chair-role is narrowed: SD-4 makes the subgroup chair the judge of consensus and assigns no one in WG21 the role of ruling which side of a technical dispute is correct, from f:design-forward and f:no-merit-ruling. f:appeal-technical enters as a check.
+
+I4
+Weaken (resolved)
+Agreed. p:challenger-bar becomes: in a poll between a rival and an incumbent, a voter favors the rival only when the voter values the rival's advantage above the part of the reversal's cost that falls on what the voter values. Withdrawal is outside the claim, since it is not a poll.
+
+I7
+Weaken (resolved)
+Agreed. New absence fact f:iso-no-reason-record: ISO 1.8.2, 2.5.7, and 5.5 require decisions, minutes, and registered oppositions to be documented, and none requires a record of why consensus was judged (searched: reason, rationale, justif, why). New fact f:plenary-reason. p:chair-no-reasons becomes: no rule requires the record to say why a chair declared consensus while some participants voted Against, though plenary may ask the subgroup chair to summarize the reason; recording reasons takes meeting time.
+
+I8
+Weaken (resolved)
+Same resolution as F5. The liability claim goes to c:predictions.
+
+I9
+Weaken (resolved)
+Same resolution as F10. "Polled only as an amendment or objection to the incumbent" is contradicted by f:multiple-polls and is cut.
+
+I10
+Weaken (resolved)
+Same resolution as F12.
+
+I11
+Weaken (resolved)
+Agreed. ax:prefer is extended to users, who value the features they use and their own time and money. I11 is weakened to: a user has no vote and must bear the costs of becoming a participant to gain one, from p:who-votes and ax:cost; whether a user takes part is settled in l:settled-user. "Little chance of changing an outcome" is not proved and is cut.
+
+I13
+Weaken (resolved)
+Same resolution as F19.
+
+I14
+Weaken (resolved)
+Dispute upheld. p:late-objection becomes plenary-only: SD-4 gives no weight at plenary to an objection not escalated by the deadline, even one carrying new information, and sends such information to the email lists or to a national body comment with a discussion paper. The ballot half is dropped, since l:nb-comment-limits states the narrower rule. Adds f:escalate-deadline and f:late-info; ISO 2.6.5 "Committees are required to respond to all comments received" enters as check f:respond-comments.
+
+I15
+Weaken (resolved)
+Same resolution as F12.
+
+I18
+Weaken (resolved)
+Agreed. ind:priority-compounds uses SD-4's words "work the committee is aiming to include in the next IS" and quotes the priority rule with "..." in place of the paper number. p:private-channel is fixed and narrowed as at F31.
+
+I19
+Weaken (resolved)
+Same resolutions as F31. "Only repeated attendance teaches" is cut, since ax:learning says "partly" and SD-4 expects every participant to be familiar with its procedures.
+
+I20
+Weaken (resolved)
+Dispute upheld. p:chair-default becomes: when more than twice as many vote Favor as Against, declaring consensus follows SD-4's norm and declining departs from it, though SD-4 says a Neutral majority can be concerning.
+
+I22
+Weaken (resolved)
+Same resolution as F8.
+
+I23
+Weaken (resolved)
+Same resolution as F31 for p:newcomer.
+
+I25
+Weaken (resolved)
+Dispute upheld for p:small-position, fixed as at F32; d:small now fixes the author's funding. p:attrition stands.
+
+I26
+Weaken (resolved)
+Agreed. l:organized-minority becomes "Any group casting at least one third of the Favor-plus-Against votes as Against prevents the 2:1 norm from being met," and a step under l:room-size states that one Against vote stops the norm only when at most two participants vote Favor. "A lone expert's objection counts for little" is not proved and is cut.
+
+I27
+Weaken (resolved)
+Agreed. p:plenary-ratifies becomes: plenary does not redesign, gives no weight to an objection not escalated in time, and when opposition is significant the Convener asks whether the Against votes are personal or national body positions.
+
+I32
+Weaken (resolved)
+Agreed. ax:prefer gains "sooner." p:prefer-is becomes: a TS delays an author's adoption by about one to two years, so an author prefers the IS unless the author values the TS's experience for users above that delay or the design room requires a TS, adding f:ts-experience. "Or a later standard" moves to p:miss-cost.
+
+I36
+Weaken (resolved)
+Dispute upheld. p:nb-route becomes: an objection has weight in plenary only if escalated in time on the email lists and within its holder's national body, where SD-4's default is that it is not a national position; after the deadline it can count only through the email lists or a national body ballot comment. Adds f:plenary-weight, f:escalate-deadline, and f:late-info.
+
+I37
+Weaken (resolved)
+Agreed; no premise is added. p:mutual-support becomes: two regulars with pending proposals each do better not opposing the other's proposal, unless that proposal lowers what the regular values by more than the cost of opposing. "Trade concessions" and the cost-benefit clause are cut.
+
+I38
+Merge (resolved)
+Same resolution as F12.
+
+I39
+Weaken (resolved)
+Dispute upheld. p:nb-early becomes: SD-4 and ISO both ask national bodies to make objections known early, from f:timely, new f:no-surprise, and new f:iso-early (ISO 0.7). The claim that silence counts as no objection has no text and is cut.
+
+I40
+Weaken (resolved)
+Agreed. p:nb-comment stands, with SD-4's "we consider all NB feedback at all times" in f:ballot-no. "National bodies stay out of most proposals" would need an axiom about the cost of forming a national position, which is not added; it becomes a c:predictions item.
+
+I41
+Merge (resolved)
+Same resolution as F12. Opacity is covered by "complex" in ax:review-cost.
+
+F1
+Rule (agreed)
+p:chair-decides rests on f:design-forward, f:wording-forward, and f:plenary-owns ("as determined by the subgroup chair" and "as determined by the Convener"); f:leadership-judges is cited only as the ISO analog.
+
+F4
+Derived, weakened (agreed)
+ind:reversal-grows adds ax:prefer, so that the work a reversal redoes or discards counts as a cost.
+
+F7
+Corrected, then Rule (agreed)
+l:iso-register-level says ISO's recommended approach, not a duty: the committee leadership registers an opposition, which can first be expressed at a working group meeting, and SD-4 adds no such step for subgroup polls.
+
+F9
+Axiom and Derived (agreed)
+p:early-polls adds ax:prefer to its basis and survives the p:incumbent-start fix.
+
+F23
+Derived (agreed)
+Destination adds p:money-vs-presence.
+
+F24
+Derived (agreed)
+p:advance-unanswered says objections can remain unresolved after discussion, not undiscussed.
+
+F28
+Derived, inert wording (agreed)
+p:chair-costs adds f:escalate-nb to its basis.
+
+F29
+Rule (agreed)
+f:not-veto and l:address-not-resolve say "a sustained opposition," not "an objection."
+
+I3
+Prove (agreed)
+p:early-polls adds ax:prefer (see F9).
+
+I6
+Weaken (agreed)
+d:large becomes "a proposal by two or more authors, whose review spans more than one edition and whose authors' participation is paid by one or more sponsors."
+
+I12
+Prove (agreed)
+l:settled-author must weigh the author's value of a good result for users when an objection is right.
+
+I16
+Merge (agreed)
+p:against-costs-more adds ax:prefer; the strict inequality comes from the preparation SD-4 asks of Against voters.
+
+I24
+Weaken (agreed)
+p:repeat-objection covers only repetition outside SD-4's exits (judicious escalation and new information) and drops f:escalation-credibility, which concerns a pattern across topics.
+
+I34
+Weaken (agreed)
+p:change-list says concerns stated as changes can each be granted, while an objection to the proposal in any form names no change that would address it.

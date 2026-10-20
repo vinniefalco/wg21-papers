@@ -1,0 +1,73 @@
+@@ FILE ch-06.md
+@@ ADD ind:adopted-parts
+   1. **Lemma.** An author can propose a design in papers that each propose part of it, and each later part builds on the parts already adopted. *[from m:moves-author, ax:rework]* {#l:parts-build}
+   1. **Lemma.** Adopting a rival to the whole design in its place replaces every part already adopted, a reversal of each, which redoes or discards the work built on it. *[from d:reversal, ind:reversal-grows]* {#l:rival-replaces-parts}
+@@ ADD p:parts
+   1. **Lemma.** Each part's paper advances on its own consensus calls in the design and wording rooms and at plenary, so an early part can be adopted before later parts are presented. *[from m:moves-author, f:design-forward, f:wording-forward, f:plenary-owns]* {#l:part-advances-alone}
+   1. **Lemma.** Each adopted part is one more part a rival to the whole must replace, raising the advantage the rival needs to win a voter. *[from ind:adopted-parts, p:challenger-bar]* {#l:part-adds-hurdle}
+   1. **Lemma.** Each part needs its own paper, which takes time to write, and its own presenter at each meeting where it is considered. *[from ax:review-cost, f:present-required]* {#l:part-cost}
+@@ ADD l:first-part-fix
+      1. Parts advance one paper at a time, so the first part can be adopted before any later part, fixing its features sooner. *[from p:parts]* {#inf:fix-sooner}
+      1. Every later part builds on the first, so each adds to the cost of the reversal that changing the first part's features would need. *[from ind:adopted-parts, ind:reversal-grows, p:challenger-bar]* {#inf:fix-hurdle}
+      1. A design-bound author's gain depends on those features staying fixed, so it does better when they are fixed sooner and changing them needs a costlier reversal. *[from inf:fix-sooner, inf:fix-hurdle, d:design-bound, ax:prefer, d:does-better]* {#inf:fix-rank}
+@@ ADD l:first-part-oppose
+      1. Against votes making up at least a third of the Favor-plus-Against votes on the first part keep it from meeting the 2:1 norm. *[from l:vote-count]* {#inf:oppose-early-count}
+      1. Once the first part is adopted, removing it normally needs a paper or ballot comment that itself meets the 2:1 norm. *[from p:burden-flip]* {#inf:oppose-late-burden}
+      1. Blocking the first part takes a third of the Favor-plus-Against votes, while removing it later takes over two thirds, so the opponent does better voting Against early. *[from inf:oppose-early-count, inf:oppose-late-burden, l:vote-count, ax:prefer, d:does-better]* {#inf:oppose-early-rank}
+@@ FILE ch-07.md
+@@ ADD l:hold-yield-holder-gains
+      1. A group that yields stops voting Against the other's design, so when no one else votes Against it, the holders' Favor votes meet the 2:1 norm. *[from p:deadlock, l:vote-count]* {#inf:yielder-stops}
+      1. The design that advances brings the holder the difference it makes to what the holder values, its whole stake, and brings the yielder none of what its own design would. *[from d:stake, inf:yielder-stops]* {#inf:holder-stake}
+      1. The deadlock then ends at the next poll, so neither group bears the cost of holding through further meetings. *[from inf:yielder-stops, ax:cost]* {#inf:no-holding-cost}
+@@ ADD l:hold-yield-whole-over-half
+      1. Holding while the other yields brings a group its whole stake at no cost of holding, while both yielding brings a compromise worth half its stake. *[from l:hold-yield-holder-gains]* {#inf:whole-vs-half}
+      1. A whole stake is worth more than half of it, so each group ranks holding while the other yields above both yielding. *[from inf:whole-vs-half, ax:prefer, d:does-better]* {#inf:whole-rank}
+@@ ADD l:hold-yield-half-over-deadlock
+      1. When both hold, a group can expect half its stake on average, less its cost of holding through the deadlock, a cost above zero since attending costs money and time. *[from l:hold-yield-both-hold, ax:cost]* {#inf:both-hold-net}
+      1. Half its stake with no cost of holding is worth more than half its stake less such a cost, so each group ranks both yielding above both holding. *[from inf:both-hold-net, ax:prefer, d:does-better]* {#inf:half-beats-deadlock}
+@@ ADD l:hold-yield-half-over-none
+      1. Yielding while the other holds brings a group none of its stake, and both yielding brings it a compromise worth half its stake, with no cost of holding either way. *[from l:hold-yield-holder-gains]* {#inf:half-vs-none}
+      1. Half its stake is worth more than none, so each group ranks both yielding above yielding while the other holds. *[from inf:half-vs-none, ax:prefer, d:does-better]* {#inf:half-rank}
+@@ ADD l:hold-yield-cheap-holds
+      1. Holding through a deadlock both hold brings half its stake on average less its cost of holding, and yielding while the other holds brings none of its stake. *[from l:hold-yield-both-hold, l:hold-yield-holder-gains]* {#inf:cheap-net}
+      1. With that cost less than half its stake, the first is worth more than nothing, so the group ranks holding above yielding. *[from inf:cheap-net, ax:prefer, d:does-better]* {#inf:cheap-rank}
+@@ ADD l:hold-yield-costly-yields
+      1. With that cost more than half its stake, half its stake on average less that cost is worth less than nothing, so the group ranks yielding above holding. *[from inf:cheap-net, ax:prefer, d:does-better]* {#inf:costly-rank}
+@@ FILE ch-08.md
+@@ ADD p:plenary-ratifies
+   1. **Lemma.** Plenary decides whether to adopt the changes the design and wording rooms recommend, and does not change a design or hold extended design discussion. *[from p:who-decides, f:plenary-owns, f:plenary-no-design]* {#l:plenary-no-redesign}
+   1. **Lemma.** Objections not escalated by 5pm the evening before plenary, on the email lists and within a national body, get no weight there. *[from p:late-objection]* {#l:plenary-late-weight}
+   1. **Lemma.** Design room chairs present the designs approved at the meeting, asking all present for any serious design concerns the subgroups may not have found. *[from f:design-concerns-solicited]* {#l:plenary-concerns}
+   1. **Lemma.** Plenary first asks whether anyone objects to unanimous consent, which most polls pass, and on significant opposition the convenor usually asks whether Against votes are personal or national body positions. *[from f:plenary-consent, f:plenary-nb]* {#l:plenary-polls}
+@@ FILE ch-09.md
+@@ RESTORE p:merit-gap FROM snapshots\step-11-pre-refill-r3\ch-09.md
+@@ ADD p:merit-gap
+   1. **Lemma.** Chairs call consensus on the votes of the participants present, counted under the 2:1 norm, and the consensus test asks nothing about whether an objection is right. *[from p:who-decides, l:consensus-test]* {#l:call-from-votes}
+@@ ADD p:integration
+   1. **Lemma.** Plenary approves each wording paper in its own poll, and during the meeting each paper's wording is written against the drafts adopted at its start. *[from f:approval-polls, f:wording-baseline]* {#l:separate-approval}
+   1. **Lemma.** After the meeting the project editor applies all approved changes and reports on merging them, and before a ballot an editing committee verifies they were applied correctly. *[from f:editors]* {#l:editor-merge}
+   1. **Lemma.** Each author gains from their own design's adoption. A conflict between designs may surface only once they are implemented and used, and then it costs users and forces rework of what was built on them. *[from ax:prefer, ax:unknown, ax:users-affected, ax:rework]* {#l:conflict-costs}
+@@ RESTORE p:written-answer FROM snapshots\step-11-pre-refill-r3\ch-09.md
+@@ FILE ch-10.md
+@@ ADD l:rank-rest-yes
+      1. Abstentions are not counted, so of the two only Yes with comments adds to the positive P-member votes approval needs. *[from l:ballot-rules]* {#inf:yes-counts}
+      1. WG21 considers a body's comments whatever its vote, so a body preferring approval gains nothing by abstaining and ranks Yes with comments above it. *[from f:no-means-no, inf:yes-counts, ax:prefer]* {#inf:comments-either-way}
+@@ ADD l:rank-rest-abstain
+      1. A No with technical comments counts against approval, while an abstention is not counted at all. *[from l:ballot-rules]* {#inf:no-counts-against}
+      1. Its comments are considered whatever its vote, so for a body preferring approval a No only lowers approval's chance, and it ranks abstaining above No. *[from f:no-means-no, inf:no-counts-against, ax:prefer]* {#inf:no-gains-nothing}
+@@ ADD l:rank-oppose-no
+      1. SD-4 says a No vote should express that the national body does not want the work to progress at all in any form. *[from f:ballot-no]* {#inf:oppose-no-use}
+      1. Of No and abstaining, only the No counts against approval, so a body that wants the work in no form ranks No first. *[from inf:no-counts-against, inf:oppose-no-use, ax:prefer]* {#inf:oppose-no-rank}
+@@ ADD l:rank-oppose-abstain
+      1. Of abstaining and Yes with comments, only the Yes counts toward approval, so a body that wants the work in no form ranks abstaining first. *[from inf:yes-counts, ax:prefer]* {#inf:oppose-abstain-rank}
+@@ FILE ch-11.md
+@@ ADD l:seeking-early
+      1. A direction poll taken early lets the later polls a design needs come sooner, and a first part can be adopted before the rest is presented. *[from d:polls, f:design-forward, p:parts]* {#inf:early-sooner}
+      1. Every later change to an incumbent, or to a design built on adopted parts, bears a reversal cost that grows as more is built on it. *[from p:early-polls, ind:adopted-parts, ind:reversal-grows]* {#inf:early-improvement-cost}
+      1. A result-seeking author gains from how well the adopted design serves users, so later improvements, which that cost makes harder, are part of its gain. *[from d:result-seeking, ax:prefer]* {#inf:improvement-gain}
+@@ ADD l:small-wait-cost
+      1. Outside SD-4's priority categories, a small proposal gets agenda time only after the priority work, so it can wait through meetings without being reached. *[from p:small-position]* {#inf:small-behind}
+      1. At each meeting it waits, it is considered only with an on-time paper and a presenter, and its author bears that meeting's cost alone. *[from l:small-presenter, p:small-position, ax:cost]* {#inf:small-each-meeting}
+@@ ADD l:sg-call
+      1. A study group chair polls which design leaves the group as its initial proposal, and the 2:1 norm covers subgroup polls, so study group polls too. *[from m:moves-chair, f:sg-initial-proposal, d:positions, d:rooms]* {#inf:sg-call-norm}
+      1. A chair whose stake is worth less than what departing can cost them makes the call the norm gives, which here sends on a design that meets it, or none. *[from p:chair-default, inf:sg-call-norm]* {#inf:sg-call-default}

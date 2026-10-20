@@ -1,0 +1,29 @@
+# Round 2 fixes, chapter 8
+
+Context from the round 2 reconcile, which changed the foundation and the spine before this file was written:
+
+- Absence facts. `f:no-drawbacks-asked` and `f:no-interest-statement` now cover SD-4 and every quoted ISO clause, so "the rules ask no ..." is supported for drawbacks, who pays, and interests. Write "no proposal paper" where the claim is about drawbacks, since SD-4 asks a TS or white paper for its must-address controversial issues.
+- Scope. `d:follows-norm` now says what advances in a subgroup, and what Against votes block there, is what happens under a chair who follows the norm and finds no sustained opposition. Do not add that condition to sentences; cite `d:follows-norm`.
+- `ax:support` now says a vote the colleague cannot attribute gives no reason for less ready support.
+- New facts: `f:plenary-polls` (plenary voters and the convenor's polls), `f:report-followup` (file the issue or write the paper), `f:meeting-access` (ISO 5.3.1 on invitation letters, accessibility, and locations), `f:in-situ` (drafts the wording rooms reviewed with the changes applied). Extended facts: `f:minutes` (minute-taking), `f:negative-welcome` (broad understanding), `f:iso-early` (substantial comments tabled at meetings), `f:presenter` (qualified to answer detailed questions).
+- The Theorem now names polling rivals side by side for design room chairs, and ends its first paragraph with a sentence on the choices it leaves open, which each player makes in the way that does best for them given the others' choices. `l:checks-attendance` is cut from the spine and chapter 11.
+- Words. Write "the next edition", not "the next IS"; "subgroup", not "room", where a subgroup is meant; "the 2:1 threshold" or "meeting the 2:1 norm", not "the line"; and in chapter 12, "the model predicts" for every prediction a step states.
+- Length. Each item has at most two sentences of at most 30 words. Where a statement needs more, keep its claim in the item and make each other sentence a child step with its own key, one sentence each.
+- Citations. A child may cite only foundation items, spine items of earlier chapters, earlier items of its own chapter, or its own children.
+- Spine lines below quote statements already changed in this chapter and in `02-spine.md`. Do not edit those statements; make their children prove them, or cut children that no longer serve them. Never soften a plain, sharp, true statement.
+
+## Spine statements changed by the reconcile
+
+l:call-above | spine change, round 2 reconcile | statement changed | The spine statement now reads: "In the case the table below describes, a design room chair ranks declaring consensus above declining on a count above 2:1 after discussion." Make its children prove it, or cut children that no longer serve it. In inf:call-above-norm and inf:call-below-norm, use the caption's added case, that the chair finds no sustained opposition (d:follows-norm), so following the norm declares consensus above 2:1 and declining departs from it. | fixed
+p:chair-confidence | spine change, round 2 reconcile | statement changed | The spine statement now reads: "Of two papers otherwise alike, a chair does better taking up first the one whose author's record of following procedures and responding to review makes them expect fewer problems. That record comes from taking part, which SD-4 expects of an author: presenting the proposal, answering questions, and making the changes the room directs." Make its children prove it, or cut children that no longer serve it. | fixed
+p:plenary-ratifies | spine change, round 2 reconcile | statement changed | The spine statement now reads: "At plenary, design stays with the design rooms, SD-4 gives no weight to objections not escalated in time, and all present are asked for serious design concerns. SD-4 says most polls pass by unanimous consent, and when opposition is significant the convenor usually asks whether Against votes are personal or national body positions." Make its children prove it, or cut children that no longer serve it. | fixed
+t:chair-call | spine change, round 2 reconcile | caption changed | The table's caption and rows now read: "A design room chair's consensus call, when the chair's stake in the proposal is worth less to them than what departing from the 2:1 norm can cost them. Neutral votes are short of a majority of those voting, the chair finds no sustained opposition, and a re-poll fits the norm at any count. Columns: the count after discussion of the Against voters' concerns. Each cell: the chair's rank of the call. 2 is best within each column. / | | Above 2:1 | Not above 2:1 | / |---|---|---| / | **Declare consensus** | **2** | 1 | / | **Decline** | 1 | **2** |" Check that each rank lemma above the table still follows from the caption. | fixed
+
+## Findings
+
+l:plenary-late-weight | rules check, unsupported rule claim (12.2R6) | l:plenary-late-weight puts the national body step under the 5pm deadline, which SD-4 sets only for the email lists | Write "SD-4 says objections not escalated during the week, on the email lists by 5pm the evening before plenary and within a national body, should get no weight there." p:late-objection, which had the same wording, now reads "...only if its holder escalated it during the week, on the email lists by 5pm the evening before and within their national body." in the spine. | fixed
+inf:call-below-norm | reader, negative (12.2D38) | inf:call-below-norm: two negatives | Write "On a count at or below 2:1 after discussion, a chair who follows the norm declines, so declaring consensus departs from it. Declining, after any re-poll, fits the norm." | fixed
+
+## Follow-on edits from findings applied to the foundation or spine
+
+chapter 8 recap | follow-on of 12.2D40 | "which promises fewer problems" | In the recap write "whose record makes them expect fewer problems". | fixed

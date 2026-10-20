@@ -1,0 +1,1191 @@
+# Adversarial log (draft)
+
+Every review finding, with its disposition and reason. Form: ID | reviewer | key | disposition | resolution.
+
+## Step 5, foundation review (2026-10-18)
+
+Reviewers: rules check (R), reader (D), skeptics A (A: design room chair, convenor, author of a large proposal; dispatched under the old name "enormous"), skeptics B (B: employer standards lead, C++ user, national body head). 72 findings: 71 applied to the foundation, 1 (B2) standing but resolved by a spine change already planned. None rejected.
+
+### Rules check
+
+- R1 | rules | f:sg-formation | standing, misquote | whole sentence, keeping the third condition (a strong candidate to chair)
+- R2 | rules | f:ballot-decided | standing, misquote | whole sentences plus "Note: There are two exceptions:"; the exceptions are now f:ballot-new-info and f:no-surprise, each quoted whole
+- R3 | rules | f:near-unanimous | standing, misquote | whole sentence, keeping the final approval ballot condition
+- R4 | rules | f:late-info | standing, misquote | lead-in and both routes quoted whole, keeping the condition on becoming a national position
+- R5 | rules | f:protected | standing, misquote | both sentences, keeping what "these" are and exception (b)
+- R6 | rules | f:wg-oppositions | standing, misquote | renamed f:sustained-def and quoted whole with all three conditions
+
+### Reader
+
+- D1 | reader | ax:repeat | standing, term | "attends most meetings" replaces "attends regularly"
+- D2 | reader | ax:prefer | standing, not inert | "the interests of their sponsor if they have one"
+- D3 | reader | ax:support | standing, term | "a Neutral vote, or not voting"
+- D4 | reader | ax:schedule | standing, not inert | "WG21 plans a new edition ... every three years, and ISO publishes each edition once national bodies approve it"
+- D5 | reader | d:stake | standing, term | new d:player
+- D6 | reader | f:judicious-escalation | standing, judging word in key | renamed f:escalation-allowed
+- D7 | reader | f:bird-in-hand | standing, figure of speech in key | renamed f:no-wait-alternatives
+- D8 | reader | f:sg-incubate | standing, figure of speech in key | renamed f:sg-initial-proposal
+- D9 | reader | f:cast-in-stone | standing, figure of speech in key | renamed f:is-hard-to-change
+- D10 | reader | f:sd4-escalation | standing, not inert | full section title, inner quotation in curly marks, in the parent and each child
+- D11 | reader | f:iso-wg | standing, term | d:national-body now says that in ISO quotations "the committee" means SC22
+- D12 | reader | f:absences | standing, not inert | "Searches of the documents and clauses named in each item below"
+- D13 | reader | f:no-sponsor-cap | standing, not inert | the ISO clauses searched are listed
+- D14 | reader | chapter 1 recap | standing, judging word | "plain" removed
+- D15 | reader | chapter 1 recap | standing, term | "standing" replaces "reciprocity"
+
+### Skeptics A
+
+- A1 | design room chair | ax:prefer | standing, hidden premise | "other things equal" added and new d:does-better; Step 7 "does better" items name the values they compare
+- A2 | design room chair | ax:support | standing, missing check | f:respect-opinions, f:negative-welcome
+- A3 | design room chair | d:positions | standing, overreach | the 2:1 norm now includes "after discussion of the concerns of those voting against"; Appendix C follows this wording
+- A4 | design room chair | f:bird-in-hand | standing, missing check | f:explore-alternatives
+- A5 | design room chair | f:timebox | standing, missing check | whole sentence, keeping the representative overview
+- A6 | design room chair | f:late-info | standing | as R4
+- A7 | design room chair | f:protected | standing | as R5
+- A8 | convenor | ax:cost | standing, missing check | f:remote, f:no-fee
+- A9 | convenor | ax:schedule | standing, not inert | as D4
+- A10 | convenor | d:national-body | standing, overreach at ballot | f:all-nbs-vote; Step 7 ballot items say which national bodies they count
+- A11 | convenor | f:sd4-conduct | standing, missing check | f:no-collusion
+- A12 | convenor | f:plenary-owns | standing, missing check | f:plenary-consent; f:plenary-nb quoted as the whole bullet
+- A13 | convenor | f:ballot-decided | standing | as R2
+- A14 | convenor | f:convenor-term | standing, missing check | whole sentences through the call for candidates
+- A15 | convenor | f:wg-oppositions | standing | as R6
+- A16 | convenor | f:respond-comments | standing, missing check | f:comment-report and f:respond-comments quoted whole; Step 7 keeps f:no-reason-record and f:iso-no-reason-record off national body ballot comments
+- A17 | convenor | f:iso-no-reason-record | standing, missing check | f:minutes-objections
+- A18 | author of a large proposal | d:incumbent | standing, term | "An incumbent on a topic is a design that has passed a direction poll in a subgroup"
+- A19 | author of a large proposal | d:small | standing, ex post definition | "expects its design to be reviewed within one meeting"
+- A20 | author of a large proposal | d:large | standing, ex post definition | "who expect its review to span more than one edition"
+- A21 | author of a large proposal | d:large | standing, hidden premise | length and complexity added; Step 7 items cite the attribute they rely on
+- A22 | author of a large proposal | f:ts-default | standing, missing check | f:competing-ts
+
+### Skeptics B
+
+- B1 | employer standards lead | ax:prefer | standing | as A1
+- B2 | employer standards lead | ax:support | standing, affects later claims | no foundation change; strict Against-over-Neutral claims rest on f:against-reasons and ax:prefer (spine change from triage row I16), and claims resting on standing alone say "does no worse"
+- B3 | employer standards lead | ax:support | standing | as A2
+- B4 | employer standards lead | d:newcomer | standing, term overlap | "who may also be a regular"
+- B5 | employer standards lead | d:incumbent | standing | as A18
+- B6 | employer standards lead | d:large, d:small | standing | as A19 and A20
+- B7 | employer standards lead | f:late-paper | standing, missing check | f:followup-papers
+- B8 | employer standards lead | f:ts-lag | standing, missing check | f:white-paper, f:white-paper-process; Step 7 qualifies p:prefer-is
+- B9 | employer standards lead | f:not-vote | standing, missing check | whole sentences
+- B10 | employer standards lead | f:no-sponsor-cap | standing | as A11
+- B11 | C++ user | ax:cost | standing | as A8
+- B12 | C++ user | ax:prefer | standing, not inert | "the features they use or would use"
+- B13 | C++ user | f:bird-in-hand | standing, missing check | f:show-alternatives, f:explore-alternatives
+- B14 | C++ user | f:timebox | standing | as A5
+- B15 | C++ user | f:protected | standing | as R5
+- B16 | national body head | ax:prefer | standing, not inert | "the outcomes its national position supports"; f:nb-abstain
+- B17 | national body head | ax:schedule | standing | as D4
+- B18 | national body head | d:national-body | standing | as A10
+- B19 | national body head | f:one-vote | standing, missing check | f:pmember-consensus
+- B20 | national body head | f:plenary-owns | standing, missing check | f:wg-consensus quotes the convenor's international capacity
+- B21 | national body head | f:plenary-reason | standing, missing referent | whole sentences from "However, the plenary session participants may ask"
+- B22 | national body head | f:ballot-decided | standing | as R2
+- B23 | national body head | f:late-info | standing | as R4
+- B24 | national body head | f:convenor-term | standing | as A14
+- B25 | national body head | f:iso-register | standing, missing referent | the assessment sentence quoted whole
+- B26 | national body head | f:not-veto | standing, missing check | f:resolve-substantial (ISO 0.7: consensus "requires the resolution of substantial objections")
+- B27 | national body head | f:respond-comments | standing | as A16, with the negative-votes and eight-week rules quoted
+- B28 | national body head | f:iso-no-reason-record | standing, missing check | f:views-summarized, f:minutes-objections
+- B29 | national body head | f:no-sponsor-cap | standing, missing check | f:experts-appointed
+
+## Step 6 prep, re-review of changed items (2026-10-18)
+
+Scope: about 97 changed or new items. 63 findings: 62 applied, 1 (SB4) set aside as a repeat of B2. Test applied to requested checks: a check is added only if it limits an effect a later item will state.
+
+### Rules check (round 2)
+
+- RR1 | rules | f:no-sustained-procedure | standing, unsupported absence claim | narrowed to what holds (SD-4 uses the terms only in the definition, names no step for a sustained opposition as such, gives no criteria, and has no step for registering an opposition); Step 7 compares SD-4's general steps for Against votes and escalation with 2.5.7's three steps
+- RR2 | rules | f:escalate-deadline | standing, misquote | the lead-in that limits the deadline to that week's plenary items is quoted
+
+### Reader (round 2)
+
+- RD1 | reader | d:newcomer | standing, not inert | the expectation test is stated
+- RD2 | reader | d:national-body | standing, term | the quotation note now covers "National Body"
+- RD3 | reader | d:large | standing, not inert | split into two sentences; compared with the paper of any small proposal
+- RD4 | reader | f:show-alternatives | standing, judging word | "SD-4's list under "A good proposal paper should:" includes"
+- RD5 | reader | f:views-summarized | standing, term | "(for WG21, the chair of SC22)"; the quotation note covers "the Chair"
+- RD6 | reader | f:absences | standing, not inert | reworded as absences a search confirms
+- RD7 | reader | f:no-sustained-procedure | standing | as RR1
+
+### Skeptics A (round 2)
+
+- SA1 | design room chair | ax:prefer | standing, hidden premise | participants value "keeping any chair or convenor post they hold"
+- SA2 | design room chair | d:positions | standing, overreach | the 2:1 norm keeps the Neutral caveat and is scoped to subgroup polls
+- SA3 | design room chair | d:incumbent | standing, term | a design that passed a direction poll in a design room and has not failed a later one there; Step 7 rewords p:sg-decides
+- SA4 | design room chair | f:no-paper | standing, missing check | the note on wording issues is quoted
+- SA5 | design room chair | f:late-paper | standing, missing check | f:agenda-papers
+- SA6 | design room chair | f:ts-experience | standing, missing check | the next sentence (TS only for directions WG21 likes) is quoted
+- SA7 | design room chair | f:sd4-escalation | standing, missing check | the first instruction is quoted in f:escalate-deadline
+- SA8 | design room chair | f:plenary-weight | standing, missing check | f:design-concerns-solicited
+- SA9 | design room chair | f:views-summarized | standing | as RD5
+- SA10 | design room chair | f:leadership-judges | standing, missing check | f:chair-judges
+- SA11 | design room chair | f:no-sustained-procedure | standing | as RR1
+- SA12 | convenor | ax:prefer | standing | as SA1
+- SA13 | convenor | d:national-body | standing | as RD2
+- SA14 | convenor | f:ballot-no | standing, missing check | f:no-conditional-yes
+- SA15 | convenor | f:near-unanimous | standing, missing check | f:late-changes
+- SA16 | convenor | f:protected | standing, missing referent | the lead-in and the first list item are quoted
+- SA17 | convenor | f:protected | standing, missing check | f:no-public-comment
+- SA18 | convenor | f:remote | standing, missing check | f:in-person-expected
+- SA19 | convenor | f:guests | standing, term | d:participant says guests are not participants; Step 7's p:who-votes counts guests' votes
+- SA20 | convenor | f:pmember-consensus | standing, missing check | the two-thirds sentence is quoted
+- SA21 | convenor | f:sustained-appeal | standing, missing check | f:appeal quotes 6.1.1 in full; f:appeal-pmember (6.1.2); f:appeal-technical quotes 6.1.3 in full
+- SA22 | convenor | f:competing-ts | standing, missing check | 3.1.2 is quoted
+- SA23 | convenor | f:absences | standing, scope | f:sd4-scope; f:absences names what the proof does not search
+- SA24 | convenor | f:no-sustained-procedure | standing | as RR1 and SA23
+- SA25 | author of a large proposal | d:does-better | standing, invalid step | the option must be no worse on each count and ahead on one
+- SA26 | author of a large proposal | d:large | standing | as RD3
+
+### Skeptics B (round 2)
+
+- SB1 | employer standards lead | ax:repeat | standing, term | d:regular and d:newcomer say "many of the same colleagues"
+- SB2 | C++ user | ax:prefer | standing, not inert | users value "how well those features work"
+- SB3 | national body head | ax:prefer | standing, not inert | a national body values, where it has no position yet, "the interests concerned at its national level"
+- SB4 | employer standards lead | ax:support | set aside, repeat of B2 | resolved by the planned spine change: strict Against-over-Neutral claims rest on f:against-reasons and ax:prefer
+- SB5 | employer standards lead | ax:support | standing, missing check | f:conduct-report, f:good-faith
+- SB6 | national body head | d:national-body | standing | as RD2
+- SB7 | national body head | d:positions | standing | as SA2
+- SB8 | employer standards lead | d:does-better | standing | as SA25
+- SB9 | employer standards lead | d:incumbent | standing, partly adopted | SA3's wording; a topic can still have several incumbents, so Step 7 items say "an incumbent"
+- SB10 | employer standards lead | d:small | standing, scope | the proof draws no conclusion about proposals of neither size
+- SB11 | national body head | f:ts-default | standing, missing check | f:pre-merge
+- SB12 | C++ user | f:ts-experience | standing, missing check | f:ts-feedback
+- SB13 | national body head | f:ballot-no | standing | as SA14
+- SB14 | national body head | f:no-means-no | standing, missing check | f:failed-fdis
+- SB15 | national body head | f:near-unanimous | standing | as SA15
+- SB16 | C++ user | f:protected | standing | as SA16
+- SB17 | C++ user | f:protected | standing | as SA17
+- SB18 | national body head | f:views-summarized | standing | as RD5
+- SB19 | employer standards lead | f:experts-appointed | standing, missing check | the liaison representatives sentence is quoted in f:experts-personal
+- SB20 | national body head | f:guests | standing | as SA19
+- SB21 | national body head | f:pmember-consensus | standing | as SA20
+- SB22 | national body head | f:leadership-judges | standing | as SA10; under 2.5.7 "the leadership" is SC22's, not WG21's chairs or convenor
+- SB23 | national body head | f:sustained-appeal | standing | as SA21
+- SB24 | national body head | f:respond-comments | standing, missing check | f:late-changes covers the final ballot
+- SB25 | national body head | f:competing-ts | standing | as SA22
+- SB26 | employer standards lead | f:absences | standing | as SA23
+- SB27 | national body head | f:no-sustained-procedure | standing | as RR1
+- SB28 | national body head | chapter 1 recap | standing, scope | the recap says the proof does not use the JTC 1 Supplement
+
+## Step 8, spine review (2026-10-19)
+
+Reviewers: logician (8L), reader (8D), skeptics A (8A: design room chair, convenor, author of a large proposal), skeptics B (8B: employer standards lead, C++ user, national body head). 261 findings: logician 103, reader 49, skeptics A 62, skeptics B 47. 253 applied in full or in part, 8 moot because the item they concern was cut, none rejected outright. Every "missing check" finding passed the admission test (the check limits an effect a later item states) except 8B47, whose prediction was cut. Foundation edits made after Checkpoint 1, logged in the ledger: `ax:prefer` now weighs a gain in one value against a loss in another; `ax:review-cost` adds the time to prepare reasons; `d:does-better` is defined by the player's own weighing; `d:reversal` covers subgroup approvals; d:small's sentence on other sizes is deleted; new facts f:agenda-notice, f:direction-opinion, f:spec-subgroups, f:ts-exit-criteria, f:comment-content, f:report-early, f:expert-contact, f:committee-stage, f:comments-noted, f:no-reasons-other; f:failed-fdis and f:no-reason-record extended.
+
+Key changes: l:organized-minority is l:one-third-against, l:backing-filter is l:consensus-test, p:reasons-fade is p:reasons-unrecorded, ind:slices is ind:adopted-parts, ind:priority-compounds is l:plenary-priority, t:push-or-ts is t:is-or-ts, c:pred-slices is c:pred-parts, c:pred-neutral-length is c:pred-abstention-length. New items: p:chair-threshold, p:parts, p:size-attributes. Cut predictions: c:pred-cutoff-margins, c:pred-sg-margins, c:pred-disclosure, c:pred-framing, c:pred-repeat-papers, c:pred-rebuttal-timing, c:pred-repair-authors, c:pred-rival-persistence.
+
+### Logician
+
+- 8L1 | logician | p:path | standing, hidden premise | cites f:vehicle and the new f:spec-subgroups, which name EWG, LEWG, CWG, and LWG
+- 8L2 | logician | p:chair-decides | standing, overreach | "In each design room and wording room"
+- 8L3 | logician | p:sponsor-no-vote | standing, invalid step | limited to a sponsor that is not a liaison organization, "Under the quoted rules"; a liaison representative acts for its organization
+- 8L4 | logician | m:moves-author | standing, hidden premise | the three uncited moves cut; the vehicle move is now asking the design room, which selects
+- 8L5 | logician | m:moves-regular | standing, hidden premise | cites ax:cost, ax:attention, f:negative-welcome
+- 8L6 | logician | m:moves-chair | standing, overreach | moves split by kind of chair; the one-meeting delay is a design room chair's
+- 8L7 | logician | m:moves-user | standing, overreach | a user casts no vote but can give feedback, write a paper a participant presents, raise interests with a national body, or become a participant
+- 8L8 | logician | l:reasons-against | standing, hidden premise | new absence fact f:no-reasons-other, with the terms searched
+- 8L9 | logician | p:against-costs-more | standing, hidden premise | ax:review-cost now says preparing reasons takes time, which makes the cost strictly higher
+- 8L10 | logician | p:stake-threshold | standing, hidden premise | ax:prefer now weighs gains against losses on one scale and d:does-better uses that weighing; every item that weighs a stake against a cost rests on it
+- 8L11 | logician | p:stake-threshold | standing, hidden premise | what the Against vote is worth "through its effect on the poll's outcome or on the changes made in answer to it"; "when, and only when"
+- 8L12 | logician | p:doubt-outside-count | standing, invalid step | follows from the "when, and only when" of p:stake-threshold; not voting via p:against-costs-more and l:neutral-outside
+- 8L13 | logician | p:doubt-outside-count | standing, overreach | "either choice leaves the doubt outside the 2:1 comparison"
+- 8L14 | logician | l:room-size | standing, hidden premise | second clause cut
+- 8L15 | logician | p:prefer-vs-stop | standing, hidden premise | cites f:negative-welcome
+- 8L16 | logician | t:vote-choice | standing, table rank | caption fixes a regular who doubts the proposal; Favor row cut; ranks filled
+- 8L17 | logician | t:mutual-support | standing, table rank | caption states the unless condition and that the other's opposition costs each more than their own opposing does; cites ax:support, ax:prefer; ranks filled
+- 8L18 | logician | l:record-content | standing, overreach | "the record of a poll"
+- 8L19 | logician | l:iso-register-level | standing, hidden premise | the chair of SC22 judges consensus at the committee stage (f:chair-judges, d:national-body); 2.5.7 gives its recommended steps to the leadership without saying whether a convenor applies them
+- 8L20 | logician | p:definition-without-procedure | standing, hidden premise | "defines consensus in terms of sustained opposition, the term ISO 2.5.7 uses"
+- 8L21 | logician | p:definition-without-procedure | standing, overreach | "include", with the plenary steps added
+- 8L22 | logician | l:backing-filter | standing, overreach | now l:consensus-test: the test does not ask whether the objection is correct
+- 8L23 | logician | p:change-list | standing, overreach | "be prepared to name the changes ... or to say that none would"; "to grant or decline"
+- 8L24 | logician | p:record-indistinct | standing, hidden premise | cites f:iso-no-reason-record; "the record that SD-4 and the searched ISO clauses require"
+- 8L25 | logician | p:dissent-needs-paper | standing, hidden premise | "Minutes need not show how an objection was answered"
+- 8L26 | logician | p:dissent-needs-paper | standing, overreach | "the only record ... outside the protected materials", which leaves out the non-public email lists
+- 8L27 | logician | p:reasons-fade | standing, hidden premise | now p:reasons-unrecorded: "no longer voiced at meetings"
+- 8L28 | logician | p:repeat-objection | standing, overreach | a participant who still says the work cannot proceed after a consensus call, and separately the ballot comment that repeats a decided objection
+- 8L29 | logician | p:money-vs-presence | standing, overreach | "does better attending in person only while"
+- 8L30 | logician | p:challenger-bar | standing, overreach | "does better voting for the rival only when"
+- 8L31 | logician | p:challenger-bar | standing, hidden premise | d:reversal now covers a design or decision that WG21 or one of its subgroups approved
+- 8L32 | logician | ind:priority-compounds | standing, overreach | now l:plenary-priority, a child of p:large-position: "comes closer to that last category"
+- 8L33 | logician | p:sponsor-votes | standing, invalid step | appointment and the cap now limit the votes a sponsor adds in WG21's rooms; "At SC22 itself, each national body counts once"
+- 8L34 | logician | p:review-share | standing, overreach | "does better giving ... less close study than a shorter one with the same stake"
+- 8L35 | logician | p:reward-timing | standing, overreach | "can then fall on any user"
+- 8L36 | logician | ind:slices | standing, overreach | now ind:adopted-parts: "a rival to the whole design must replace every part already adopted"
+- 8L37 | logician | p:large-position | standing, overreach | "its authors expect more meetings in which it is polled"; "more work built on each poll it wins" cut
+- 8L38 | logician | l:implementation-informs | standing, overreach | "typically"
+- 8L39 | logician | l:sg-attendance | standing, overreach | "does better attending"; second clause cut
+- 8L40 | logician | p:sg-decides | standing, overreach | "On a topic with a study group ... first polled there"
+- 8L41 | logician | l:sg-purpose | standing, overreach | the recommendation condition restored; "gives the study group the role of producing"
+- 8L42 | logician | l:sg-start | standing, invalid step | cites f:no-wait-alternatives in place of p:incumbent-start
+- 8L43 | logician | p:deadlock | standing, overreach | "under that norm"; the chair's call below the norm and competing TSs added; withdrawal is no longer a listed move
+- 8L44 | logician | p:design-changes | standing, hidden premise | "changes in a way enough of its Against voters accept, for example ..."
+- 8L45 | logician | p:sg-unified | standing, hidden premise | cites f:sg-initial-proposal
+- 8L46 | logician | p:concern-presence | standing, overreach | "A participant attending one room cannot raise a concern in a concurrent room."
+- 8L47 | logician | t:hold-or-yield | standing, table rank | caption states equal stakes, who pays, each group's cost against half its stake, and what yielding means; cites ax:prefer, d:stake; ranks filled
+- 8L48 | logician | l:appointments | standing, hidden premise | cites d:national-body
+- 8L49 | logician | p:chair-default | standing, overreach | "after discussion of the Against voters' concerns"
+- 8L50 | logician | p:chair-no-reasons | standing, overreach | scoped to SD-4 and ISO 1.8.2, 2.5.7, 5.5; f:no-reason-record now covers why a consensus call was made
+- 8L51 | logician | p:private-channel | standing, overreach | "SD-4 does not require a record of the request"
+- 8L52 | logician | p:plenary-ratifies | standing, overreach | "usually ask"
+- 8L53 | logician | p:wording-rooms | standing, overreach | "so the design room decides them"
+- 8L54 | logician | t:chair-call | standing, table rank | new p:chair-threshold; caption fixes a chair whose stake is below the cost of departing and no Neutral majority; ranks filled
+- 8L55 | logician | p:miss-cost | standing, invalid step | "not approved by an edition's feature cutoff"
+- 8L56 | logician | l:cutoff | standing, overreach | "SD-4 treats a ballot comment that requests adding a feature as out of scope"
+- 8L57 | logician | p:one-meeting-cycle | standing, invalid step | "falls at the feature cutoff"
+- 8L58 | logician | p:cutoff-effect | standing, invalid step | "At the feature cutoff"; c:pred-cutoff-margins cut
+- 8L59 | logician | p:prefer-is | standing, invalid step | the room's TS requirement is no longer an exception to the preference: "though the design room may require a TS"
+- 8L60 | logician | p:prefer-is | standing, invalid step | "SD-4 says ISO and SC22 recommend the white paper"
+- 8L61 | logician | t:push-or-ts | standing, table rank | now t:is-or-ts; caption states p:prefer-is's condition; cites f:direction-implement, f:vehicle in place of p:large-position and ind:slices; ranks filled
+- 8L62 | logician | p:burden-flip | standing, overreach | "normally advances once it meets the 2:1 norm"
+- 8L63 | logician | l:ballot-rules | standing, overreach | abstentions and technical reasons limited to the final ballot
+- 8L64 | logician | p:nb-comment | standing, hidden premise | "A national body that values the rest of a document above blocking one feature in it"
+- 8L65 | logician | p:nb-route | standing, overreach | "SD-4 directs new information to the email lists or a national body ballot comment, with a discussion paper"; cites f:escalate-paper
+- 8L66 | logician | p:nb-members | standing, overreach | conditional on the body's own rules, with user feedback item 6
+- 8L67 | logician | t:nb-ballot | standing, table rank | columns by how the body values the document; Abstain row; cites f:ballot-no, f:no-means-no, l:ballot-rules, ax:prefer; ranks filled
+- 8L68 | logician | l:settled-regular | standing, invalid step | p:against-costs-more now compares Favor with Neutral; the lemma gives Favor for a proposal the regular supports and the Against rule for the rest
+- 8L69 | logician | l:settled-regular | standing, hidden premise | all nine settled lemmas now say "Whatever the other players choose", so none rests on choices first stated in the Theorem, which then follows from d:settled-pattern
+- 8L70 | logician | l:settled-large-author | standing, hidden premise | new p:parts compares presenting in parts with one paper
+- 8L71 | logician | l:settled-small-author | standing, invalid step | "while pursuing it is worth more to them than the costs that fall on them"
+- 8L72 | logician | l:settled-sg-chair | standing, hidden premise | p:chair-threshold ties a chair's values to SD-4's norm; m:moves-chair gives the study group chair the polls on which design leaves the group
+- 8L73 | logician | l:settled-design-chair | standing, hidden premise | p:chair-threshold
+- 8L74 | logician | l:settled-design-chair | standing, hidden premise | "record the count and the outcome" cut here and in the Theorem
+- 8L75 | logician | l:settled-convenor | standing, hidden premise | p:chair-threshold covers the convenor's post; "or rests on objections escalated in time" added
+- 8L76 | logician | l:settled-nb | standing, overreach | "to vote No otherwise", matching p:nb-comment's condition
+- 8L77 | logician | l:settled-sponsor | standing, invalid step | "as long as the difference its paid participants make to those decisions is worth more to it than the cost"
+- 8L78 | logician | l:settled-user | standing, invalid step | "stakes in the decisions they could take part in together"
+- 8L79 | logician | p:checks | standing, overreach | "provisions that bear on these effects"
+- 8L80 | logician | p:checks | standing, overreach | "SD-4 says a good paper shows them"
+- 8L81 | logician | thm:settled | standing, invalid step | the regular's rule is stated with the worth of an Against vote, which p:stake-threshold gives as "when, and only when"
+- 8L82 | logician | thm:settled | standing, invalid step | the study group chair's choice is stated; the deadlock clause matches p:deadlock, "under that norm", with the other two endings
+- 8L83 | logician | thm:settled | standing, overreach | large and small authors, design room and study group chairs named separately
+- 8L84 | logician | thm:settled | standing, invalid step | the convenor's and small author's choices added
+- 8L85 | logician | c:pred-sponsor-against | standing, hidden premise | condition that the sponsor's interests include the proposal's adoption; cites ax:prefer, p:stake-threshold
+- 8L86 | logician | c:pred-neutral-length | standing, hidden premise | now c:pred-abstention-length: votes not cast, among proposals with similar stakes; cites f:not-vote
+- 8L87 | logician | c:pred-cutoff-margins | standing, invalid step | cut
+- 8L88 | logician | c:pred-removals | standing, invalid step | one-third clause replaced by national bodies whose No votes could fail a ballot
+- 8L89 | logician | c:pred-sg-margins | standing, hidden premise | cut
+- 8L90 | logician | c:pred-small-fade | standing, overreach | "more often than large proposals do"; cites p:large-position
+- 8L91 | logician | c:pred-disclosure | standing, hidden premise | cut
+- 8L92 | logician | c:pred-framing | standing, hidden premise | cut
+- 8L93 | logician | c:pred-repeat-papers | standing, hidden premise | cut
+- 8L94 | logician | c:pred-rebuttal-timing | standing, hidden premise | cut
+- 8L95 | logician | c:pred-repair-authors | standing, hidden premise | cut
+- 8L96 | logician | c:pred-rival-persistence | standing, invalid step | cut
+- 8L97 | logician | c:pred-nb-positions | standing, hidden premise | cites f:escalate-nb for the caucus and ax:hours for its time
+- 8L98 | logician | c:pred-written-answers | standing, hidden premise | limited to objections other than alternatives and declined directions; cites ax:review-cost, f:show-alternatives, f:direction-implement
+- 8L99 | logician | c:lever-anonymous | standing, overreach | "would shrink for voters who do not speak against the proposal"
+- 8L100 | logician | c:lever-written-answer | standing, hidden premise | prediction now that papers advancing over Against votes would state their objections, which follows from the required answer
+- 8L101 | logician | c:lever-deadlock-rule | standing, overreach | "a deadlock lasting that long would end by that procedure"
+- 8L102 | logician | c:lever-sustained-procedure | standing, overreach | "SD-4 would state a step for assessing and registering an opposition"
+- 8L103 | logician | c:lever-sustained-procedure | standing, hidden premise | "fewer objections raised again at plenary" cut
+
+### Reader
+
+- 8D1 | reader | heading 4 | standing, figure of speech | "What a vote costs the voter"
+- 8D2 | reader | l:organized-minority | standing, motive in key | renamed l:one-third-against
+- 8D3 | reader | p:definition-without-procedure | standing, figure of speech | "defines consensus in terms of sustained opposition"
+- 8D4 | reader | l:backing-filter | standing, figure of speech | "turns on" removed
+- 8D5 | reader | l:backing-filter | standing, not inert | "the test does not ask whether the objection is correct"
+- 8D6 | reader | l:backing-filter | standing, figure of speech in key | renamed l:consensus-test
+- 8D7 | reader | p:persuasion-not-required | standing, not inert | the reader's wording, scoped to WG21's rooms and plenary
+- 8D8 | reader | p:dissent-needs-paper | standing, not inert | "outside the protected materials", which covers the email lists
+- 8D9 | reader | p:reasons-fade | standing, figure of speech in key | renamed p:reasons-unrecorded
+- 8D10 | reader | p:repeat-objection | standing, judging word | "outside the escalation SD-4 allows"
+- 8D11 | reader | p:late-objection | standing, judging word | "including one that brings new information"
+- 8D12 | reader | p:money-vs-presence | standing, motive | "does better attending in person only while"
+- 8D13 | reader | p:challenger-bar | standing, motive | "does better voting for the rival only when"
+- 8D14 | reader | ind:priority-compounds | standing, term | "the next edition", now in l:plenary-priority
+- 8D15 | reader | p:review-share | standing, motive | "the reviewer does better giving ... less close study"
+- 8D16 | reader | p:reward-timing | standing, not inert | "can then fall on any user"
+- 8D17 | reader | ind:slices | standing, figure of speech | "depend on the parts already adopted"
+- 8D18 | reader | ind:slices | standing, figure of speech in key | renamed ind:adopted-parts and c:pred-parts
+- 8D19 | reader | l:implementation-informs | standing, not inert | "SD-4 describes a TS as a way to gain that experience"
+- 8D20 | reader | l:sg-attendance | standing, motive | "does better attending"
+- 8D21 | reader | p:sg-decides | standing, not inert | "On a topic with a study group ... first polled there"
+- 8D22 | reader | p:deadlock | standing, term | "on the other's design as Against"
+- 8D23 | reader | p:deadlock | standing, not inert | "under that norm the deadlock lasts until"
+- 8D24 | reader | p:miss-cost | standing, term | "by"
+- 8D25 | reader | p:one-meeting-cycle | standing, term | "at the feature cutoff"
+- 8D26 | reader | p:cutoff-effect | standing, term | "At the feature cutoff"
+- 8D27 | reader | p:prefer-is | standing, not inert | "does better seeking the IS ..., though the design room may require a TS"
+- 8D28 | reader | p:prefer-is | standing, history | "now" removed; SD-4 says ISO and SC22 recommend the white paper
+- 8D29 | reader | p:prefer-is | standing, figure of speech | "lighter" removed
+- 8D30 | reader | t:push-or-ts | standing, figure of speech | row "Seek the IS", key t:is-or-ts
+- 8D31 | reader | l:nb-comment-limits | standing, figure of speech | "as not in keeping with the ISO Code of Conduct's commitment to accept group decisions"; "conflicting" would say more than SD-4's "out of harmony"
+- 8D32 | reader | l:settled-large-author | standing, not inert | "present the work in parts"
+- 8D33 | reader | p:checks | standing, not inert | the one-third clause stated in full
+- 8D34 | reader | thm:settled | standing, not inert | the regular's Against rule stated with "worth more than its added cost" (see 8L81)
+- 8D35 | reader | thm:settled | standing, not inert | large and small authors separated, each with the lemma's conditions
+- 8D36 | reader | thm:settled | standing, not inert | "present their work in parts"
+- 8D37 | reader | thm:settled | standing, not inert | the study group chair's choice stated in place of "study groups settle contests"
+- 8D38 | reader | thm:settled | standing, figure of speech | "a contest in which no design meets the 2:1 norm"
+- 8D39 | reader | thm:settled | standing, not inert | "depends in part"
+- 8D40 | reader | c:pred-sponsor-against | standing, not inert | the falsifier is now a share: "an Against share no lower on such proposals"
+- 8D41 | reader | c:pred-cutoff-margins | moot | prediction cut (8L87)
+- 8D42 | reader | c:pred-removals | standing, applied in part | the one-third clause is replaced by national bodies whose No votes could fail a ballot (8A53), since the reader's "removal paper that meets the 2:1 norm" would hold of every removal
+- 8D43 | reader | c:pred-disclosure | moot | prediction cut (8L91)
+- 8D44 | reader | c:pred-framing | moot | prediction cut (8L92)
+- 8D45 | reader | c:pred-rebuttal-timing | moot | prediction cut (8L94)
+- 8D46 | reader | c:pred-repair-authors | moot | prediction cut (8L95)
+- 8D47 | reader | c:pred-rival-persistence | moot | prediction cut (8L96)
+- 8D48 | reader | c:lever-deadlock-rule | standing, figure of speech | "a deadlock lasting that long would end by that procedure"
+- 8D49 | reader | c:lever-sustained-procedure | standing, figure of speech | "SD-4 would state a step for assessing and registering an opposition"
+
+### Skeptics A
+
+- 8A1 | design room chair | p:chair-decides | standing | as 8L2; m:moves-chair gives the study group chair the polls on which design leaves the group (f:chair-polls, f:sg-initial-proposal)
+- 8A2 | convenor | p:sponsor-no-vote | standing, applied in part | as 8L3; m:moves-sponsor says a category C liaison sponsor appoints representatives who act for it; "seek liaison status" is not added as a move, since no quoted rule says how
+- 8A3 | design room chair | m:players | standing | the proof takes as given the choices of wording room chairs, participants who are not regulars, and guests, and draws no conclusion about them
+- 8A4 | convenor | m:players | standing | the direction group's choices taken as given in the same sentence
+- 8A5 | author of a large proposal | m:moves-author | standing | split a design into several papers and ask the chair for a poll added; the three uncited moves cut
+- 8A6 | convenor | m:moves-user | standing | as 8L7
+- 8A7 | design room chair | l:reasons-against | standing | as 8L8
+- 8A8 | author of a large proposal | p:stake-threshold | standing | as 8L11; the settled lemma uses the same terms
+- 8A9 | design room chair | l:room-size | standing | as 8L14
+- 8A10 | design room chair | t:vote-choice | standing | as 8L16
+- 8A11 | author of a large proposal | t:mutual-support | standing | rows and columns "refrains" and "opposes", defined in the caption, within the three-word label limit; condition in the caption
+- 8A12 | convenor | l:iso-register-level | standing | worded to hold whether or not a convenor applies 2.5.7's steps, with user feedback item 1
+- 8A13 | convenor | p:definition-without-procedure | standing | the 3-way poll and the convenor's question about national body positions added to SD-4's steps
+- 8A14 | design room chair | l:backing-filter | standing | as 8L22
+- 8A15 | author of a large proposal | p:least-cost-response | standing, applied in part | "at that poll" and the directed-change exception added, and f:direction-implement listed in p:checks; the national body clause is not added because "at that poll" already limits the claim
+- 8A16 | author of a large proposal | p:change-list | standing | "give the author specific changes to grant or decline"
+- 8A17 | design room chair | p:dissent-needs-paper | standing | as 8L26
+- 8A18 | author of a large proposal | p:challenger-bar | standing | as 8L31
+- 8A19 | author of a large proposal | p:early-polls | standing | "An author who values adoption", with the later-review exception (8B4) in the lemma and the Theorem
+- 8A20 | convenor | p:sponsor-votes | standing | both limits stated in the sentence and listed in p:checks
+- 8A21 | author of a large proposal | ind:slices | standing | as 8L36
+- 8A22 | author of a large proposal | p:large-position | standing | "more meetings in which it is polled"
+- 8A23 | design room chair | p:sg-decides | standing | narrowed to topics with a study group; the design room can still poll a rival with a paper
+- 8A24 | design room chair | p:deadlock | standing | the chair's call below the norm and competing TSs added; a new design that replaces both is a design change, already listed
+- 8A25 | design room chair | p:concern-presence | standing | new fact f:report-early, listed in p:checks; p:concern-presence takes the narrower wording of 8L46
+- 8A26 | design room chair | t:hold-or-yield | standing | as 8L47
+- 8A27 | convenor | p:chair-no-reasons | standing | as 8L50; p:private-channel and p:sponsor-no-vote scoped the same way
+- 8A28 | design room chair | p:private-channel | standing | the follow-up poll added
+- 8A29 | design room chair | t:chair-call | standing | as 8L54
+- 8A30 | author of a large proposal | p:miss-cost | standing | as 8L55
+- 8A31 | author of a large proposal | p:miss-cost | standing, missing check | "though it can be published sooner as a white paper, which has no prescribed schedule"; listed in p:checks
+- 8A32 | design room chair | p:one-meeting-cycle | standing | as 8L57
+- 8A33 | author of a large proposal | p:cutoff-effect | standing | as 8L58
+- 8A34 | author of a large proposal | p:prefer-is | standing, applied in part | limited to "an author whose design could reach the IS without a TS"; no statement is added for authors without IS consensus, about whom the proof draws no conclusion
+- 8A35 | convenor | p:burden-flip | standing | new fact f:comment-content; removal by a paper or a national body comment
+- 8A36 | convenor | l:ballot-rules | standing | f:failed-fdis quotes 2.7.7's three outcomes, including cancelling the project
+- 8A37 | convenor | p:nb-comment | standing | the response duty limited to enquiry drafts; final-draft comments kept for the next review (new f:comments-noted); the risk of a No vote is in l:nb-no-scope and t:nb-ballot
+- 8A38 | convenor | p:nb-route | standing | "A serious objection raised or re-raised in plenary"; Against votes in plenary polls are in p:plenary-ratifies
+- 8A39 | convenor | p:nb-members | standing | the f:iso-early clause added and listed in p:checks
+- 8A40 | author of a large proposal | l:settled-large-author | standing | as 8D32
+- 8A41 | design room chair | l:settled-sg-chair | standing | the chair sends on no design as the group's initial proposal when none meets the norm, which leaves competing papers free to reach the design room
+- 8A42 | design room chair | l:settled-design-chair | standing | p:chair-threshold supplies the chair's stake
+- 8A43 | design room chair | l:settled-design-chair | standing | "after discussion of the Against voters' concerns", here and in the Theorem
+- 8A44 | convenor | l:settled-convenor | standing | the convenor's appointments, study groups, and guest invitations taken as given in m:players
+- 8A45 | convenor | l:settled-nb | standing | ISO's encouragement to abstain stated; Abstain row in t:nb-ballot; abstaining in m:moves-nb
+- 8A46 | design room chair | p:checks | standing | as 8L80
+- 8A47 | design room chair | thm:settled | standing | as 8L81
+- 8A48 | design room chair | thm:settled | standing | "on their stakes in it"
+- 8A49 | author of a large proposal | thm:settled | standing | as 8L83
+- 8A50 | design room chair | c:predictions | standing, applied in part | the parent says SD-4 keeps meeting records protected but lets poll results be quoted; a sampling note per prediction is not added, since each names its evidence and Step 12 reviews them again
+- 8A51 | design room chair | c:pred-neutral-length | standing | as 8L86
+- 8A52 | author of a large proposal | c:pred-cutoff-margins | standing | cut
+- 8A53 | convenor | c:pred-removals | standing | the convenor's wording
+- 8A54 | design room chair | c:pred-sg-margins | standing | cut
+- 8A55 | author of a large proposal | c:pred-disclosure | standing | cut
+- 8A56 | author of a large proposal | c:pred-framing | standing | cut
+- 8A57 | design room chair | c:pred-rebuttal-timing | standing | cut
+- 8A58 | design room chair | c:pred-repair-authors | standing | cut
+- 8A59 | author of a large proposal | c:pred-rival-persistence | standing | cut
+- 8A60 | author of a large proposal | c:pred-written-answers | standing | as 8L98
+- 8A61 | design room chair | c:lever-anonymous | standing | shrinks for voters who do not speak; the chair could no longer ask Against voters for reasons
+- 8A62 | design room chair | c:lever-reasons-all | standing | "fewer Neutral votes and more participants not voting"
+
+### Skeptics B
+
+- 8B1 | employer standards lead | l:reasons-against | standing | as 8L8
+- 8B2 | employer standards lead | p:least-cost-response | standing | the directed-change exception added
+- 8B3 | employer standards lead | p:dissent-needs-paper | standing | as 8L26
+- 8B4 | employer standards lead | p:early-polls | standing | "unless the changes that later review is expected to bring cost the author more than becoming the incumbent sooner gains them"
+- 8B5 | employer standards lead | p:sponsor-votes | standing | as 8A20
+- 8B6 | employer standards lead | p:large-position | standing | "polled", which covers polls lost as well as won
+- 8B7 | employer standards lead | p:deadlock | standing | as 8A24
+- 8B8 | employer standards lead | p:burden-flip | standing | as 8L62
+- 8B9 | employer standards lead | p:checks | standing | "prevents the 2:1 norm from being met"
+- 8B10 | employer standards lead | thm:settled | standing | "design room chairs"; wording room chairs taken as given in m:players
+- 8B11 | employer standards lead | c:pred-sponsor-against | standing | stated affiliation as the observable measure of sponsor
+- 8B12 | employer standards lead | c:pred-sponsor-against | standing | share falsifier
+- 8B13 | employer standards lead | c:pred-disclosure | standing | cut
+- 8B14 | employer standards lead | c:pred-framing | standing | cut
+- 8B15 | employer standards lead | c:pred-written-answers | standing | limited to objections other than alternatives and declined directions
+- 8B16 | C++ user | m:moves-user | standing | as 8L7; l:settled-user weighs the cheaper moves
+- 8B17 | C++ user | p:stake-threshold | standing | as 8L11
+- 8B18 | C++ user | l:backing-filter | standing | as 8L22
+- 8B19 | C++ user | p:record-indistinct | standing, missing check | new fact f:ts-exit-criteria, listed in p:checks
+- 8B20 | C++ user | p:reward-timing | standing | the case of implementation before adoption added
+- 8B21 | C++ user | l:settled-small-author | standing | presented in person, remotely where offered, or by another presenter
+- 8B22 | C++ user | l:settled-design-chair | standing | "and Neutral votes are not a majority of those voting", here and in the Theorem
+- 8B23 | C++ user | p:checks | standing | as 8L80
+- 8B24 | C++ user | thm:settled | standing, missing check | new fact f:direction-opinion, listed in p:checks, which the Theorem cites
+- 8B25 | C++ user | c:predictions | standing | as 8A50
+- 8B26 | C++ user | c:pred-neutral-length | standing | as 8L86
+- 8B27 | C++ user | c:pred-cutoff-margins | standing | cut
+- 8B28 | C++ user | c:pred-sg-margins | standing | cut
+- 8B29 | C++ user | c:pred-repair-authors | standing | cut
+- 8B30 | C++ user | c:pred-rival-persistence | standing | cut
+- 8B31 | C++ user | c:lever-reasons-all | standing | as 8A62
+- 8B32 | national body head | m:moves-convenor | standing | guest invitation added; guests vote under f:one-vote, as p:who-votes says, and their choices are taken as given in m:players
+- 8B33 | national body head | l:iso-register-level | standing | as 8A12; p:record-indistinct holds under either reading because 2.5.7's steps are recommended, not required
+- 8B34 | national body head | p:definition-without-procedure | standing | as 8A13, with "names no step as assessing whether an opposition is sustained"
+- 8B35 | national body head | p:persuasion-not-required | standing, missing check | new fact f:committee-stage (2.5.9, 2.5.10), listed in p:checks; the item is scoped to WG21's rooms and plenary
+- 8B36 | national body head | p:reasons-fade | standing, missing check | new fact f:expert-contact, listed in p:checks
+- 8B37 | national body head | p:sg-decides | standing | as 8A23
+- 8B38 | national body head | p:deadlock | standing | competing TSs added
+- 8B39 | national body head | p:concern-presence | standing, missing check | new fact f:agenda-notice; the escalation added to m:moves-nb; listed in p:checks
+- 8B40 | national body head | l:ballot-rules | standing | as 8A36
+- 8B41 | national body head | p:nb-comment | standing | as 8A37
+- 8B42 | national body head | l:settled-nb | standing, applied in part | abstaining added to m:moves-nb, l:settled-nb, and t:nb-ballot from f:nb-abstain; the 1.7.4 sentence on participation is not added, since the move needs no more support
+- 8B43 | national body head | p:checks | standing | "each draft sent for ballot" and "every comment on an enquiry draft"
+- 8B44 | national body head | thm:settled | standing | "Under SD-4 and the clauses of ISO/IEC Directives Part 1 that chapter 1 quotes"; Step 9 searches the JTC 1 Supplement and updates this scope
+- 8B45 | national body head | c:pred-removals | standing | as 8A53
+- 8B46 | national body head | c:pred-repeat-papers | moot | prediction cut (8L93)
+- 8B47 | national body head | c:pred-rebuttal-timing | moot | prediction cut (8L94); the 5.4 check is not added, since no remaining item states the effect it would limit
+
+## Step 12, verify round 1 (2026-10-19)
+
+Reviewers: rules check (12.1R), reader (12.1D), logician (12.1L), skeptics A (12.1A: design room chair, convenor, author of a large proposal), skeptics B (12.1B: employer standards lead, C++ user, national body head). 334 findings: rules check 20, reader 164, logician 57, skeptics A 47, skeptics B 46. Reconciled under the force-keeping rule (plan Step 12, user 13:14): a scope or definition stated once (type 1), an added premise or fact that passes the five-part test (type 2), a narrower subject (type 3), and weaker wording only where the claim was false as stated (type 4); wording fixes that keep the claim exactly are marked wording, and a proof step added with no new premise is marked proof step. Dispositions: applied by the reconcile 173, sent to a chapter fix file 100, merged 48, rejected 13. Fixes by type, applied and sent: type 1 15, type 2 18, type 3 47, type 4 32, wording 160, proof step 1. The ledger's "Step 12, round 1 reconcile" section lists every weakening, the foundation and spine changes, and the global decisions.
+
+### Rules check
+
+- 12.1R1 | rules check | f:no-merit-ruling | unsupported absence claim: "or of judging a design's quality" is contradicted by the direction group's opinions and the design rooms' selecting | applied, type 4: narrowed to ruling: "ruling which side of a technical dispute is correct or how good a design is"; search widened to judg, opinion, select, pursu
+- 12.1R2 | rules check | p:who-decides | unsupported rule claim: p:who-decides says "SD-4 assigns no one to judge a design's quality" | applied, type 4: "SD-4 assigns no one to rule on a design's quality" (headline; force kept: no one rules on quality)
+- 12.1R3 | rules check | p:who-decides | unsupported rule claim: "national bodies ballot only on whole documents" is wider than ISO's votes on questions and appointments | applied, type 3: "national bodies vote on each draft as a whole"
+- 12.1R4 | rules check | ch2 In plain terms | unsupported rule claim: the recap's first sentence says "SD-4 assigns no one to judge a design's quality" | sent to fix-r1-ch02.md, type 4
+- 12.1R5 | rules check | p:against-costs-more | unsupported rule claim: "only Against voters can be asked for reasons" turns an absence into a bar | applied, type 4: "SD-4 tells only Against voters to be ready to give reasons, which take time to prepare" (headline; force kept: the cost asymmetry stands)
+- 12.1R6 | rules check | p:persuasion-not-required | unsupported rule claim: p:persuasion-not-required applies the 2:1 norm at plenary, where SD-4 states no ratio | applied, type 3: "consensus calls, under the 2:1 norm in the rooms and by the convenor at plenary"; p:advance-unanswered matched
+- 12.1R7 | rules check | p:definition-without-procedure | unsupported rule claim: "SD-4's own steps are" reads as a complete list | applied, type 4: "SD-4's own steps for an objection include" (force kept: the first sentence makes the claim)
+- 12.1R8 | rules check | l:records-protected | unsupported rule claim: l:records-protected says "meeting records" where SD-4 protects "records of subgroup discussion" | sent to fix-r1-ch04.md, type 3
+- 12.1R9 | rules check | l:minutes-others | unsupported rule claim: l:minutes-others: an objection to minutes leaves them unconfirmed until the next meeting, so the officer alone does not settle what minutes keep | sent to fix-r1-ch04.md, type 4
+- 12.1R10 | rules check | inf:call-above-norm | unsupported rule claim: inf:call-above-norm treats a re-poll above 2:1 as a departure, but the norm itself includes "possibly a re-poll" | sent to fix-r1-ch08.md, type 4
+- 12.1R11 | rules check | inf:call-below-norm | unsupported rule claim: inf:call-below-norm reads "normally advances if" as a necessary condition | sent to fix-r1-ch08.md, type 1
+- 12.1R12 | rules check | p:written-answer | unsupported rule claim: p:written-answer omits the Disposition of Comments SD-4 requires for a TS ballot's comments | applied, type 2: third exception added, with new fact f:ts-disposition
+- 12.1R13 | rules check | l:norm-forwarding | unsupported rule claim: l:norm-forwarding puts an "only" into the norm | sent to fix-r1-ch10.md, type 1
+- 12.1R14 | rules check | inf:directed-change | unsupported rule claim: inf:directed-change's "unless the author defends the decision with new information" is not in SD-4 | sent to fix-r1-ch11.md, type 4
+- 12.1R15 | rules check | thm:settled | unsupported rule claim: the Theorem's "The rules ask no author to state a trade-off" overlooks SD-4's request to show why alternatives were not pursued | applied, type 4: "The rules ask no author to state their own design's drawbacks" (Theorem; force kept)
+- 12.1R16 | rules check | l:thm-disclosure | unsupported rule claim: l:thm-disclosure repeats "ask no author to state a trade-off" | sent to fix-r1-ch11.md, type 4
+- 12.1R17 | rules check | ch11 In plain terms | unsupported rule claim: the chapter recap repeats "ask no author to state a trade-off" | sent to fix-r1-ch11.md, type 4
+- 12.1R18 | rules check | c:predictions | unsupported rule claim: c:predictions says SD-4 keeps "meeting records" protected | applied, type 3: "SD-4 keeps records of subgroup discussion password-protected"
+- 12.1R19 | rules check | c:lever-reasons-all | unsupported rule claim: c:lever-reasons-all treats the present rule as barring a chair from asking others | applied, type 3: "If SD-4 asked voters of every position to be ready to give reasons when the chair asks"
+- 12.1R20 | rules check | inf:nm-unsettled | unsupported rule claim: inf:nm-unsettled: "only when it holds no national position" is in neither SD-4 nor l:settled-convenor | sent to fix-r1-ch12.md, type 4
+
+### Reader
+
+- 12.1D1 | reader | ax:prefer | long: ax:prefer's first sentence is 49 words | applied, wording: applied in part: shortened to 33 words ("Other things equal, each participant ... prefers whatever brings it more of what it values, sooner and at less cost to it, weighing gains against losses on one scale of its own"); the value list stays one sentence (12.1D2)
+- 12.1D2 | reader | ax:prefer | long: ax:prefer's value list is 100 words | rejected: moving the list to its own axiom changes no claim and would force 87 chapter citations of ax:prefer to change; the list is scanned, not parsed
+- 12.1D3 | reader | d:positions | long: d:positions is 49 words | applied, wording: the 2:1 norm sentence is 30 words; following the norm moved to the new d:follows-norm
+- 12.1D4 | reader | d:positions | term: d:positions term: "those voting against ... in favor as against" | applied, wording: "after discussion of Against voters' concerns, its Favor votes in a subgroup poll exceed twice its Against votes"
+- 12.1D5 | reader | f:absences | long: f:absences is 48 words | applied, wording: split into two sentences
+- 12.1D6 | reader | f:no-sustained-procedure | long: f:no-sustained-procedure is 45 words | applied, wording: split into two sentences, source unchanged
+- 12.1D7 | reader | f:no-paper-objections | long: f:no-paper-objections is 46 words | applied, wording: split into two sentences, source unchanged
+- 12.1D8 | reader | 01-foundation In plain terms | long: the foundation recap's first sentence is 46 words | applied, wording: split; the recap has three sentences
+- 12.1D9 | reader | p:who-decides | figure of speech: p:who-decides: "the study groups feeding them" is a figure of speech | applied, wording: "the study groups that send them proposals"
+- 12.1D10 | reader | p:who-votes | not inert: p:who-votes: "casts one vote" claims everyone votes | applied, type 4: "has one vote" (headline; force kept)
+- 12.1D11 | reader | m:moves-chair | long: m:moves-chair first sentence: "and poll whether to go on" repeats choosing the polls | applied, wording: cut
+- 12.1D12 | reader | m:moves-chair | long: m:moves-chair second sentence is 47 words | applied, wording: applied in part: 33 words, item kept at two sentences
+- 12.1D13 | reader | m:moves-sponsor | dull: m:moves-sponsor: "a category C liaison's representatives act for it" is unclear | applied, wording: "a sponsor that is a category C liaison has representatives who act for it"
+- 12.1D14 | reader | ch-02 In plain terms | long: the recap's second sentence is 31 words | sent to fix-r1-ch02.md, wording
+- 12.1D15 | reader | l:neutral-outside | negative: l:neutral-outside is in the negative form | applied, wording: "The 2:1 comparison counts only Favor and Against votes, though SD-4 says a Neutral majority of those voting can be concerning."
+- 12.1D16 | reader | p:against-costs-more | not inert: p:against-costs-more: "only Against voters can be asked for reasons" | merged with 12.1R5
+- 12.1D17 | reader | p:doubt-outside-count | tautology: p:doubt-outside-count holds by definition ("only if it is worth the extra cost") | applied, wording: names what makes it true: "a regular does better voting Against only when the change that vote can make outweighs the standing and time it costs"
+- 12.1D18 | reader | p:doubt-outside-count | figure of speech: p:doubt-outside-count: "doubt ... enters the 2:1 count" is a figure of speech | merged with 12.1D17
+- 12.1D19 | reader | l:vote-below | tautology: l:vote-below holds by definition | applied, wording: cut with t:vote-choice; its citers now cite p:doubt-outside-count
+- 12.1D20 | reader | inf:below-rank | tautology: inf:below-rank holds by definition | applied, wording: cut with its parent l:vote-below
+- 12.1D21 | reader | l:vote-above | tautology: l:vote-above holds by definition | applied, wording: cut; citers re-pointed to p:doubt-outside-count
+- 12.1D22 | reader | inf:above-rank | tautology: inf:above-rank holds by definition | applied, wording: cut with its parent l:vote-above
+- 12.1D23 | reader | t:vote-choice | tautology: t:vote-choice ranks the option worth more above the one worth less | applied, wording: table and its citation line cut; the proof now has five tables
+- 12.1D24 | reader | p:mutual-support | motive: p:mutual-support: "neither opposes" states what regulars do | applied, wording: "each does better refraining whatever the other does"
+- 12.1D25 | reader | l:mutual-refrain | tautology: l:mutual-refrain holds by definition | applied, wording: now states the costs (standing and time) against what the vote can change
+- 12.1D26 | reader | inf:refrain-rank | tautology: inf:refrain-rank only applies d:does-better | sent to fix-r1-ch03.md, wording
+- 12.1D27 | reader | inf:own-vs-other-rank | tautology: inf:own-vs-other-rank only applies d:does-better | sent to fix-r1-ch03.md, wording
+- 12.1D28 | reader | t:mutual-support | long: t:mutual-support's caption first sentence is 38 words | applied, wording: caption split into sentences with the strict "by less than" condition (global decision 2)
+- 12.1D29 | reader | ch-03 In plain terms | long: recap first sentence is 39 words | sent to fix-r1-ch03.md, wording
+- 12.1D30 | reader | ch-03 In plain terms | long: recap second sentence is 32 words | sent to fix-r1-ch03.md, wording
+- 12.1D31 | reader | ch-03 In plain terms | figure of speech: recap: "a doubt enters the count" is a figure of speech | sent to fix-r1-ch03.md, wording
+- 12.1D32 | reader | ch-03 In plain terms | long: recap third sentence is 44 words | sent to fix-r1-ch03.md, wording
+- 12.1D33 | reader | ch-03 In plain terms | motive: recap: "neither opposes" states what regulars do | sent to fix-r1-ch03.md, wording
+- 12.1D34 | reader | p:definition-without-procedure | long: p:definition-without-procedure first sentence is 37 words | applied, wording: 32 words; "turns on" replaced by "marked by"
+- 12.1D35 | reader | p:definition-without-procedure | long: p:definition-without-procedure second sentence is 33 words | applied, wording: applied in part (31 words) with 12.1R7's "include"
+- 12.1D36 | reader | p:change-list | figure of speech: p:change-list: "weighs in the poll only as a vote" is a figure of speech | applied, wording: "counts in the poll only as a vote"
+- 12.1D37 | reader | p:fluency | negative: p:fluency: "No design is considered on merit alone" is a negative form | applied, wording: "Every design needs more than merit to be considered"
+- 12.1D38 | reader | ch-04 In plain terms | long: recap first sentence is 35 words | sent to fix-r1-ch04.md, wording
+- 12.1D39 | reader | ch-04 In plain terms | long: recap second sentence is 41 words | sent to fix-r1-ch04.md, wording
+- 12.1D40 | reader | ch-05 heading | figure of speech: the chapter 5 heading "Momentum" is a figure of speech | applied, wording: heading now "5. Incumbents and the cost of reversal" in the spine and the chapter
+- 12.1D41 | reader | p:challenger-bar | figure of speech: p:challenger-bar: "hurdle" is a figure of speech | applied, wording: "The advantage a rival needs grows with each decision built on the incumbent, while keeping the incumbent needs none."
+- 12.1D42 | reader | ch-05 In plain terms | long: recap first sentence is 41 words | sent to fix-r1-ch05.md, wording
+- 12.1D43 | reader | ch-05 In plain terms | long: recap second sentence is 42 words | sent to fix-r1-ch05.md, wording
+- 12.1D44 | reader | ch-05 In plain terms | long: recap third sentence is 41 words | sent to fix-r1-ch05.md, wording
+- 12.1D45 | reader | p:small-position | tautology: p:small-position: "SD-4's statement ... applies to them" holds by definition | applied, wording: "Where a study group incubates proposals on its topic, a small proposal can start there" (EWGI and LEWGI cut, global decision 6)
+- 12.1D46 | reader | ch-06 In plain terms | long: recap second sentence is 35 words | sent to fix-r1-ch06.md, wording
+- 12.1D47 | reader | p:attrition | motive: p:attrition: "the first holds and the second yields" states what groups do | applied, wording: "the first does better holding and the second yielding"
+- 12.1D48 | reader | l:hold-yield-both-hold | term: l:hold-yield-both-hold term: "Members" | applied, wording: "A group's participants whose costs sponsors pay"
+- 12.1D49 | reader | inf:whole-rank | obvious: inf:whole-rank is obvious | sent to fix-r1-ch07.md, wording
+- 12.1D50 | reader | inf:half-beats-deadlock | obvious: inf:half-beats-deadlock is obvious | sent to fix-r1-ch07.md, wording
+- 12.1D51 | reader | inf:half-rank | obvious: inf:half-rank is obvious | sent to fix-r1-ch07.md, wording
+- 12.1D52 | reader | inf:cheap-rank | obvious: inf:cheap-rank is obvious | sent to fix-r1-ch07.md, wording
+- 12.1D53 | reader | inf:costly-rank | obvious: inf:costly-rank is obvious | sent to fix-r1-ch07.md, wording
+- 12.1D54 | reader | t:hold-or-yield | long: t:hold-or-yield caption is 34 words | applied, wording: caption split, with 12.1L24's stated thresholds
+- 12.1D55 | reader | ch-07 In plain terms | long: recap first sentence is 41 words | sent to fix-r1-ch07.md, wording
+- 12.1D56 | reader | ch-07 In plain terms | long: recap second sentence is 52 words | sent to fix-r1-ch07.md, wording
+- 12.1D57 | reader | ch-07 In plain terms | long: recap third sentence is 40 words | sent to fix-r1-ch07.md, wording
+- 12.1D58 | reader | ch-07 In plain terms | motive: recap: "the first holds and the second yields" | sent to fix-r1-ch07.md, wording
+- 12.1D59 | reader | p:chair-default | motive: p:chair-default: "makes the call the norm gives" states what chairs do | applied, wording: "does better following the norm"
+- 12.1D60 | reader | t:chair-call | long: t:chair-call caption is 37 words | applied, wording: caption split; rows now "Declare consensus" and "Decline"
+- 12.1D61 | reader | ch-08 In plain terms | long: recap first sentence is 36 words | sent to fix-r1-ch08.md, wording
+- 12.1D62 | reader | ch-08 In plain terms | motive: recap: "makes the call the norm gives" | sent to fix-r1-ch08.md, wording
+- 12.1D63 | reader | ch-08 In plain terms | long: recap second sentence is 34 words | sent to fix-r1-ch08.md, wording
+- 12.1D64 | reader | ch-09 In plain terms | long: recap first sentence is 32 words | sent to fix-r1-ch09.md, wording
+- 12.1D65 | reader | ch-09 In plain terms | long: recap second sentence is 40 words | sent to fix-r1-ch09.md, wording
+- 12.1D66 | reader | l:ballot-rules | long: l:ballot-rules first sentence is 39 words | applied, wording: two sentences of 32 and 31 words, every rule kept
+- 12.1D67 | reader | t:nb-ballot | long: t:nb-ballot caption is 38 words | applied, wording: caption split, with the case definitions of 12.1B38 and 12.1A25
+- 12.1D68 | reader | l:incits-votes | long: l:incits-votes is 61 words | applied, wording: split into l:incits-votes (counting) and the new spine child l:incits-positions (forming positions)
+- 12.1D69 | reader | ch-10 In plain terms | long: recap first sentence is 38 words | sent to fix-r1-ch10.md, wording
+- 12.1D70 | reader | ch-10 In plain terms | long: recap second sentence is 34 words | sent to fix-r1-ch10.md, wording
+- 12.1D71 | reader | l:settled-regular | long: l:settled-regular first sentence is 34 words | applied, wording: 15 and 30 words
+- 12.1D72 | reader | l:settled-regular | negative: l:settled-regular: "does no better than" is a negative form | applied, wording: "does best" (d:does-better now defines it as no other option worth more)
+- 12.1D73 | reader | l:settled-regular | tautology: l:settled-regular: "Against does best only when worth more than its added cost" holds by definition | applied, wording: "only when the change it can make outweighs the standing and time it costs"
+- 12.1D74 | reader | l:settled-regular | long: l:settled-regular second sentence is 40 words | applied, wording: reasons left to its children
+- 12.1D75 | reader | l:settled-design-bound | long: l:settled-design-bound first sentence is 46 words | applied, wording: applied in part: 38 words; the item lists six choices in two sentences
+- 12.1D76 | reader | l:settled-design-bound | negative: l:settled-design-bound: "does no better than" | applied, wording: "does best"
+- 12.1D77 | reader | l:settled-design-bound | long: l:settled-design-bound second sentence is 46 words | applied, wording: applied in part: 43 words with 12.1L40's and 12.1A39's conditions
+- 12.1D78 | reader | l:settled-design-bound | negative: l:settled-design-bound: "does no better than" | applied, wording: "does best"
+- 12.1D79 | reader | l:bound-early | negative: l:bound-early: "does no better than" | sent to fix-r1-ch11.md, wording
+- 12.1D80 | reader | l:bound-omit | negative: l:bound-omit: "does no better than" | sent to fix-r1-ch11.md, wording
+- 12.1D81 | reader | l:bound-no-losing-poll | negative: l:bound-no-losing-poll: "does no better than" | sent to fix-r1-ch11.md, wording
+- 12.1D82 | reader | l:bound-cheapest | negative: l:bound-cheapest: "does no better than" | sent to fix-r1-ch11.md, wording
+- 12.1D83 | reader | l:settled-result-seeking | long: l:settled-result-seeking first sentence is 38 words | applied, wording: 29 words
+- 12.1D84 | reader | l:settled-result-seeking | negative: l:settled-result-seeking: "does no better than" | applied, wording: "does best"
+- 12.1D85 | reader | l:settled-result-seeking | long: l:settled-result-seeking second sentence is 47 words | applied, wording: applied in part: 39 words
+- 12.1D86 | reader | l:settled-result-seeking | negative: l:settled-result-seeking: "does no better than" | applied, wording: "does best"
+- 12.1D87 | reader | t:disclose | long: t:disclose caption is 55 words | applied, wording: split into sentences
+- 12.1D88 | reader | l:settled-small-author | long: l:settled-small-author first sentence is 40 words | applied, wording: presenter list left to l:small-presenter
+- 12.1D89 | reader | l:settled-small-author | negative: l:settled-small-author: "does no better than to keep it presented" | applied, wording: "does best keeping it presented"
+- 12.1D90 | reader | l:settled-small-author | negative: l:settled-small-author: "does no better than to let it stop" | applied, wording: "does best letting it stop"
+- 12.1D91 | reader | l:settled-sg-chair | long: l:settled-sg-chair first sentence is 39 words | applied, wording: 30 words
+- 12.1D92 | reader | l:settled-sg-chair | negative: l:settled-sg-chair: "does no better than" | applied, wording: "does best"
+- 12.1D93 | reader | l:sg-side-by-side | negative: l:sg-side-by-side: "does no better than" | sent to fix-r1-ch11.md, wording
+- 12.1D94 | reader | l:settled-design-chair | long: l:settled-design-chair first sentence is 49 words | applied, wording: "does best following the 2:1 norm after discussion" (d:follows-norm holds the call for each count)
+- 12.1D95 | reader | l:settled-design-chair | negative: l:settled-design-chair: "does no better than" | applied, wording: "does best"
+- 12.1D96 | reader | l:settled-design-chair | negative: l:settled-design-chair: "does no better than" | applied, wording: "does best"
+- 12.1D97 | reader | l:settled-convenor | negative: l:settled-convenor: "does no better than" | applied, wording: "does best"
+- 12.1D98 | reader | l:settled-nb | negative: l:settled-nb: "does no better than" | applied, wording: "does best"
+- 12.1D99 | reader | l:settled-nb | negative: l:settled-nb: "does no better than" | applied, wording: "does best"
+- 12.1D100 | reader | l:nb-no | negative: l:nb-no: "does no better than to vote No" | sent to fix-r1-ch11.md, wording
+- 12.1D101 | reader | l:nb-early | negative: l:nb-early: "does no better than" | sent to fix-r1-ch11.md, wording
+- 12.1D102 | reader | l:settled-sponsor | negative: l:settled-sponsor: "does no better than" | applied, wording: "does best"
+- 12.1D103 | reader | l:settled-user | tautology: l:settled-user: "the move with the largest positive net gain" holds by definition | applied, wording: now states the asymmetry: the full price borne alone against a gain that goes to all users
+- 12.1D104 | reader | l:settled-user | long: l:settled-user first sentence is 38 words | applied, wording: 35 words, with 12.1B23's narrower subject
+- 12.1D105 | reader | l:settled-user | negative: l:settled-user: "does no better than" | applied, wording: "does best"
+- 12.1D106 | reader | l:settled-user | long: l:settled-user second sentence is 33 words | applied, wording: 24 words
+- 12.1D107 | reader | l:checks-record | long: l:checks-record first sentence is 47 words | applied, wording: applied in part: 39 words, every check kept
+- 12.1D108 | reader | l:checks-record | long: l:checks-record second sentence is 49 words | applied, wording: applied in part: 46 words, every check kept; a shorter split would drop checks it cites
+- 12.1D109 | reader | l:sg-call | motive: l:sg-call: "makes the call that norm gives" states what chairs do | sent to fix-r1-ch11.md, wording
+- 12.1D110 | reader | inf:sg-call-default | motive: inf:sg-call-default: "makes the call the norm gives" | sent to fix-r1-ch11.md, wording
+- 12.1D111 | reader | thm:settled | tautology: thm:settled: "In it, no player improves their position by changing only their own choice" restates d:settled-pattern | applied, wording: sentence cut
+- 12.1D112 | reader | thm:settled | tautology: thm:settled: the regular's Against clause holds by definition | applied, wording: "Against one they doubt only when the change that vote can make outweighs the standing and time it costs"
+- 12.1D113 | reader | thm:settled (second paragraph) | dull: thm:settled: "these obstacles" has no antecedent | applied, wording: names them: a paper or ballot comment meeting the 2:1 norm, a grown reversal cost, and unwritten objections kept only in memory
+- 12.1D114 | reader | thm:settled (second paragraph) | judging word: thm:settled: "a hidden flaw" is a judging word | applied, wording: "a flaw found only in implementation and use" (global decision 1)
+- 12.1D115 | reader | l:thm-costs-gains | judging word: l:thm-costs-gains: "a hidden flaw" | sent to fix-r1-ch11.md, wording
+- 12.1D116 | reader | inf:thm-deadlock | motive: inf:thm-deadlock: "the first holds and the second yields" | sent to fix-r1-ch11.md, wording
+- 12.1D117 | reader | inf:thm-incumbent-edge | figure of speech: inf:thm-incumbent-edge: "faces no reversal hurdle" | sent to fix-r1-ch11.md, wording
+- 12.1D118 | reader | inf:thm-authors-regulars | negative: inf:thm-authors-regulars: "do no better than" | sent to fix-r1-ch11.md, wording
+- 12.1D119 | reader | inf:thm-others | negative: inf:thm-others: "do no better than" | sent to fix-r1-ch11.md, wording
+- 12.1D120 | reader | ch-11 In plain terms | long: recap first sentence is 43 words | sent to fix-r1-ch11.md, wording
+- 12.1D121 | reader | ch-11 In plain terms | tautology: recap: "no player improves their position" holds by definition | sent to fix-r1-ch11.md, wording
+- 12.1D122 | reader | c:predictions | judging word: c:predictions: "an innocent explanation" judges | applied, wording: "another explanation" (global decision 1)
+- 12.1D123 | reader | c:pred-sponsor-against | motive: c:pred-sponsor-against reads as what voters do | applied, wording: "the model predicts"
+- 12.1D124 | reader | c:pred-sponsor-against | long: c:pred-sponsor-against first sentence is 61 words | applied, wording: applied in part: two sentences of 37 and 39 words
+- 12.1D125 | reader | c:pred-sponsor-against | judging word: c:pred-sponsor-against: "An innocent explanation" | applied, wording: the other explanation is named, shared technical views
+- 12.1D126 | reader | c:pred-sponsor-against | long: c:pred-sponsor-against second sentence is 43 words | applied, wording: applied in part, with 12.1A44's comparison
+- 12.1D127 | reader | c:pred-abstention-length | motive: c:pred-abstention-length reads as what participants do | applied, wording: "the model predicts"
+- 12.1D128 | reader | c:pred-abstention-length | judging word: c:pred-abstention-length: "An innocent explanation" | applied, wording: "another explanation"
+- 12.1D129 | reader | c:pred-parts | motive: c:pred-parts reads as what authors do | applied, wording: "The model predicts that large proposals tend to arrive as sequences of papers" (global decision 7)
+- 12.1D130 | reader | c:pred-parts | judging word: c:pred-parts: "An innocent explanation" | applied, wording: "Another explanation"
+- 12.1D131 | reader | c:pred-first-part | motive: c:pred-first-part reads as what authors do | applied, wording: "The model predicts"
+- 12.1D132 | reader | c:pred-first-part | long: c:pred-first-part first sentence is 42 words | applied, wording: applied in part: 39 words
+- 12.1D133 | reader | c:pred-first-part | judging word: c:pred-first-part: "An innocent explanation" | applied, wording: "Another explanation"
+- 12.1D134 | reader | c:pred-first-part | long: c:pred-first-part second sentence is 38 words | applied, wording: 28 words with 12.1A47's test
+- 12.1D135 | reader | inf:fp-tell-apart | judging word: inf:fp-tell-apart: "favors the innocent explanation" | sent to fix-r1-ch12.md, wording
+- 12.1D136 | reader | c:pred-rival-polls | motive: c:pred-rival-polls reads as what authors and chairs do | applied, wording: "The model predicts"
+- 12.1D137 | reader | c:pred-rival-polls | long: c:pred-rival-polls first sentence is 47 words | applied, wording: applied in part with the restated prediction (12.1L53)
+- 12.1D138 | reader | c:pred-rival-polls | judging word: c:pred-rival-polls: "An innocent explanation" | applied, wording: "Another explanation"
+- 12.1D139 | reader | c:pred-removals | motive: c:pred-removals reads as a claim about the record | applied, wording: "The model predicts rare removals"
+- 12.1D140 | reader | c:pred-removals | long: c:pred-removals first sentence is 52 words | applied, wording: applied in part: 36 words
+- 12.1D141 | reader | c:pred-removals | judging word: c:pred-removals: "An innocent explanation" | applied, wording: "another explanation"
+- 12.1D142 | reader | inf:rm-tell-apart | judging word: inf:rm-tell-apart: "the innocent explanation predicts" | sent to fix-r1-ch12.md, wording
+- 12.1D143 | reader | inf:sf-small | negative: inf:sf-small: "does no better than to stop presenting it" | sent to fix-r1-ch12.md, wording
+- 12.1D144 | reader | c:pred-small-fade | motive: c:pred-small-fade reads as what authors do | applied, wording: "The model predicts"
+- 12.1D145 | reader | c:pred-small-fade | judging word: c:pred-small-fade: "An innocent explanation" | applied, wording: "Another explanation"
+- 12.1D146 | reader | c:pred-nb-positions | motive: c:pred-nb-positions reads as what national bodies do | applied, wording: "The model predicts"
+- 12.1D147 | reader | c:pred-nb-positions | judging word: c:pred-nb-positions: "An innocent explanation" | applied, wording: "Another explanation"
+- 12.1D148 | reader | c:pred-written-answers | motive: c:pred-written-answers reads as what authors do | applied, wording: "The model predicts"
+- 12.1D149 | reader | c:pred-written-answers | long: c:pred-written-answers first sentence is 45 words | applied, wording: applied in part: 35 words
+- 12.1D150 | reader | c:pred-written-answers | judging word: c:pred-written-answers: "An innocent explanation" | applied, wording: "Another explanation"
+- 12.1D151 | reader | inf:wa-tell-apart | judging word: inf:wa-tell-apart: "favor the innocent explanation" | sent to fix-r1-ch12.md, wording
+- 12.1D152 | reader | c:pred-defects | motive: c:pred-defects reads as a claim about features | applied, wording: "the model predicts"
+- 12.1D153 | reader | c:pred-defects | long: c:pred-defects first sentence is 45 words | applied, wording: applied in part: 42 words with the groups defined at the forwarding poll
+- 12.1D154 | reader | c:pred-defects | judging word: c:pred-defects: "An innocent explanation" | applied, wording: "another explanation"
+- 12.1D155 | reader | c:pred-defects | long: c:pred-defects second sentence is 38 words | applied, wording: 30 words
+- 12.1D156 | reader | inf:de-tell-apart | judging word: inf:de-tell-apart: "none favors the innocent explanation" | sent to fix-r1-ch12.md, wording
+- 12.1D157 | reader | c:pred-competing | motive: c:pred-competing reads as a claim about topics | applied, wording: "the model predicts"
+- 12.1D158 | reader | c:pred-competing | long: c:pred-competing first sentence is 48 words | applied, wording: applied in part: 39 words
+- 12.1D159 | reader | c:pred-competing | judging word: c:pred-competing: "An innocent explanation" | applied, wording: "another explanation"
+- 12.1D160 | reader | inf:co-tell-apart | judging word: inf:co-tell-apart: "none favors the innocent explanation" | sent to fix-r1-ch12.md, wording
+- 12.1D161 | reader | c:lever-reasons-all | not inert: c:lever-reasons-all: "If a chair could ask" | merged with 12.1R19
+- 12.1D162 | reader | ch-12 In plain terms | long: recap first sentence is 44 words | sent to fix-r1-ch12.md, wording
+- 12.1D163 | reader | ch-12 In plain terms | judging word: recap: "an innocent explanation" | sent to fix-r1-ch12.md, wording
+- 12.1D164 | reader | ch-12 In plain terms | long: recap third sentence is 37 words | sent to fix-r1-ch12.md, wording
+
+### Logician
+
+- 12.1L1 | logician | p:who-decides | overreach: p:who-decides: "the participants present decide" says more than chairs' calls with the votes as a normal guide | applied, type 1: d:follows-norm states once that what advances in a subgroup describes a chair who follows the norm, so the plain claim stands
+- 12.1L2 | logician | p:who-votes | overreach: p:who-votes: "casts one vote" | merged with 12.1D10
+- 12.1L3 | logician | m:moves-chair | hidden premise: m:moves-chair: "a study group chair polls which design leaves" states an unsupported procedure | applied, type 4: "study group chairs can poll which design to send on" (force kept); inf:sg-call-norm follows in chapter 11
+- 12.1L4 | logician | p:against-costs-more | overreach: p:against-costs-more: "only Against voters can be asked" | merged with 12.1R5; p:prefer-vs-stop's "draws no request for reasons" restated in the spine as "is a vote SD-4 asks no one to be ready to explain"
+- 12.1L5 | logician | p:definition-without-procedure | overreach: p:definition-without-procedure: "SD-4's own steps are" | merged with 12.1R7
+- 12.1L6 | logician | p:least-cost-response | invalid step: p:least-cost-response: "Finding out whether those objectors are right leaves that count unchanged" does not follow, since learning can change votes | applied, type 4: "The count measures votes, not whether the objectors are right" (headline; force kept)
+- 12.1L7 | logician | l:reason-fades | invalid step: l:reason-fades: hearers who stop attending can still pass on what they heard | sent to fix-r1-ch04.md, type 4
+- 12.1L8 | logician | l:rules-by-attending | overreach: l:rules-by-attending: SD-4 writes these rules down, so only how they are applied is learned only by attending | sent to fix-r1-ch04.md, type 3
+- 12.1L9 | logician | p:newcomer | hidden premise: p:newcomer: no cited item says WG21 runs EWGI or LEWGI | applied, type 4: names cut, since no extract text names them (global decision 6): "Where a study group incubates proposals on its topic, a newcomer's early proposal can start there" (force kept)
+- 12.1L10 | logician | l:rival-reversal | invalid step: l:rival-reversal: a directed change puts a direction poll's approval into effect rather than reversing it | sent to fix-r1-ch05.md, type 2
+- 12.1L11 | logician | l:rival-net | hidden premise: l:rival-net: "their share of the reversal's cost" assumes every voter bears part of it | sent to fix-r1-ch05.md, type 2
+- 12.1L12 | logician | p:burden-flip | hidden premise: p:burden-flip: "normally needs the 2:1 norm" rests on reading the norm as necessary | applied, type 1: d:follows-norm states the threshold reading and the scope once; "normally" removed; l:removal-polls and l:late-removal follow in chapter 5
+- 12.1L13 | logician | p:late-arrival | overreach: p:late-arrival drops "or ballot comment" and "normally" | applied, type 1: scope via d:follows-norm; "a paper or ballot comment" restored
+- 12.1L14 | logician | p:sponsor-votes | hidden premise: p:sponsor-votes: "adds a voter" assumes the participant would not attend unpaid | applied, type 3: "Each participant a sponsor pays to attend has a vote in the room and values its interests, and no rule limits how many it pays" (headline; from ax:prefer's sponsor clause; the counterfactual premise fails test part 1 because some paid participants would attend anyway)
+- 12.1L15 | logician | l:parts-build | overreach: l:parts-build: not every later part builds on every adopted part | sent to fix-r1-ch06.md, type 3
+- 12.1L16 | logician | p:parts | overreach: p:parts: "The cost is a paper and a presentation for each part" presents those costs as the only ones | applied, type 4: "Its costs include a paper, a presentation, and a set of polls for each part" (headline; force kept); l:part-cost follows in chapter 6
+- 12.1L17 | logician | l:first-part-oppose | invalid step: l:first-part-oppose compares with voting Against a later part, while its steps compare with removal after adoption | sent to fix-r1-ch06.md, type 4
+- 12.1L18 | logician | l:first-part-smallest | hidden premise: l:first-part-smallest counts only the first paper's cost | sent to fix-r1-ch06.md, type 4
+- 12.1L19 | logician | p:large-position | overreach: p:large-position: "has more meetings where a poll can make it the incumbent" overstates the expected span | applied, type 4: "is expected to face more meetings" (force kept)
+- 12.1L20 | logician | p:large-position | hidden premise: p:large-position: "end that standing" misuses the term standing | applied, wording: "end its incumbency"
+- 12.1L21 | logician | p:size-attributes | overreach: p:size-attributes covers results it does not cite, some later | applied, type 3: "Each result in this chapter about large or small proposals"; inf:thm-sizes must cover chapter 11's size result (sent to chapter 11)
+- 12.1L22 | logician | p:sg-decides | overreach: p:sg-decides: "rival designs are first polled there" is not required by SD-4 | applied, type 4: "rival designs can be polled there first" (force kept: the design room still starts from the study group's output)
+- 12.1L23 | logician | p:deadlock | overreach: p:deadlock: "The deadlock lasts until" presents the exits as complete | rejected: the list follows from l:count-depends (a count changes only with who is present, what is asked, and how they vote) and l:leave-on-call (a design leaves a design room only on a consensus call); a withdrawn design leaves the other's count unchanged, and a vehicle the voters accept is a change in their positions
+- 12.1L24 | logician | t:hold-or-yield | invalid step: t:hold-or-yield's caption derives the cost thresholds from sponsorship with "so" | applied, type 1: the thresholds are stated as the case, with group A's sponsors valuing its holding above what they pay (12.1B9)
+- 12.1L25 | logician | p:chair-threshold | overreach: p:chair-threshold: "Every consensus call has a cost" covers calls with no Against votes | applied, type 3: "Every contested consensus call has a cost"
+- 12.1L26 | logician | p:chair-threshold | hidden premise: p:chair-threshold: no premise makes departing from the norm riskier to a post than following it | applied, type 2: new axiom ax:post-risk: a chair cannot rule out that a call not following the 2:1 norm, or polling that departs from what SD-4 encourages, puts their post at more risk, and the convenor likewise for SD-4's plenary procedure (passes the five-part test; folding into ax:repeat or ax:support would pass two sentences)
+- 12.1L27 | logician | inf:call-above-norm | invalid step: inf:call-above-norm: a re-poll fits the norm | merged with 12.1R10
+- 12.1L28 | logician | inf:call-below-norm | hidden premise: inf:call-below-norm: the norm gives no call at or below 2:1 | merged with 12.1R11
+- 12.1L29 | logician | p:chair-confidence | overreach: p:chair-confidence: "That record comes only from taking part" ignores another presenter passing on feedback | applied, type 4: "SD-4 expects that record to come from taking part: presenting, answering questions, and making the changes the room directs" (headline; force reduced slightly: "only" dropped)
+- 12.1L30 | logician | l:plenary-late-weight | overreach: l:plenary-late-weight: "get no weight" is SD-4's instruction, not what happens | sent to fix-r1-ch08.md, type 3
+- 12.1L31 | logician | p:users-out | hidden premise: p:users-out: "where that is worth their members' time" needs a national body to count its members' time | applied, type 2: ax:prefer now lists a national body's members' time among its values (passes the five-part test); l:nb-position-time should cite ax:prefer
+- 12.1L32 | logician | p:reward-timing | overreach: p:reward-timing: a result-seeking author's gain is not all at adoption | applied, type 3: "Authors get the adoption they value at the poll, while a flaw that implementation and use have not yet exposed costs users only later" (headline; the claim is now about the adoption value)
+- 12.1L33 | logician | l:merit-in-vote | overreach: l:merit-in-vote: a vote can reflect the best design when other values point the same way | sent to fix-r1-ch09.md, type 4
+- 12.1L34 | logician | p:written-answer | overreach: p:written-answer: "No rule requires" goes beyond the texts searched | applied, type 1: d:rules states once what the rules cover and that absence claims cover SD-4 whole and the quoted ISO clauses; new absence fact f:iso-no-answer searches the ISO clauses (type 2 part)
+- 12.1L35 | logician | l:answer-in-writing | hidden premise: l:answer-in-writing assumes an answer states the objection | sent to fix-r1-ch09.md, type 3
+- 12.1L36 | logician | p:miss-cost | hidden premise: p:miss-cost: no item says an edition goes ahead without the features that miss it | applied, type 2: ax:schedule now says each planned edition holds the features approved by its cutoff (passes the five-part test); l:cutoff and inf:deadlock-schedule should cite ax:schedule
+- 12.1L37 | logician | l:incits-votes | overreach: l:incits-votes: the caucus determines the United States position, not the issue | applied, type 4: "the delegation may determine the position on a new issue by caucus consensus", in the new spine child l:incits-positions (force kept)
+- 12.1L38 | logician | l:favor-no-risk | hidden premise: l:favor-no-risk: ax:support says nothing about Favor | sent to fix-r1-ch11.md, type 2
+- 12.1L39 | logician | l:settled-design-bound | overreach: l:settled-design-bound drops p:first-part's condition that the part still meets the 2:1 norm | applied, type 3: "proposing first the smallest part that fixes its features and can pass"; the Theorem matches
+- 12.1L40 | logician | l:bound-omit | hidden premise: l:bound-omit: inf:omit-free shows only that omission costs nothing the rules impose, while later exposure can cost standing | sent to fix-r1-ch11.md, type 3
+- 12.1L41 | logician | l:bound-cheapest | overreach: l:bound-cheapest: the cheapest change can itself change the features when only such a change keeps the norm met | sent to fix-r1-ch11.md, type 3
+- 12.1L42 | logician | l:settled-small-author | invalid step: l:settled-small-author counts the cost of meetings already paid | applied, type 4: now compares the chance of adoption with the cost, borne alone, of the meetings still ahead (settled lemma; force kept)
+- 12.1L43 | logician | inf:sg-order-cost | hidden premise: inf:sg-order-cost applies the post risk to a polling order SD-4 only encourages | sent to fix-r1-ch11.md, type 2
+- 12.1L44 | logician | l:convenor-weightless | hidden premise: l:convenor-weightless: no cited item says the convenor then declares consensus | sent to fix-r1-ch11.md, proof step
+- 12.1L45 | logician | inf:user-price | invalid step: inf:user-price: a user who takes part could have a sponsor | sent to fix-r1-ch11.md, type 3
+- 12.1L46 | logician | p:checks | overreach: p:checks: no item shows the listed rules act on the effects | applied, type 4: "The rules provide these checks:" (counter-force claim narrowed, which leaves the dysfunction results untouched); the Theorem lists checks without "each of these effects" (global decision 3)
+- 12.1L47 | logician | l:thm-pattern | invalid step: l:thm-pattern: the settled lemmas compare each choice with only some moves | sent to fix-r1-ch11.md, proof steps added (main agent override of the reconcile's scope fix, which took as given every move the settled lemmas do not weigh and so held by definition; the sentence keeps "any other move the rules give it")
+- 12.1L48 | logician | l:thm-fixed-early | overreach: l:thm-fixed-early: "a design's content can be fixed when it is least reviewed" outruns its steps, since the room can still direct changes | sent to fix-r1-ch11.md, type 2
+- 12.1L49 | logician | l:thm-gaps | overreach: l:thm-gaps: "review whose gain is spread across all users goes undone" drops p:review-shortfall's condition | sent to fix-r1-ch11.md, type 3
+- 12.1L50 | logician | l:thm-first-part | overreach: l:thm-first-part: "before anyone can study" outruns ax:first-review | sent to fix-r1-ch11.md, type 3
+- 12.1L51 | logician | inf:al-evidence | hidden premise: inf:al-evidence: room attendance is not quotable | sent to fix-r1-ch12.md, type 3
+- 12.1L52 | logician | inf:pa-sequence | overreach: inf:pa-sequence: a large design adopted in one paper fits the model | sent to fix-r1-ch12.md, type 4
+- 12.1L53 | logician | inf:rp-changes | hidden premise: inf:rp-changes: no lemma links paper titles or poll wording to the reversal cost | sent to fix-r1-ch12.md, type 4
+- 12.1L54 | logician | inf:rp-wording | invalid step: inf:rp-wording: the other explanation also predicts less support | merged with 12.1L53 (the tell-apart is now polls between which the incumbent's content and review time did not change)
+- 12.1L55 | logician | inf:wa-tell-apart | invalid step: inf:wa-tell-apart: no answer at plenary can mean no one asked | sent to fix-r1-ch12.md, type 3
+- 12.1L56 | logician | inf:de-predict | invalid step: inf:de-predict: the two groups overlap, since unanimous consent is a plenary outcome | sent to fix-r1-ch12.md, type 3
+- 12.1L57 | logician | inf:nm-unsettled | overreach: inf:nm-unsettled: "only when" | merged with 12.1R20
+
+### Skeptics A
+
+- 12.1A1 | design room chair | f:no-merit-ruling | objection: f:no-merit-ruling: the direction group's opinions are judgments of proposals | merged with 12.1R1
+- 12.1A2 | design room chair | p:against-costs-more | objection: p:against-costs-more: an absence turned into a bar | merged with 12.1R5; its c:lever-reasons-all part with 12.1R19
+- 12.1A3 | design room chair | l:consensus-test | objection: l:consensus-test: "every view must still be heard" is weaker than the definition's process clause | applied, type 2: "the process must seek to reconcile conflicting arguments", from the cited f:consensus-def
+- 12.1A4 | design room chair | p:least-cost-response | objection: p:least-cost-response: a re-poll moves the count | merged with 12.1L6
+- 12.1A5 | design room chair | l:rival-reversal | objection: l:rival-reversal: "or later changing it" names no reversal | merged with 12.1L10
+- 12.1A6 | design room chair | l:only-rival-reverses | objection: l:only-rival-reverses: two designs can both be incumbents | sent to fix-r1-ch05.md, type 1
+- 12.1A7 | design room chair | p:light-review | objection: p:light-review: voting needs familiarity with the material, which costs less than close study | applied, type 3: "a proposal costing more to read than most stakes in it", resting on f:not-vote and ax:review-cost (headline; narrower subject). In chapter 5, l:skip-study should speak of reading the paper and following its discussion.
+- 12.1A8 | design room chair | p:chair-threshold | objection: p:chair-threshold: no premise ties the post to the calls | merged with 12.1L26
+- 12.1A9 | design room chair | p:chair-default | objection: p:chair-default: a re-poll fits the norm at every count | applied, type 1: d:follows-norm counts any re-poll as part of following the norm; t:chair-call's rows now read "Declare consensus" and "Decline"
+- 12.1A10 | design room chair | l:call-above | objection: l:call-above: a chair's judgment of sustained opposition can justify declining above 2:1 | rejected: SD-4 names no step for judging sustained opposition (p:definition-without-procedure) and states the 2:1 norm as its test for subgroup polls; a chair's view of an opposition enters through the stake p:chair-default weighs against ax:post-risk
+- 12.1A11 | design room chair | p:cutoff-effect | objection: p:cutoff-effect: SD-4's own principle weighs against delaying concrete proposals for alternatives | applied, type 2: added as a check in l:checks-alternatives, citing f:no-wait-alternatives
+- 12.1A12 | design room chair | l:thm-fixed-early | objection: l:thm-fixed-early: nothing shows the content is fixed | merged with 12.1L48
+- 12.1A13 | design room chair | l:thm-gaps | objection: l:thm-gaps: dropped condition | merged with 12.1L49
+- 12.1A14 | design room chair | c:pred-abstention-length | objection: c:pred-abstention-length: the number present is protected | merged with 12.1L51; c:pred-abstention-length restated in the spine
+- 12.1A15 | design room chair | c:pred-rival-polls | objection: c:pred-rival-polls: learning after a direction poll can lower support for a like rival | applied, type 3: the tell-apart compares only polls between which the incumbent's content and review time did not change
+- 12.1A16 | design room chair | c:pred-written-answers | objection: c:pred-written-answers: the list of objections raised is protected | applied, type 3: the prediction is limited to objections other published papers raised
+- 12.1A17 | convenor | thm:settled | objection: thm:settled: the post threat is not shown to be the convenor's best response | rejected: the post risk is now ax:post-risk, a premise about what a chair cannot rule out, not a threat the convenor must act on; m:players takes the convenor's appointments as given
+- 12.1A18 | convenor | l:settled-convenor | objection: l:settled-convenor treats as fixed a text the convenor can revise | applied, type 1: m:players now takes SD-4's text as given
+- 12.1A19 | convenor | l:settled-convenor | objection: l:settled-convenor: SD-4's procedure fixes the call in only two cases | applied, type 1: l:settled-convenor now says the procedure fixes the call in two cases and otherwise leaves it to the convenor
+- 12.1A20 | convenor | inf:nm-unsettled | objection: inf:nm-unsettled: "only when" | merged with 12.1R20
+- 12.1A21 | convenor | p:chair-threshold | objection: p:chair-threshold: the convenor does not apply the 2:1 norm | applied, type 3: "Departing from SD-4's stated practice can cost the caller's post"
+- 12.1A22 | convenor | p:persuasion-not-required | objection: p:persuasion-not-required: no ratio at plenary | merged with 12.1R6
+- 12.1A23 | convenor | p:record-indistinct | objection: p:record-indistinct: ISO's registration step may apply inside a working group | rejected: 2.5.7's registration is part of an approach it calls recommended, so the record still need not show it, as l:iso-register-level states under either reading
+- 12.1A24 | convenor | p:written-answer | objection: p:written-answer: the TS Disposition of Comments | merged with 12.1R12
+- 12.1A25 | convenor | l:rank-rest-abstain | objection: l:rank-rest-abstain: ISO's effort to resolve negative votes gives a No a gain, and one No rarely decides a ballot | applied, type 3: the table's case now has the body expect its comments to fare the same under any vote, as SD-4 says, and not rule out that its vote decides the result; l:rank-rest-yes, l:rank-rest-abstain, p:credible-threat, l:settled-nb, and the Theorem narrowed to that case
+- 12.1A26 | convenor | p:integration | objection: p:integration: wording written against adopted drafts is a check across meetings | rejected: l:separate-approval already states that wording is written against the adopted drafts, and the wording room checks only that a specification expresses its own design; f:no-integration-check confirms no step checks whether designs work together
+- 12.1A27 | convenor | l:thm-objections | objection: l:thm-objections: SD-4 writes down the forms and times | sent to fix-r1-ch11.md, type 3
+- 12.1A28 | convenor | c:pred-removals | objection: c:pred-removals: most defect reports concern wording | applied, type 3: the comparison is now with the papers or comments that ask for removal
+- 12.1A29 | convenor | c:pred-defects | objection: c:pred-defects: plenary unanimous consent mixes features contested in subgroups | applied, type 3: both groups defined at the design room's forwarding poll
+- 12.1A30 | convenor | c:pred-nb-positions | objection: c:pred-nb-positions: plenary minutes are protected | rejected: SD-4 protects records of subgroup discussion, meeting wikis, and non-public email lists, not plenary records (12.1R18)
+- 12.1A31 | convenor | l:incits-votes | objection: l:incits-votes: INCITS 7.17.1.3 binds every United States delegate to official positions | applied, type 2: new fact f:incits-delegates and new spine child l:incits-positions; p:nb-members says INCITS binds all delegates to official positions
+- 12.1A32 | convenor | l:incits-votes | objection: l:incits-votes: INCITS treats a controlled entity as part of its controller on the Executive Board | applied, type 2: new fact f:incits-control, added to l:incits-votes
+- 12.1A33 | author of a large proposal | p:challenger-bar | objection: p:challenger-bar: most voters built nothing, so their share need not grow | merged with 12.1L11
+- 12.1A34 | author of a large proposal | l:parts-build | objection: l:parts-build: parts can be separable | merged with 12.1L15
+- 12.1A35 | author of a large proposal | p:parts | objection: p:parts: each part also needs its own polls | merged with 12.1L16; l:part-cost and l:first-part-smallest follow in chapter 6
+- 12.1A36 | author of a large proposal | p:large-position | objection: p:large-position: the plenary-progress sentence gives large proposals no edge | applied, type 4: sentence cut; inf:sf-predict follows in chapter 12
+- 12.1A37 | author of a large proposal | p:prefer-is | objection: p:prefer-is: a TS can publish while concerns remain and reaches users early | applied, type 2: new fact f:ts-unblock in p:prefer-is; l:settled-design-bound and the Theorem now say "choosing the IS where it can pass" (type 3 part)
+- 12.1A38 | author of a large proposal | l:bound-omit | objection: l:bound-omit: later exposure can cost standing | merged with 12.1L40
+- 12.1A39 | author of a large proposal | l:bound-cheapest | objection: l:bound-cheapest: later checks at plenary and ballot | sent to fix-r1-ch11.md, type 3
+- 12.1A40 | author of a large proposal | p:reward-timing | objection: p:reward-timing: the author also bears later costs | merged with 12.1L32
+- 12.1A41 | author of a large proposal | l:thm-first-part | objection: l:thm-first-part: "before anyone can study" | merged with 12.1L50
+- 12.1A42 | author of a large proposal | l:thm-first-part | objection: l:thm-first-part: "every rival must then replace it" holds only for rivals to the structure | sent to fix-r1-ch11.md, type 3
+- 12.1A43 | author of a large proposal | inf:thm-no-request | objection: inf:thm-no-request: showing why alternatives were not pursued states trade-offs | merged with 12.1R15; the qualifier is not needed, since reasons for not pursuing alternatives are not the chosen design's own drawbacks
+- 12.1A44 | author of a large proposal | c:pred-sponsor-against | objection: c:pred-sponsor-against: same-topic proposals are rivals, so incumbency mixes in | applied, type 3: the tell-apart compares, by consented attribution, the same participants' votes on the sponsor's proposals before and after they move to a sponsor whose interests exclude them
+- 12.1A45 | author of a large proposal | c:pred-sponsor-against | objection: c:pred-sponsor-against: individual votes are not quotable | merged with 12.1A44 (consented attribution is the evidence)
+- 12.1A46 | author of a large proposal | c:pred-parts | objection: c:pred-parts: directed changes also make authors publish each part after the last | applied, type 3: the tell-apart is whether later parts already drafted or implemented when the first was polled stayed out of the mailings
+- 12.1A47 | author of a large proposal | c:pred-first-part | objection: c:pred-first-part: later parts built on the first rely on its choices anyway | applied, type 3: the tell-apart is whether first papers left out later parts that already existed in drafts, implementations, or talks
+
+### Skeptics B
+
+- 12.1B1 | employer standards lead | m:moves-sponsor | objection: m:moves-sponsor: a sponsor can vote where a national position is formed | rejected: p:nb-members states INCITS's member-organization vote, INCITS's procedures are outside the rules as d:rules defines them, and the move changes no conclusion about WG21's polls or ballots
+- 12.1B2 | employer standards lead | p:against-costs-more | objection: p:against-costs-more: an absence turned into a bar | merged with 12.1R5
+- 12.1B3 | employer standards lead | p:doubt-outside-count | objection: p:doubt-outside-count: a Neutral vote withholds a Favor vote | merged with 12.1D17; the item now speaks of when an Against vote does better
+- 12.1B4 | employer standards lead | p:sponsor-votes | objection: p:sponsor-votes: a paid participant might attend anyway | merged with 12.1L14
+- 12.1B5 | employer standards lead | p:large-position | objection: p:large-position: the plenary-progress sentence holds for every proposal | merged with 12.1A36
+- 12.1B6 | employer standards lead | p:sg-decides | objection: p:sg-decides: rivals need not be polled there first | merged with 12.1L22
+- 12.1B7 | employer standards lead | p:sg-sponsor | objection: p:sg-sponsor: "enough to block" assumes a chair who sends on only designs meeting the norm | applied, type 1: d:follows-norm defines what Against votes block; cited
+- 12.1B8 | employer standards lead | p:deadlock | objection: p:deadlock: an approval poll can find the less opposed design | rejected: an approval poll changes what the poll asks, which l:count-depends covers, and a design still leaves the room only on a consensus call (l:leave-on-call), which the list covers
+- 12.1B9 | employer standards lead | p:attrition | objection: p:attrition: the sponsor bears the cost and may stop paying | applied, type 3: "a group whose sponsors keep paying its costs"; the table's case says group A's sponsors value its holding above what they pay
+- 12.1B10 | employer standards lead | l:favor-supported | objection: l:favor-supported: in a side-by-side poll a Favor vote can cost standing with a rival's author | sent to fix-r1-ch11.md, type 3
+- 12.1B11 | employer standards lead | l:bound-omit | objection: l:bound-omit: good faith and the new-information exits give omission rule-based risks | sent to fix-r1-ch11.md, type 3
+- 12.1B12 | employer standards lead | thm:settled | objection: thm:settled: "state a trade-off" | merged with 12.1R15
+- 12.1B13 | employer standards lead | thm:settled | objection: thm:settled: "before anyone can study what the later parts need" | applied, type 3: "can be adopted before reviewers can study in detail what later parts need of it"
+- 12.1B14 | employer standards lead | c:pred-sponsor-against | objection: c:pred-sponsor-against: similar designs can serve the same sponsor interests | merged with 12.1A44
+- 12.1B15 | employer standards lead | c:pred-parts | objection: c:pred-parts: writing later parts early costs rework | merged with 12.1A46
+- 12.1B16 | C++ user | p:who-decides | objection: p:who-decides: the direction group judges proposals | merged with 12.1R2; the direction group's opinion stays a check in l:checks-attendance
+- 12.1B17 | C++ user | m:moves-user | objection: m:moves-user: INCITS admits self-financed individuals as voting members | rejected: the user's national-body move covers it, INCITS's procedures are outside the rules as d:rules defines them, and no user votes in WG21's polls or ballots either way
+- 12.1B18 | C++ user | p:fluency | objection: p:fluency: the listed rules are written in SD-4 | applied, type 3: "Participants learn how the committee applies these rules partly by attending, some of it only that way" (headline; narrower subject)
+- 12.1B19 | C++ user | p:users-out | objection: p:users-out: "only through" rests on unsearched documents and omits liaisons | applied, type 1: d:rules states what the rules cover; the liaison part is rejected, since liaison representatives are participants whose organizations' interests reach decisions through what participants value
+- 12.1B20 | C++ user | p:who-takes-part | objection: p:who-takes-part: SD-4's example-based request ties proposals to users' code | applied, type 2: new fact f:example-based, added to l:checks-alternatives
+- 12.1B21 | C++ user | p:reward-timing | objection: p:reward-timing: a later flaw lowers a result-seeking author's gain | merged with 12.1L32
+- 12.1B22 | C++ user | p:prefer-is | objection: p:prefer-is: a TS unblocks implementers and users | merged with 12.1A37
+- 12.1B23 | C++ user | l:settled-user | objection: l:settled-user: a user's employer could pay | applied, type 3: "a user without a sponsor" (headline; narrower subject); inf:user-price follows (12.1L45)
+- 12.1B24 | C++ user | p:checks | objection: p:checks: "appeals are open" omits who may appeal | applied, type 3: "national bodies can appeal" in p:checks and l:checks-record
+- 12.1B25 | C++ user | thm:settled | objection: thm:settled: "review whose gain is spread across all users goes undone" drops the condition | applied, type 3: "review worth its cost to users together but not to any one participant goes undone" (Theorem; narrower subject)
+- 12.1B26 | C++ user | thm:settled | objection: thm:settled: "checks on each of these effects" is not shown | applied, type 4: "The rules also provide checks:" with the checks named (Theorem; counter-force claim narrowed, global decision 3)
+- 12.1B27 | C++ user | c:predictions | objection: c:predictions: several predictions name protected evidence | applied, type 3: c:predictions scoped to records of subgroup discussion; each prediction now names quotable evidence or consented attribution
+- 12.1B28 | C++ user | c:pred-removals | objection: c:pred-removals: issues lists hold wording issues | merged with 12.1A28
+- 12.1B29 | C++ user | c:pred-defects | objection: c:pred-defects: the groups overlap | merged with 12.1A29
+- 12.1B30 | national body head | p:who-decides | objection: p:who-decides: national bodies weigh in item by item at the committee stage | rejected: national bodies' item-level comments are already in the proof (WG21 considers them whatever the vote, and every enquiry comment gets a response), and p:who-decides now says only that a national body votes on each draft as a whole
+- 12.1B31 | national body head | m:moves-nb | objection: m:moves-nb: forcing a meeting after an enquiry ballot and confirming a convenor are omitted | applied in part by the main agent after the reconcile: m:moves-nb now lists having a draft discussed at a meeting together with another P-member (f:respond-comments), weighed in l:settled-nb through fix-r1-ch11.md; confirming a convenor is covered by m:players, which now takes as given who is convenor
+- 12.1B32 | national body head | l:consensus-test | objection: l:consensus-test: the process clause can also prevent consensus | applied, type 3: "prevents consensus as a sustained opposition only if", with the process clause (12.1A3)
+- 12.1B33 | national body head | p:repeat-objection | objection: p:repeat-objection drops "from a national body that was present" | applied, type 3: "a ballot comment repeating an objection decided where its national body was present and heard"
+- 12.1B34 | national body head | l:objection-forms | objection: l:objection-forms: ISO 5.4 lets any expert present withhold agreement on late documents | sent to fix-r1-ch04.md, type 2
+- 12.1B35 | national body head | l:removal-polls | objection: l:removal-polls: a ballot comment's removal is weighed by "improve consensus", not the 2:1 norm | rejected: a comment-requested removal is a design change, which a design room decides by subgroup poll; SD-4's goal "to improve consensus" adds a requirement rather than replacing the norm, so the claim stands
+- 12.1B36 | national body head | inf:call-below-norm | objection: inf:call-below-norm: the norm is not a necessary condition | merged with 12.1R11
+- 12.1B37 | national body head | p:written-answer | objection: p:written-answer: the TS Disposition of Comments | merged with 12.1R12
+- 12.1B38 | national body head | p:nb-comment | objection: p:nb-comment: a successful No does not cost the rest for good | applied, type 1: the table's "Values the rest" now means valuing publication of the rest on schedule above removing a feature through a failed ballot and a revised draft; p:credible-threat and l:settled-nb follow
+- 12.1B39 | national body head | l:rank-rest-abstain | objection: l:rank-rest-abstain: a No draws an attempt to resolve it | merged with 12.1A25
+- 12.1B40 | national body head | p:nb-members | objection: p:nb-members: INCITS 7.17.1.3 | merged with 12.1A31
+- 12.1B41 | national body head | l:convenor-depart | objection: l:convenor-depart: ISO has the convenor act in a purely international capacity | sent to fix-r1-ch11.md, type 2
+- 12.1B42 | national body head | c:pred-rival-polls | objection: c:pred-rival-polls: the incumbent improves through directed changes | merged with 12.1A15
+- 12.1B43 | national body head | inf:nb-few | objection: inf:nb-few: positions can form between meetings | sent to fix-r1-ch12.md, type 3
+- 12.1B44 | national body head | inf:nb-evidence | objection: inf:nb-evidence: some comments are not vetted national positions | sent to fix-r1-ch12.md, type 2
+- 12.1B45 | national body head | inf:nm-unsettled | objection: inf:nm-unsettled: no step settles opposition holding a national position | merged with 12.1R20
+- 12.1B46 | national body head | c:lever-nb-less | objection: c:lever-nb-less: the ballot would not be national bodies' main check | applied, type 4: "the ballot vote would be their only move counting directly toward stopping a document", with comments and appeals remaining (force kept)
+
+## Step 12, verify round 2 (2026-10-19)
+
+Reviewers: rules check (12.2R), reader (12.2D), logician (12.2L), skeptics A (12.2A: design room chair, convenor, author of a large proposal), skeptics B (12.2B: employer standards lead, C++ user, national body head). Scope: the 466 keys of scratch `r2-scope.txt`. 213 findings: rules check 16, reader 119, logician 27, skeptics A 24, skeptics B 27. Reconciled under the force-keeping rule (plan Step 12, user 13:14): a scope or definition stated once (type 1), an added premise or fact that passes the five-part test (type 2), a narrower subject (type 3), and weaker wording only where the claim was false as stated (type 4); wording fixes that keep the claim exactly are marked wording, and a proof step added with no new premise is marked proof step. Dispositions: applied by the reconcile 109, sent to a chapter fix file 89, merged 13, rejected 2. Fixes by type, applied and sent: type 1 7, type 2 19, type 3 31, type 4 7, wording 120, proof step 14. The ledger's "Step 12, round 2 reconcile" section lists every weakening, the foundation and spine changes, and the global decisions.
+
+### Rules check
+
+- 12.2R1 | rules check | f:incits-delegates | wrong section: f:incits-delegates cites 7.17.1.3 alone, but the extract gives 7.17.1.3 and 7.17.1.4 under one heading | applied, wording: source now "(INCITS Organization, Policies and Procedures, 7.17.1.3 and 7.17.1.4)" in f:incits-delegates and, as a follow-on, in f:incits-caucus
+- 12.2R2 | rules check | p:who-decides | unsupported rule claim: p:who-decides: "national bodies vote on each draft" covers working drafts never balloted | applied, type 3: "national bodies vote on each balloted draft as a whole" (headline; force kept)
+- 12.2R3 | rules check | m:moves-chair | unsupported rule claim: m:moves-chair gives every chair time-boxing, which SD-4 gives in its notes on the design subgroups | applied, type 3: "Each chair can call consensus on its room's polls, and design room chairs can also time-box a new proposal or delay one a meeting for a paperless rival."
+- 12.2R4 | rules check | l:minutes-others | unsupported rule claim: l:minutes-others: ISO 5.5 says nothing about how much of an argument minutes keep, and SD-4 asks any participant present to be ready to take minutes | sent to fix-r2-ch04.md, type 2
+- 12.2R5 | rules check | p:chair-confidence | unsupported rule claim: p:chair-confidence: SD-4 says nothing about an author's record, which comes from ax:repeat | applied, wording: second sentence now "That record comes from taking part, which SD-4 expects of an author: presenting the proposal, answering questions, and making the changes the room directs." (headline; claim kept, with SD-4's expectation and ax:repeat's record told apart)
+- 12.2R6 | rules check | l:plenary-late-weight | unsupported rule claim: l:plenary-late-weight puts the national body step under the 5pm deadline, which SD-4 sets only for the email lists | sent to fix-r2-ch08.md, type 3
+- 12.2R7 | rules check | p:disclosure | unsupported absence claim: p:disclosure: SD-4 asks a TS or white paper for its must-address controversial issues and how firm its design is, so the absence holds for proposal papers | applied, type 3: "but it asks no proposal paper to state its design's drawbacks, and a paper is considered without them" (headline; force kept, since the disclosure results concern proposal papers before an early poll)
+- 12.2R8 | rules check | l:iso-comment-answers | unsupported rule claim: l:iso-comment-answers: ISO does more with final-draft comments than note them (2.7.5 editorial errors, 2.7.7 reconsideration) | sent to fix-r2-ch09.md, type 4
+- 12.2R9 | rules check | l:settled-design-bound | unsupported rule claim: l:settled-design-bound: "choosing the IS" gives the author a move the rules give the design room | applied, type 4: now "seeking early direction polls, the smallest first part fixing its features, and the IS, each as far as it can pass": the author asks and the design room decides (settled lemma; force kept)
+- 12.2R10 | rules check | inf:omit-free | unsupported absence claim: inf:omit-free: the confirmed absence covers proposal papers only | sent to fix-r2-ch11.md, type 3
+- 12.2R11 | rules check | l:sg-other-moves | unsupported rule claim: l:sg-other-moves: time-boxing is given only to design room chairs | sent to fix-r2-ch11.md, type 3
+- 12.2R12 | rules check | thm:settled | unsupported rule claim: thm:settled: "chooses the IS where it can pass" gives the author the design room's move | applied, type 4: "asks for the IS, each as far as it can pass" (Theorem; force kept)
+- 12.2R13 | rules check | thm:settled | unsupported rule claim: thm:settled: "national bodies ballot each draft" covers drafts never balloted | applied, type 3: "national bodies vote on each balloted draft" (a counter-force clause; no dysfunction result changes)
+- 12.2R14 | rules check | inf:thm-omit-free | unsupported absence claim: inf:thm-omit-free: the confirmed absence covers proposal papers only | sent to fix-r2-ch11.md, type 3
+- 12.2R15 | rules check | l:thm-checks-sizes | unsupported rule claim: l:thm-checks-sizes: "national bodies ballot each draft" | sent to fix-r2-ch11.md, type 3
+- 12.2R16 | rules check | inf:wa-predict | unsupported rule claim: inf:wa-predict: SD-4 asks papers to take up more than alternatives and declined directions | sent to fix-r2-ch12.md, type 3
+
+### Reader
+
+- 12.2D1 | reader | ax:prefer | long: ax:prefer: first sentence 36 words, value list 104 words | applied, wording: applied in part: the first sentence is now 29 words, "Other things equal, each participant, sponsor, national body, and user prefers more of what it values, sooner and cheaper, weighing gains against losses on one scale of its own." The value list stays one sentence: an axiom has no child steps, and keyed sub-axioms would be orphans under build.py unless about 129 citations of ax:prefer were re-pointed by role (the round 1 reason, 12.1D2)
+- 12.2D2 | reader | ax:post-risk | long: ax:post-risk: 31 words | applied, wording: "a consensus call departing from the 2:1 norm, or polling departing from what SD-4 encourages" (30 words, claim kept)
+- 12.2D3 | reader | ax:rework | long: ax:rework: 32 words | applied, wording: "which costs its builders and takes meeting time from other papers" (30 words)
+- 12.2D4 | reader | ax:schedule | term: ax:schedule: "its cutoff" for the defined term | applied, wording: "approved by its feature cutoff"
+- 12.2D5 | reader | d:does-better | long: d:does-better: 37 words | applied, wording: "A player does better with the option worth more to them, by their weighing of the values a statement names, and does best with one no other option outweighs." (29 words)
+- 12.2D6 | reader | d:follows-norm | long: d:follows-norm: 34 words | applied, wording: "declaring consensus exactly on counts above 2:1 after discussion and any re-poll" (29 words, claim kept)
+- 12.2D7 | reader | f:iso-no-answer | long: f:iso-no-answer: 36 words before the source | applied, wording: "Apart from 2.6.5's requirement to respond to all comments received, no ISO/IEC Directives Part 1 clause listed here requires a written answer to a working group or ballot objection" (29 words)
+- 12.2D8 | reader | m:players | long: m:players: second sentence 35 words | applied, wording: "The proof takes as given SD-4's text, the convenor's identity, appointments, study groups, and guest invitations, and the choices of wording room chairs, guests, non-regular participants, and the direction group." (30 words)
+- 12.2D9 | reader | m:moves-chair | long: m:moves-chair: second sentence 33 words | merged with 12.2R3, whose rewrite is 28 words
+- 12.2D10 | reader | m:moves-nb | long: m:moves-nb: second sentence 44 words | applied, wording: the first sentence now ends "appeal, and object in SC22 and JTC 1 to off-agenda action", and the second reads "It can vote on or confirm the convenor's appointment and, with at least one other P-member, have a draft discussed when they disagree with the SC22 chair's decision." (29 words, with 12.2B22's move)
+- 12.2D11 | reader | l:vote-count | figure of speech: l:vote-count: "above the line" is a figure of speech | applied, wording: "above the 2:1 threshold"; the chapter 3 recap follows (fix-r2-ch03.md)
+- 12.2D12 | reader | l:neutral-outside | hedge: l:neutral-outside: "though" concedes where the claim holds without it | applied, wording: "and SD-4 says a Neutral majority of those voting can be concerning"
+- 12.2D13 | reader | p:against-costs-more | negative: p:against-costs-more: "no less" is a negative | applied, wording: "It risks the colleague's later support at least as much" (headline; claim kept)
+- 12.2D14 | reader | p:doubt-outside-count | figure of speech: p:doubt-outside-count: "sits ... above the line" and "win changes" | applied, wording: "One Against vote changes the result only when the count is one or two votes above the 2:1 threshold, and it can also bring changes to the design."
+- 12.2D15 | reader | p:prefer-vs-stop | long: p:prefer-vs-stop: 31 words | applied, wording: "argue for another design yet vote Neutral" (30 words)
+- 12.2D16 | reader | p:mutual-support | long: p:mutual-support: second sentence 31 words | applied, wording: "If each one's doubt ... and both do better than both opposing." (30 words)
+- 12.2D17 | reader | p:persuasion-not-required | long: p:persuasion-not-required: 31 words; "the rooms" stands for subgroups | applied, wording: "under the 2:1 norm in subgroups" (30 words)
+- 12.2D18 | reader | p:advance-unanswered | long: p:advance-unanswered: 36 words; "the rooms" | applied, wording: split: "...under the 2:1 norm in subgroups and by the convenor at plenary. Consensus need not imply unanimity."
+- 12.2D19 | reader | p:definition-without-procedure | long: p:definition-without-procedure: 32 and 31 words | applied, wording: "marked by no sustained opposition" and "SD-4's steps for an objection include" (30 words each)
+- 12.2D20 | reader | p:least-cost-response | figure of speech: p:least-cost-response: "too few to stop the 2:1 norm" | applied, wording: "too few to keep the 2:1 norm unmet" (headline; claim kept)
+- 12.2D21 | reader | p:change-list | figure of speech: p:change-list: "win them over" | applied, wording: "the changes that would change their position", SD-4's own words
+- 12.2D22 | reader | p:reasons-unrecorded | figure of speech: p:reasons-unrecorded: "outlasts its hearers" | applied, wording: "only writing keeps an objection's argument after its hearers leave", combined with 12.2B13 (headline; claim kept)
+- 12.2D23 | reader | p:repeat-objection | figure of speech: p:repeat-objection: "presses on" | applied, wording: "keeps objecting"
+- 12.2D24 | reader | p:repeat-objection | long: p:repeat-objection: second sentence 37 words | applied, wording: "It describes likewise a ballot comment repeating an objection decided with its national body present and heard, unless it brings new information or the body always warned of a No." (30 words)
+- 12.2D25 | reader | p:fluency | long: p:fluency: 32 and 34 words | applied, wording: "a rival a paper to exist" and "Participants learn how the committee applies them partly, and some only, by attending" (30 words each; headline; claim kept)
+- 12.2D26 | reader | p:newcomer | hedge: p:newcomer: "though" concedes | applied, wording: "and SD-4 expects everyone to know its procedures"
+- 12.2D27 | reader | l:incumbent-by-poll | obvious: l:incumbent-by-poll restates d:incumbent | sent to fix-r2-ch05.md, wording
+- 12.2D28 | reader | l:poll-wording | not inert: l:poll-wording: "Yet" is not inert | applied, wording: "Passing it in a design room makes the design the incumbent." (headline; claim kept)
+- 12.2D29 | reader | p:light-review | long: p:light-review: 34 words | applied, wording: "Since those who skip a paper and its discussion typically abstain, those with large stakes cast most votes on a proposal costing more to read than most stakes in it." (30 words; headline)
+- 12.2D30 | reader | p:late-arrival | figure of speech: p:late-arrival: "faces three obstacles" is a figure of speech | applied, wording: "Three things hold at once for an objector who arrives after a design has been adopted."
+- 12.2D31 | reader | p:late-arrival | long: p:late-arrival: 33 words | applied, wording: "reversal costs more as more is built" (30 words)
+- 12.2D32 | reader | p:first-part | long: p:first-part: 33 and 35 words | applied, wording: "A first part fixing a design's structure can be adopted before reviewers can study in detail what later parts need, and every rival to that structure must then replace it." and "...so a design-bound author does best proposing first the smallest part that fixes the structure and can pass." (30 and 26 words; headline; "can pass" takes in 12.2B2)
+- 12.2D33 | reader | l:first-part-oppose | figure of speech: l:first-part-oppose: "below the 2:1 line" | sent to fix-r2-ch06.md, wording
+- 12.2D34 | reader | p:large-position | long: p:large-position: 33 words | applied, wording: "and more expected meetings where a poll can make it the incumbent or end its incumbency" (30 words)
+- 12.2D35 | reader | p:size-attributes | long: p:size-attributes: 33 words | applied, wording: "Each result here ... how many authors, review's expected span, or paper length." (29 words)
+- 12.2D36 | reader | p:sg-sponsor | motive: p:sg-sponsor: "a sponsor's voters" gives voters a motive | applied, wording: "puts voters who value the sponsor's interests where the design the design room starts from is chosen" (ax:prefer gives every paid participant that value)
+- 12.2D37 | reader | l:call-above | long: l:call-above: 33 words, with conditions the caption holds | applied, wording: "In the case the table below describes, a design room chair ranks declaring consensus above declining on a count above 2:1 after discussion."
+- 12.2D38 | reader | inf:call-below-norm | negative: inf:call-below-norm: two negatives | sent to fix-r2-ch08.md, wording
+- 12.2D39 | reader | t:chair-call | term: t:chair-call: "SD-4's norm" for the defined term | applied, wording: "departing from the 2:1 norm"
+- 12.2D40 | reader | p:chair-confidence | figure of speech: p:chair-confidence: "which promises fewer problems" | applied, wording: "whose author's record of following procedures and responding to review makes them expect fewer problems"
+- 12.2D41 | reader | p:plenary-ratifies | motive: p:plenary-ratifies: states practice as fact | applied, wording: "SD-4 says most polls pass by unanimous consent, and when opposition is significant the convenor usually asks ..."
+- 12.2D42 | reader | p:who-takes-part | not inert: p:who-takes-part: "yet only those" is not inert | applied, wording: "and only those who bear the cost of taking part, or whose sponsors do, vote in WG21's polls" (headline)
+- 12.2D43 | reader | p:who-takes-part | motive: p:who-takes-part: "participants propose for needs" says what participants do | applied, wording: "participants can propose only for needs they and their sponsors know, which need not match users', since users differ from them"
+- 12.2D44 | reader | p:reward-timing | long: p:reward-timing: 33 words | applied, wording: split into two sentences, combined with 12.2B11 (headline)
+- 12.2D45 | reader | p:merit-gap | long: p:merit-gap: 32 words | applied, wording: "and weigh no other value above it" (30 words); as a follow-on of the round 1 decision to write "rule on", not "judge", its second sentence now reads "SD-4 assigns no one to rule on it for them." (headline)
+- 12.2D46 | reader | p:written-answer | long: p:written-answer: 32 and 31 words | applied, wording: "No rule requires a written answer to an objection beyond an author's defense ..." and "...shows later readers what would not be new, SD-4's test for repeated objections." (30 words each; headline)
+- 12.2D47 | reader | p:cutoff-effect | figure of speech: p:cutoff-effect: "at or below the 2:1 line" | applied, wording: "So does an Against vote that keeps its count from meeting the 2:1 norm."
+- 12.2D48 | reader | p:prefer-is | long: p:prefer-is: 34 words; "lighter" is a figure of speech | applied, wording: "It reaches implementers and users early, can publish while concerns remain if their holders agree, and the design room can require it or the white paper ISO and SC22 recommend." (30 words)
+- 12.2D49 | reader | l:ballot-rules | long: l:ballot-rules: 32 and 31 words | applied, wording: "which pass with two thirds of P-members' counted votes positive ..." and "sustained opposition is inapplicable" (30 words each)
+- 12.2D50 | reader | p:nb-comment | long: p:nb-comment: 33 words | applied, wording: "In the table's cases, a body valuing the rest of a document does better voting Yes with comments ..." (30 words)
+- 12.2D51 | reader | t:nb-ballot | long: t:nb-ballot: 41-word sentence | applied, wording: split into two sentences, combined with 12.2B26
+- 12.2D52 | reader | p:credible-threat | long: p:credible-threat: 35 words | applied, wording: "A national body whose comments fare the same under any vote does better voting No over one feature only if it values removing it above the rest on schedule." (29 words)
+- 12.2D53 | reader | p:nb-members | long: p:nb-members: 35 words | applied, wording: "In the United States, INCITS gives each organization one vote, the Defense Department up to four, no vote to consultants a voting member funds, and binds delegates to official positions." (30 words)
+- 12.2D54 | reader | l:incits-votes | long: l:incits-votes: 33 and 31 words | applied, wording: "...except up to four Department of Defense votes on technical committees, and on its Executive Board counts a controlled entity with its controller." and "...be represented by other voting members' employees." (30 and 29 words)
+- 12.2D55 | reader | l:regular-other-moves | long: l:regular-other-moves: 31 words | sent to fix-r2-ch11.md, wording
+- 12.2D56 | reader | l:settled-design-bound | long: l:settled-design-bound: 38 and 43 words | applied, wording: two sentences of 30 words: early polls, the smallest first part, and the IS "each as far as it can pass"; then the trade-off and the cheapest change. "Seeking no poll it expects to lose to a rival" moves to its child l:bound-no-losing-poll under proof-style's split rule; the Theorem does not name that choice (settled lemma; claim kept)
+- 12.2D57 | reader | inf:directed-change | judging word: inf:directed-change: "harms" sits outside the quotation | sent to fix-r2-ch11.md, wording
+- 12.2D58 | reader | l:settled-result-seeking | long: l:settled-result-seeking: second sentence 39 words | applied, wording: second sentence now "It does best backing any rival that serves users better by more than its share of the reversal's cost."; the early-poll condition moves to its child l:seeking-early under the split rule; the Theorem does not name it (settled lemma; claim kept)
+- 12.2D59 | reader | inf:early-improvement-cost | long: inf:early-improvement-cost: 31 words | sent to fix-r2-ch11.md, wording
+- 12.2D60 | reader | l:weighs-agree | long: l:weighs-agree: 31 words | sent to fix-r2-ch11.md, wording
+- 12.2D61 | reader | t:disclose | long: t:disclose: 32-word caption sentence | applied, wording: "Stating it would lead the room to change a feature a design-bound author's gain depends on, in a way that serves users better. The proposal meets the 2:1 norm either way."
+- 12.2D62 | reader | l:settled-small-author | long: l:settled-small-author: 33 words | applied, wording: "while its chance of adoption outweighs the cost, borne alone, of the meetings still ahead" (28 words)
+- 12.2D63 | reader | l:sg-call | long: l:sg-call: 31 words | sent to fix-r2-ch11.md, wording
+- 12.2D64 | reader | inf:sg-call-default | long: inf:sg-call-default: 32 words | sent to fix-r2-ch11.md, wording
+- 12.2D65 | reader | l:dchair-call | figure of speech: l:dchair-call: "above the line" | sent to fix-r2-ch11.md, wording
+- 12.2D66 | reader | l:dchair-order | figure of speech: l:dchair-order: "promises fewer problems" | sent to fix-r2-ch11.md, wording
+- 12.2D67 | reader | inf:dchair-delay | long: inf:dchair-delay: 31 words | sent to fix-r2-ch11.md, wording
+- 12.2D68 | reader | l:settled-convenor | long: l:settled-convenor: 35 words | applied, wording: "That procedure has the convenor declare consensus when nobody objects to unanimous consent or all opposition is unescalated and holds no national position, and otherwise leaves the call to them." (30 words; settled lemma; claim kept)
+- 12.2D69 | reader | l:settled-nb | long: l:settled-nb: 35 words | applied, wording: "...fare alike under any vote does best voting Yes with comments if it values the document's rest above removing any feature." and "Otherwise it does best voting No, and it does best raising its objections early, while ISO encourages it to abstain ..." (30 and 28 words; settled lemma; claim kept)
+- 12.2D70 | reader | l:nb-no | long: l:nb-no: 32 words | sent to fix-r2-ch11.md, wording
+- 12.2D71 | reader | l:settled-sponsor | long: l:settled-sponsor: 31 words; "the rooms" | applied, wording: "paying for participants in the subgroups whose decisions it values, study groups included, while what they bring it is worth their cost" (30 words, with 12.2B4)
+- 12.2D72 | reader | l:settled-user | long: l:settled-user: 35 words | applied, wording: first sentence 29 words with 12.2B15's "their own stakes in its polls"; "any better design's gain goes to all users" moves to its child inf:user-stake under the split rule
+- 12.2D73 | reader | p:checks | long: p:checks: second sentence 32 words | applied, wording: "Plenary invites serious design concerns, national bodies vote on each balloted draft, get answers to enquiry comments, and can appeal, editing committees verify applied changes, and minutes can be challenged." (30 words)
+- 12.2D74 | reader | l:checks-alternatives | long: l:checks-alternatives: 34 words | applied, wording: "SD-4 encourages side-by-side polls and asks a good paper for alternatives considered, design principles, and motivating examples from today's code" (28 words)
+- 12.2D75 | reader | l:checks-record | long: l:checks-record: 39 and 46 words | applied, wording: two sentences of 27 and 21 words keep the checks p:checks lists; the rest (telling chairs and authors early, ISO on resolving substantial objections and the end of the committee stage, SD-4 working in addition to the Directives) moves to child steps, one sentence each (fix-r2-ch11.md)
+- 12.2D76 | reader | thm:settled | long: thm:settled: design-bound sentence 34 words | applied, wording: "A design-bound author seeks early direction polls, proposes first the smallest part fixing the features it needs, and asks for the IS, each as far as it can pass." (29 words, with 12.2R12)
+- 12.2D77 | reader | thm:settled | long: thm:settled: national body sentence 31 words | applied, wording: "fare alike under any vote" (30 words)
+- 12.2D78 | reader | thm:settled | long: thm:settled: late objector sentence 31 words | applied, wording: "An objector arriving after adoption ..." (30 words)
+- 12.2D79 | reader | thm:settled | long: thm:settled: gaps sentence 35 words | applied, wording: split into two sentences
+- 12.2D80 | reader | thm:settled | long: thm:settled: first-part sentence 32 words | applied, wording: "A first part fixing a structure can be adopted before reviewers can study in detail what later parts need, and every rival to that structure must then replace it." (29 words)
+- 12.2D81 | reader | thm:settled | long: thm:settled: checks sentence 35 words | applied, wording: split into two sentences, with 12.2R13
+- 12.2D82 | reader | thm:settled | term: thm:settled: "the next IS" for the defined term | applied, wording: "the work aimed at the next edition"; p:roadmap-poll now says "the next edition" too, for consistency
+- 12.2D83 | reader | inf:thm-no-gain | obvious: inf:thm-no-gain restates d:settled-pattern | sent to fix-r2-ch11.md, wording
+- 12.2D84 | reader | inf:thm-early-cost | long: inf:thm-early-cost: 33 words | sent to fix-r2-ch11.md, wording
+- 12.2D85 | reader | l:thm-objections | long: l:thm-objections: 31 words | sent to fix-r2-ch11.md, wording
+- 12.2D86 | reader | l:thm-readily | term: l:thm-readily: "the next IS" | sent to fix-r2-ch11.md, wording
+- 12.2D87 | reader | inf:thm-roadmap | term: inf:thm-roadmap: "the next IS" | sent to fix-r2-ch11.md, wording
+- 12.2D88 | reader | inf:thm-known-needs | motive: inf:thm-known-needs: says what participants do | sent to fix-r2-ch11.md, wording
+- 12.2D89 | reader | inf:thm-no-cap | long: inf:thm-no-cap: 31 words; "though" | sent to fix-r2-ch11.md, wording
+- 12.2D90 | reader | inf:thm-merit-gap | long: inf:thm-merit-gap: 32 words | sent to fix-r2-ch11.md, wording
+- 12.2D91 | reader | l:thm-gaps | long: l:thm-gaps: 35 words | sent to fix-r2-ch11.md, wording
+- 12.2D92 | reader | l:thm-first-part | long: l:thm-first-part: 32 words | sent to fix-r2-ch11.md, wording
+- 12.2D93 | reader | l:thm-checks-sizes | long: l:thm-checks-sizes: 35 words | sent to fix-r2-ch11.md, wording
+- 12.2D94 | reader | inf:thm-checks | long: inf:thm-checks: 32 words | sent to fix-r2-ch11.md, wording
+- 12.2D95 | reader | c:predictions | long: c:predictions: 31 words | applied, wording: "SD-4 password-protects records of subgroup discussion but lets poll questions and numeric results be quoted ..." (30 words)
+- 12.2D96 | reader | c:pred-sponsor-against | long: c:pred-sponsor-against: 37 and 39 words | applied, wording: two sentences of 29 words, with 12.2A17's test; the evidence and the details of the comparison move to its steps inf:sa-evidence and inf:sa-tell-apart under the split rule
+- 12.2D97 | reader | inf:sa-share | motive: inf:sa-share states the prediction as fact | sent to fix-r2-ch12.md, wording
+- 12.2D98 | reader | c:pred-abstention-length | long: c:pred-abstention-length: 31 and 33 words | applied, wording: two sentences of 29 and 28 words, with 12.2B16; the evidence moves to inf:al-evidence
+- 12.2D99 | reader | inf:al-rise | motive: inf:al-rise states the prediction as fact | sent to fix-r2-ch12.md, wording
+- 12.2D100 | reader | c:pred-parts | long: c:pred-parts: 36 and 37 words | applied, wording: two sentences of 30 and 29 words, with 12.2B7; the evidence moves to inf:pa-evidence
+- 12.2D101 | reader | c:pred-first-part | long: c:pred-first-part: 39 words | applied, wording: two sentences of 27 and 30 words, with 12.2L21 and 12.2B8
+- 12.2D102 | reader | inf:fp-seldom | motive: inf:fp-seldom states the prediction as fact | sent to fix-r2-ch12.md, wording
+- 12.2D103 | reader | c:pred-rival-polls | long: c:pred-rival-polls: 40 words | applied, wording: two sentences of 26 and 29 words; the evidence moves to inf:rp-evidence
+- 12.2D104 | reader | c:pred-removals | long: c:pred-removals: 36 and 33 words | applied, wording: two sentences of 29 and 26 words, with 12.2L24's test; the evidence moves to inf:rm-evidence
+- 12.2D105 | reader | inf:rm-rare | motive: inf:rm-rare: "So removals are rare" | sent to fix-r2-ch12.md, wording
+- 12.2D106 | reader | inf:rm-nb | motive: inf:rm-nb: "so removal is then more likely" | sent to fix-r2-ch12.md, wording
+- 12.2D107 | reader | c:pred-small-fade | long: c:pred-small-fade: 33 words | applied, wording: two sentences of 28 words each, with 12.2B9 and 12.2B10; the evidence moves to inf:sf-evidence
+- 12.2D108 | reader | inf:sf-predict | motive: inf:sf-predict states the prediction as fact | sent to fix-r2-ch12.md, wording
+- 12.2D109 | reader | c:pred-nb-positions | long: c:pred-nb-positions: 33 words | applied, wording: two sentences of 30 and 28 words, with 12.2A14 and 12.2B27
+- 12.2D110 | reader | c:pred-written-answers | long: c:pred-written-answers: 35 words | applied, wording: two sentences of 27 and 25 words, with 12.2A7; the evidence moves to inf:wa-evidence
+- 12.2D111 | reader | c:pred-defects | long: c:pred-defects: 42 words | applied, wording: two sentences of 29 words each, with 12.2B19 and 12.2L25; the evidence moves to inf:de-evidence
+- 12.2D112 | reader | inf:de-predict | motive: inf:de-predict states the prediction as fact | sent to fix-r2-ch12.md, wording
+- 12.2D113 | reader | c:pred-competing | long: c:pred-competing: 39 and 33 words | applied, wording: two sentences of 28 words each, with 12.2A22; the evidence moves to inf:co-evidence
+- 12.2D114 | reader | inf:co-predict | motive: inf:co-predict states the prediction as fact | sent to fix-r2-ch12.md, wording
+- 12.2D115 | reader | c:lever-reasons-all | long: c:lever-reasons-all: 32 words | applied, wording: "If SD-4 asked every voter to be ready to give reasons on request, Neutral and Favor would bear the reasons cost Against now bears, and not voting none." (28 words, with 12.2B20)
+- 12.2D116 | reader | c:lever-sponsor-limit | term: c:lever-sponsor-limit: "a room" stands for a subgroup | applied, wording: "may vote in a subgroup"
+- 12.2D117 | reader | inf:sl-cap | term: inf:sl-cap: "a room" | sent to fix-r2-ch12.md, wording
+- 12.2D118 | reader | c:lever-nb-more | long: c:lever-nb-more: 33 words | applied, wording: two sentences of 28 and 25 words, with 12.2L26 and 12.2A12
+- 12.2D119 | reader | c:lever-nb-less | long: c:lever-nb-less: 35 and 31 words | applied, wording: two sentences of 21 and 27 words; the comments-and-appeals clause moves to its step inf:nl-ballot under the split rule
+
+### Logician
+
+- 12.2L1 | logician | inf:met-with-vote | hidden premise: inf:met-with-vote: "three or more" needs the threshold without the vote | sent to fix-r2-ch03.md, proof step
+- 12.2L2 | logician | p:record-indistinct | hidden premise: p:record-indistinct: the ISO half rests on no cited absence | applied, type 2: basis now cites f:iso-no-answer, in the spine and in chapter 4
+- 12.2L3 | logician | l:late-reversal | hidden premise: l:late-reversal: "is a reversal" rests on d:reversal, which it does not cite | sent to fix-r2-ch05.md, proof step
+- 12.2L4 | logician | l:part-cost | hidden premise: l:part-cost: "Each part needs its own paper" rests on no cited item | sent to fix-r2-ch06.md, proof step
+- 12.2L5 | logician | l:rank-oppose-no | hidden premise: l:rank-oppose-no: the strict rank needs the table's case that the body cannot rule out deciding the result | applied, type 1: "A body that wants the work in no form, as the table below defines it, ranks No above abstaining. Only the No counts against approval, which is what SD-4 says No is for." The case carries to l:rank-oppose-abstain's "such a body"; fix-r2-ch10.md has inf:oppose-no-rank use it
+- 12.2L6 | logician | inf:omit-free | overreach: inf:omit-free: "the rules" claim rests on an absence searched in SD-4 only | applied, type 2: global decision 1: the ISO clauses hold no such request, so f:no-drawbacks-asked now covers SD-4 and every quoted ISO clause, with the search list widened; full force kept (12.2R10 sends the "proposal paper" wording)
+- 12.2L7 | logician | inf:omit-exposure | hidden premise: inf:omit-exposure: "cannot rule out losing standing" rests on no axiom | sent to fix-r2-ch11.md, proof step
+- 12.2L8 | logician | p:same-moves | overreach: p:same-moves: "the rules" claims rest on absences searched in SD-4 only | applied, type 2: global decision 1: f:no-drawbacks-asked and f:no-interest-statement now cover the quoted ISO clauses too; full force kept
+- 12.2L9 | logician | l:settled-sg-chair | overreach: l:settled-sg-chair: first sentence claims every study group chair, while its children prove the choice for one whose stake is worth less than what departing can cost | applied, type 3: first sentence narrowed to that chair, as l:settled-design-chair is; the old second sentence, now implied, is replaced by "It does best sending on a design that meets the 2:1 norm, or none when none does." (settled lemma narrowed, not weakened: the Theorem states the same scope)
+- 12.2L10 | logician | l:nb-early | hidden premise: l:nb-early: nothing cited makes a cheaper change likelier to be made | sent to fix-r2-ch11.md, proof step
+- 12.2L11 | logician | thm:settled | overreach: thm:settled: "the rules ask no author" rests on an absence searched in SD-4 only | applied, type 2: global decision 1: extended f:no-drawbacks-asked; full force kept
+- 12.2L12 | logician | l:thm-pattern | invalid step: l:thm-pattern: the Theorem leaves choices open (vehicle request, one-meeting delay, the convenor's open call) | sent to fix-r2-ch11.md, type 1
+- 12.2L13 | logician | inf:thm-early-unchanged | hidden premise: inf:thm-early-unchanged: "short of a third leave the norm met" is the converse of l:vote-count | sent to fix-r2-ch11.md, proof step
+- 12.2L14 | logician | l:thm-costs-gains | overreach: l:thm-costs-gains: "A change to a design costs the sponsors who have built on it" covers any change, while its basis covers features a sponsor's interests depend on | sent to fix-r2-ch11.md, proof step
+- 12.2L15 | logician | inf:thm-review-undone | invalid step: inf:thm-review-undone: no named choice covers studying | sent to fix-r2-ch11.md, type 1
+- 12.2L16 | logician | l:thm-disclosure | overreach: l:thm-disclosure: rests on an absence searched in SD-4 only | applied, type 2: global decision 1; full force kept
+- 12.2L17 | logician | inf:thm-no-request | overreach: inf:thm-no-request: rests on an absence searched in SD-4 only | applied, type 2: global decision 1; full force kept
+- 12.2L18 | logician | inf:thm-omit-free | overreach: inf:thm-omit-free: rests on an absence searched in SD-4 only | applied, type 2: global decision 1; full force kept (12.2R14 sends the wording)
+- 12.2L19 | logician | inf:al-rise | invalid step: inf:al-rise: abstention follows not reading, while inf:al-study gives fewer who study closely | sent to fix-r2-ch12.md, proof step
+- 12.2L20 | logician | inf:pa-tell-apart | hidden premise: inf:pa-tell-apart: "which publishing them forgoes" assumes reviewers can study a published later part | merged with 12.2B7, whose test no longer turns on publishing later parts
+- 12.2L21 | logician | c:pred-first-part | overreach: c:pred-first-part: both clauses claimed for all first papers, though derived only for design-bound authors | applied, type 3: "For design-bound authors, the model predicts small first papers that leave out the later parts of a design extended part by part"; the test needs no author's type, since lower risk gives no reason to omit any mention of later parts that already exist (12.2B8)
+- 12.2L22 | logician | inf:fp-seldom | overreach: inf:fp-seldom: extends a design-bound author's choice to all first papers | sent to fix-r2-ch12.md, type 3
+- 12.2L23 | logician | inf:fp-tell-apart | hidden premise: inf:fp-tell-apart: cites neither inf:fp-seldom nor thm:settled | sent to fix-r2-ch12.md, proof step
+- 12.2L24 | logician | inf:rm-tell-apart | hidden premise: inf:rm-tell-apart: the other explanation predicts few requests only if requests track need, which no item supplies | sent to fix-r2-ch12.md, type 3
+- 12.2L25 | logician | inf:de-tell-apart | hidden premise: inf:de-tell-apart: matching holds fixed only the scrutiny novelty and use bring, not objectors' own stake | sent to fix-r2-ch12.md, type 1
+- 12.2L26 | logician | inf:nm-changes | overreach: inf:nm-changes: "answering it takes more than the cheapest change" needs opposition that can stop the proposal | sent to fix-r2-ch12.md, type 3
+- 12.2L27 | logician | c:lever-nb-less | overreach: c:lever-nb-less: "seldom" is stronger than "fewer" | sent to fix-r2-ch12.md, proof step
+
+### Skeptics A
+
+- 12.2A1 | design room chair | inf:thm-early-unchanged | objection: inf:thm-early-unchanged: the cheapest change is none only when the room directs none | sent to fix-r2-ch11.md, type 3
+- 12.2A2 | design room chair | l:dchair-other-moves | objection: l:dchair-other-moves: the pattern names no design room chair's choice of polls, though their order can change which design leaves | sent to fix-r2-ch11.md, proof step
+- 12.2A3 | design room chair | inf:thm-review-undone | objection: inf:thm-review-undone: no study choice is named | merged with 12.2L15 (the Theorem's sentence on open choices names studying)
+- 12.2A4 | design room chair | p:light-review | objection: p:light-review: check not stated, SD-4 asks discussion to build broad understanding | applied, type 2: f:negative-welcome now also quotes "Discussion should be constructive, help achieve a broad understanding of the proposal within the design subgroup, ..."; l:checks-hearing now lists it; p:light-review stands as written
+- 12.2A5 | design room chair | inf:an-reasons | objection: inf:an-reasons: a chair can invite Against voters to speak without knowing who they are | sent to fix-r2-ch12.md, type 4
+- 12.2A6 | design room chair | inf:rm-tell-apart | objection: inf:rm-tell-apart: requests come from anyone who wants removal, whatever the need | merged with 12.2L24
+- 12.2A7 | design room chair | inf:wa-tell-apart | objection: inf:wa-tell-apart: "considered and decided otherwise" shows neither an answer nor an outvote | sent to fix-r2-ch12.md, type 3
+- 12.2A8 | convenor | l:convenor-given | objection: l:convenor-given: SD-4 lets the convenor take any polls, which no move list names | sent to fix-r2-ch11.md, type 2
+- 12.2A9 | convenor | p:who-votes | objection: p:who-votes: the only voting rule cited governs subgroup polls | applied, type 2: new fact f:plenary-polls quotes "In plenary polls, each person present whose nameis listed in the ISO LiveLink global directory can vote." (misspelling kept); p:who-votes now cites it; fix-r2-ch09.md has l:traced-voters cite it
+- 12.2A10 | convenor | l:convenor-weightless | objection: l:convenor-weightless: SD-4 says unescalated objections get no weight, not that Against votes in the 3-way poll do | sent to fix-r2-ch11.md, proof step
+- 12.2A11 | convenor | inf:nl-count | objection: inf:nl-count: no item says the count weighs more in the convenor's call | sent to fix-r2-ch12.md, type 3
+- 12.2A12 | convenor | inf:nm-weight | objection: inf:nm-weight: no item says the count weighs in the convenor's call | sent to fix-r2-ch12.md, type 4
+- 12.2A13 | convenor | inf:nm-more | objection: inf:nm-more: check not stated, ISO calls substantial comments tabled at meetings counter-productive | sent to fix-r2-ch12.md, type 2
+- 12.2A14 | convenor | inf:nb-evidence | objection: inf:nb-evidence: plenary records of national positions are not shown usable, and ISO bars public comment on others' positions | sent to fix-r2-ch12.md, type 3
+- 12.2A15 | convenor | p:who-takes-part | objection: p:who-takes-part: check not stated, ISO 5.3.1 on meeting locations | applied, type 2: new fact f:meeting-access quotes ISO 5.3.1 on invitation letters, accessibility, and locations; p:who-takes-part now opens "Fees are barred and meeting places should not significantly limit attendance" (headline; the gate on who votes stands)
+- 12.2A16 | author of a large proposal | l:settled-design-bound | objection: l:settled-design-bound: the IS choice has no child, and a TS's earlier reach is not weighed | sent to fix-r2-ch11.md, proof step
+- 12.2A17 | author of a large proposal | inf:sa-tell-apart | objection: inf:sa-tell-apart: votes can change after a move for reasons unrelated to the sponsor | sent to fix-r2-ch12.md, type 3
+- 12.2A18 | author of a large proposal | inf:pa-ease | objection: inf:pa-ease: ease of review is also a reason to keep later parts out of the mailings | merged with 12.2B7
+- 12.2A19 | author of a large proposal | inf:pa-tell-apart | objection: inf:pa-tell-apart: withholding is predicted only for design-bound authors | merged with 12.2B7, whose test needs no author's type
+- 12.2A20 | author of a large proposal | inf:fp-small-steps | objection: inf:fp-small-steps: a longer paper takes more review time, a reason to keep the first paper to the first step | merged with 12.2B8
+- 12.2A21 | author of a large proposal | inf:fp-tell-apart | objection: inf:fp-tell-apart: leaving out existing later parts is predicted only for design-bound authors | merged with 12.2L21
+- 12.2A22 | author of a large proposal | inf:co-tell-apart | objection: inf:co-tell-apart: "Novelty measures how well understood a topic is" is an uncited premise | sent to fix-r2-ch12.md, type 3
+- 12.2A23 | author of a large proposal | p:integration | objection: p:integration: in the in-situ case changes come together in the wording room and no editing committee verifies them | applied, type 3: new fact f:in-situ quotes SD-4's two sentences; p:integration now opens "Change papers approved separately at one meeting first come together when the project editor merges their wording" (headline; the absence of an integration check stands); fix-r2-ch09.md adds the in-situ case to its children
+- 12.2A24 | author of a large proposal | p:first-part | objection: p:first-part: check not stated, a presenter must be qualified to answer detailed questions | sent to fix-r2-ch06.md, type 2
+
+### Skeptics B
+
+- 12.2B1 | employer standards lead | inf:rp-changes | objection: inf:rp-changes: "a cost absent before" is false, since work is built before the first poll | sent to fix-r2-ch12.md, type 1
+- 12.2B2 | employer standards lead | l:first-part-oppose | objection: l:first-part-oppose: the comparison holds for opponents who together can reach a third, not for each | sent to fix-r2-ch06.md, type 3
+- 12.2B3 | employer standards lead | inf:sl-margins | objection: inf:sl-margins: d:large lets each author have a different sponsor, so the limit need not bind | sent to fix-r2-ch12.md, type 3
+- 12.2B4 | employer standards lead | l:sponsor-how-many | objection: l:sponsor-how-many: "only while that vote brings it more than that cost" leaves out papers, presentations, and review | sent to fix-r2-ch11.md, type 4
+- 12.2B5 | employer standards lead | inf:an-standing | objection: inf:an-standing: ax:support puts no condition on the colleague learning of the vote | sent to fix-r2-ch12.md, type 2
+- 12.2B6 | employer standards lead | inf:sa-tell-apart | objection: inf:sa-tell-apart: a move changes a participant's work, and participants choose sponsors they agree with | merged with 12.2A17, whose timing test covers both
+- 12.2B7 | employer standards lead | inf:pa-ease | objection: inf:pa-ease: ease of review is also a reason to hold drafts back, so the test fails | sent to fix-r2-ch12.md, type 3
+- 12.2B8 | employer standards lead | inf:fp-small-steps | objection: inf:fp-small-steps: provisional later parts give lower risk a reason to leave them out | sent to fix-r2-ch12.md, type 3
+- 12.2B9 | employer standards lead | inf:sf-predict | objection: inf:sf-predict: the model fixes no rate, so small versus large overall is unsupported | sent to fix-r2-ch12.md, type 3
+- 12.2B10 | employer standards lead | inf:sf-tell-apart | objection: inf:sf-tell-apart: reflection also predicts a difference by who pays | sent to fix-r2-ch12.md, type 3
+- 12.2B11 | employer standards lead | p:reward-timing | objection: p:reward-timing: a flaw found later also costs its authors, through rework | applied, type 2: "Authors get the adoption they value at the poll. A flaw that implementation and use have not yet exposed costs them only later and in part, and its cost can fall on any user of the feature." (headline; the timing gap is kept, and sharper); the Theorem's sentence follows, and fix-r2-ch11.md updates l:thm-costs-gains and inf:thm-reward-timing
+- 12.2B12 | C++ user | p:first-part | objection: p:first-part: check not stated, the design room can direct the author to state what later parts need | sent to fix-r2-ch06.md, type 2
+- 12.2B13 | C++ user | p:reasons-unrecorded | objection: p:reasons-unrecorded: check not stated, SD-4 asks whoever reports a concern to file an issue or write a paper | applied, type 2: new fact f:report-followup; p:reasons-unrecorded's second sentence now opens "SD-4 asks whoever raises a concern to file an issue or write a paper" (headline; "only writing keeps an objection's argument" stands); fix-r2-ch04.md has its children prove it
+- 12.2B14 | C++ user | p:who-takes-part | objection: p:who-takes-part: check not stated, ISO 5.3.1 | merged with 12.2A15
+- 12.2B15 | C++ user | inf:user-stake | objection: inf:user-stake: d:stake is one poll's, while taking part reaches every poll a user attends | sent to fix-r2-ch11.md, type 4
+- 12.2B16 | C++ user | c:pred-abstention-length | objection: c:pred-abstention-length: poll results and paper lengths do not show stakes | sent to fix-r2-ch12.md, type 3
+- 12.2B17 | C++ user | inf:rm-tell-apart | objection: inf:rm-tell-apart: a removal request reflects its requester's view, not need | merged with 12.2L24, which adopts this finding's margins test
+- 12.2B18 | C++ user | inf:wa-tell-apart | objection: inf:wa-tell-apart: omitted objections that were answered fit both explanations | merged with 12.2A7
+- 12.2B19 | C++ user | inf:de-predict | objection: inf:de-predict: the model also predicts defects where no one voted Against, so the sign is not fixed | sent to fix-r2-ch12.md, type 3
+- 12.2B20 | C++ user | c:lever-reasons-all | objection: c:lever-reasons-all: Favor would also bear a reasons cost | sent to fix-r2-ch12.md, proof step
+- 12.2B21 | national body head | l:call-above | objection: l:call-above: declaring above 2:1 over a sustained opposition can itself depart from SD-4's definition, so the post risk does not rank the calls there | applied, type 1: d:follows-norm's scope now reads "what happens under a chair who follows the norm and finds no sustained opposition", and t:chair-call's caption adds "the chair finds no sustained opposition". Where a chair finds one, the call is open, and SD-4 names no step or criteria for that finding (p:definition-without-procedure). (type 1: every sentence keeps its plain claim)
+- 12.2B22 | national body head | m:moves-nb | objection: m:moves-nb leaves out the national bodies' vote on the convenor's appointment | sent to fix-r2-ch11.md, type 2
+- 12.2B23 | national body head | p:nb-comment | objection: p:nb-comment: ISO's "Every attempt shall be made to resolve negative votes" points the other way | rejected: the sentence states what SD-4 says WG21 does, and the ballot table's case already has the body expect its comments to fare the same under any vote, as SD-4 says, which is the assumption this finding asks the caption to state; the proof claims nothing for a body outside that case
+- 12.2B24 | national body head | p:nb-members | objection: p:nb-members: check not stated, INCITS lets absent members vote by correspondence | rejected as immaterial: no item says presence at an INCITS meeting adds to an organization's weight, and the one-membership rule p:nb-members states already fixes that weight at one per organization; INCITS's procedures are outside d:rules
+- 12.2B25 | national body head | inf:nm-weight | objection: inf:nm-weight: INCITS's caucus rule sets no limit per organization | merged with 12.2A12
+- 12.2B26 | national body head | inf:nb-fail | objection: inf:nb-fail: a failed final draft does not remove the feature, since SC22 may resubmit it | sent to fix-r2-ch11.md, type 1
+- 12.2B27 | national body head | inf:nb-tell-apart | objection: inf:nb-tell-apart: the cost explanation also predicts positions on contested proposals | sent to fix-r2-ch12.md, type 3
+
+## Step 12, verify round 3 (2026-10-20)
+
+Reviewers: rules check (12.3R), reader (12.3D), logician (12.3L), skeptics A (12.3A: design room chair, convenor, author of a large proposal), skeptics B (12.3B: employer standards lead, C++ user, national body head). Scope: the 453 keys of scratch `r3-scope.txt`. 138 findings: rules check 15, reader 33, logician 19, skeptics A 49, skeptics B 22. Reconciled under the force-keeping rule (plan Step 12, user 13:14): a scope or definition stated once (type 1), an added premise or fact that passes the five-part test (type 2), a narrower subject (type 3), and weaker wording only where the claim was false as stated (type 4); wording fixes that keep the claim exactly are marked wording, and a proof step added with no new premise is marked proof step. Rejection tests applied strictly: an objection a reader drops on seeing a scope or definition the proof states elsewhere, and an edge case that changes no conclusion. Dispositions: applied by the reconcile 61, sent to a chapter fix file 44, merged 20, rejected 13. Fixes by type, applied and sent: type 1 8, type 2 13, type 3 37, type 4 7, wording 35, proof step 5. The ledger's "Step 12, round 3 reconcile" section lists every weakening, the rejections by reason, the foundation and spine changes, and the global decisions.
+
+### Rules check
+
+- 12.3R1 | rules check | f:iso-no-answer | unsupported absence claim: f:iso-no-answer: 2.6.5 d also requires the secretariat's observations on each comment | applied, type 3: now "Apart from 2.6.5's required responses and observations on all comments received, no ISO/IEC Directives Part 1 clause listed here requires a written answer to a working group or ballot objection", with observation added to the searched terms (scratch r3_iso_search.py: its only hit among the listed clauses is 2.6.5 d)
+- 12.3R2 | rules check | m:moves-chair | unsupported rule claim: m:moves-chair: SD-4 gives the exploration discretion only at early discussion phases | applied, type 3: "and allow early, limited exploration of alternatives" (27 words); l:sg-other-moves and inf:dchair-before-call follow in fix-r3-ch11.md
+- 12.3R3 | rules check | p:reasons-unrecorded | unsupported rule claim: p:reasons-unrecorded: step 6 can be met by making sure someone else files or writes | applied, type 4: "SD-4 asks whoever raises a concern to see an issue filed or a paper written" (headline, finding 6; force kept: outside the protected records only writing keeps an objection's argument after its hearers leave)
+- 12.3R4 | rules check | l:concern-followup | unsupported rule claim: l:concern-followup drops the third option of step 6 | sent to fix-r3-ch04.md, type 4
+- 12.3R5 | rules check | p:repeat-objection | unsupported rule claim: p:repeat-objection drops "once they have had opportunity to be heard" | merged with 12.3L1, whose rewrite gives the hearing condition
+- 12.3R6 | rules check | l:traced-voters | unsupported rule claim: l:traced-voters: every ISO member body, not only SC22 P-members, votes on enquiry and final ballots | sent to fix-r3-ch09.md, type 4
+- 12.3R7 | rules check | l:editor-merge | unsupported rule claim: l:editor-merge: no cited Fact states that plenary approves the changes in that form | applied, type 2: f:in-situ now also quotes "To approve the change, instead of a poll to apply a paper to the working draft, we have a poll to approve the changes in the form already applied to the new working draft paper." between its two sentences; l:editor-merge already cites f:in-situ, so no chapter edit is needed
+- 12.3R8 | rules check | l:iso-comment-answers | unsupported rule claim: l:iso-comment-answers: "no other written answer to an objection" reaches a TS ballot's Disposition of Comments and appeals | sent to fix-r3-ch09.md, type 3
+- 12.3R9 | rules check | p:nb-members | unsupported rule claim: p:nb-members: the Defense Department exception applies only on TCs, TGs, and SGs | applied, type 3: second sentence now "In the United States, INCITS gives each organization one voting membership, with a Defense Department exception, no vote to consultants a voting member funds, and binds delegates to official positions."; l:incits-votes states the exception's scope
+- 12.3R10 | rules check | l:incits-votes | unsupported rule claim: l:incits-votes: "on technical committees" leaves out task groups and study groups | applied, type 3: "the Defense Department up to four on technical committees and groups" (30 words)
+- 12.3R11 | rules check | inf:nb-appeal | unsupported rule claim: inf:nb-appeal: "up to approval" can be read as stopping before the approval stage | sent to fix-r3-ch11.md, wording
+- 12.3R12 | rules check | inf:nb-discussion | unsupported rule claim: inf:nb-discussion: a draft can be discussed at a meeting without the 2.6.5 trigger | sent to fix-r3-ch11.md, type 3
+- 12.3R13 | rules check | l:checks-alternatives | unsupported rule claim: l:checks-alternatives: the exploration discretion is for early phases | applied, type 3: "Chairs may allow early, limited exploration of alternatives" (29 words)
+- 12.3R14 | rules check | c:lever-sustained-procedure | unsupported rule claim: c:lever-sustained-procedure: "with a recorded answer" reads as one of ISO's steps | applied, type 3: first sentence now "If SD-4 adopted ISO's steps for assessing, registering, and addressing a sustained opposition, and added a recorded answer, a declared opposition left unresolved would be registered in writing." (with 12.3D31)
+- 12.3R15 | rules check | inf:nm-tabled | unsupported rule claim: inf:nm-tabled: ISO's clause says meetings, not committee meetings | sent to fix-r3-ch12.md, type 3
+
+### Reader
+
+- 12.3D1 | reader | ax:prefer | long: ax:prefer: second sentence 104 words | rejected, as in rounds 1 and 2 (12.1D2, 12.2D1): an axiom takes no basis, so child axioms could not be tied to it, and each keyed child would be an orphan under build.py check 5 unless the items citing ax:prefer were re-pointed to the child for their role, a chapter-wide change for a wording finding. Falsifier: the user asks for the split.
+- 12.3D2 | reader | ax:schedule | long: ax:schedule: 31 words | applied, wording: "with the features approved by its feature cutoff" (30 words)
+- 12.3D3 | reader | f:no-interest-statement | long: f:no-interest-statement: first sentence 31 words | applied, wording: "Neither SD-4 nor any listed ISO/IEC Directives Part 1 clause asks ..." (30 words; claim unchanged, finding 8 unaffected)
+- 12.3D4 | reader | t:mutual-support | dull: t:mutual-support: "Pareto-optimal" is undefined jargon | applied, wording: "† marks a Pareto-optimal cell: no other cell gives one regular a higher rank without giving the other a lower one." (keeps the term payoff-table-format requires and defines it in plain words)
+- 12.3D5 | reader | p:definition-without-procedure | hedge: p:definition-without-procedure: "Whoever ISO's leadership is for a working group" is a hedge the claim does not need | applied, wording: second sentence now "SD-4's steps for an objection include the 2:1 norm, Against voters' reasons on request, escalation, and plenary's 3-way poll and national-position question." (finding 6 key; claim unchanged)
+- 12.3D6 | reader | p:reasons-unrecorded | figure of speech: p:reasons-unrecorded: "survives only in the memory" | applied, wording: "is kept only in the memory of those who heard it" (with 12.3R3)
+- 12.3D7 | reader | l:argument-writing | figure of speech: l:argument-writing: "survives outside the protected records only in writing" | sent to fix-r3-ch04.md, wording
+- 12.3D8 | reader | p:fluency | dull: p:fluency: "partly, and some only, by attending" is hard to parse | applied, wording: second sentence now "Other things equal, whoever knows more of how the committee applies them, some of it learned only by attending, has the better chance of adoption, whatever their design skill." (finding 2 key; claim unchanged)
+- 12.3D9 | reader | p:late-arrival | dull: p:late-arrival: opens with no claim | applied, wording: now "An objector who arrives after a design is adopted needs a paper or ballot comment meeting the 2:1 norm, against a reversal cost that grows as more is built. The record keeps the design's case, while unwritten objections are kept only in memory." (claim unchanged)
+- 12.3D10 | reader | l:late-record | figure of speech: l:late-record: "survive only with those who heard them" | sent to fix-r3-ch05.md, wording
+- 12.3D11 | reader | t:hold-or-yield | dull: t:hold-or-yield: "Pareto-optimal" is undefined jargon | applied, wording: "† marks a Pareto-optimal cell: no other cell gives one group a higher rank without giving the other a lower one."
+- 12.3D12 | reader | p:users-out | figure of speech: p:users-out: "seldom turns on one user's effort" | applied, wording: "seldom depends on one user's effort"
+- 12.3D13 | reader | p:users-out | figure of speech: p:users-out: "Users' interests reach decisions only through" | applied, wording: "Users' interests affect decisions only through" (with 12.3R6's ISO member bodies)
+- 12.3D14 | reader | l:settled-sg-chair | hedge: l:settled-sg-chair's condition is repeated in each child | sent to fix-r3-ch11.md, wording
+- 12.3D15 | reader | l:settled-design-chair | hedge: l:settled-design-chair's condition is repeated in each child | sent to fix-r3-ch11.md, wording
+- 12.3D16 | reader | thm:settled | figure of speech: thm:settled: "the needs that reach a vote" | applied, wording: "the needs put to a vote" (with 12.3B17's scope)
+- 12.3D17 | reader | inf:thm-late-arrival | figure of speech: inf:thm-late-arrival: "survive only in memory" | sent to fix-r3-ch11.md, wording
+- 12.3D18 | reader | l:thm-deciders | figure of speech: l:thm-deciders: "the needs that reach a vote" | sent to fix-r3-ch11.md, wording
+- 12.3D19 | reader | inf:thm-no-user-vote | figure of speech: inf:thm-no-user-vote: "reach decisions only through" | sent to fix-r3-ch11.md, wording
+- 12.3D20 | reader | inf:sa-weighs | motive: inf:sa-weighs: neither cited item makes adoption one of the sponsor's interests | sent to fix-r3-ch12.md, wording
+- 12.3D21 | reader | c:pred-parts | term: c:pred-parts: "large designs" for the defined term | applied, wording: "large proposals mostly adopted in one paper" (with 12.3L14)
+- 12.3D22 | reader | inf:pa-sequence | term: inf:pa-sequence: "Large designs" | sent to fix-r3-ch12.md, wording
+- 12.3D23 | reader | inf:pa-evidence | term: inf:pa-evidence: "a large design" | sent to fix-r3-ch12.md, wording
+- 12.3D24 | reader | inf:pa-ease | term: inf:pa-ease: "large designs" | sent to fix-r3-ch12.md, wording
+- 12.3D25 | reader | c:pred-first-part | term: c:pred-first-part: "small first papers" collides with the defined term small proposal | applied, wording: "first papers of small scope" (with 12.3A43)
+- 12.3D26 | reader | inf:fp-small-steps | term: inf:fp-small-steps: "small first papers" | sent to fix-r3-ch12.md, wording
+- 12.3D27 | reader | inf:rm-need | figure of speech: inf:rm-need: "even with no hurdle" | sent to fix-r3-ch12.md, wording
+- 12.3D28 | reader | inf:rm-tell-apart | figure of speech: inf:rm-tell-apart: "so the hurdle shows in such failures" | sent to fix-r3-ch12.md, wording
+- 12.3D29 | reader | c:lever-written-answer | tautology: c:lever-written-answer: "the record would show whether an objection was answered" holds by the premise | applied, wording: first sentence now "If the rules required a written answer to each objection in a public record, every objection would be in public writing whatever the paper says." (with 12.3A48)
+- 12.3D30 | reader | c:lever-deadlock-rule | tautology: c:lever-deadlock-rule: true by the premise | applied, wording: first sentence now "If the rules set a decision procedure for deadlocks lasting a set number of meetings, no group would bear the cost of holding through a deadlock for longer."
+- 12.3D31 | reader | c:lever-sustained-procedure | tautology: c:lever-sustained-procedure: true by the premise | applied, wording: "a declared opposition left unresolved would be registered in writing" (with 12.3R14)
+- 12.3D32 | reader | inf:nm-tabled | figure of speech: inf:nm-tabled: "limits how far cheaper positions turn into" | sent to fix-r3-ch12.md, wording
+- 12.3D33 | reader | inf:nl-fewer | dull: inf:nl-fewer: "fewer still makes plenary opposition holding them seldom" is hard to parse | sent to fix-r3-ch12.md, wording
+
+### Logician
+
+- 12.3L1 | logician | p:repeat-objection | overreach: p:repeat-objection: SD-4 describes only a heard minority insisting the work cannot proceed | applied, type 3: now "In SD-4's terms, a heard objector insisting after a consensus call that work cannot proceed, without new information or allowed escalation, is not accepting a group decision, answered or not." (feeds l:settled-regular; force kept: answered or not)
+- 12.3L2 | logician | p:chair-default | overreach: p:chair-default concludes for every chair what its children prove for design room chairs | applied, type 2: global decision 2: the facts reach study groups (d:rooms makes study groups subgroups, d:positions applies the 2:1 norm to every subgroup poll, f:chairs-appointed and ax:post-risk cover every subgroup chair), so l:call-above and the t:chair-call caption now say "a chair", and l:call-above, l:call-below, and p:chair-default cite d:rooms; p:chair-default keeps its full reach
+- 12.3L3 | logician | l:iso-comment-answers | overreach: l:iso-comment-answers overreaches f:iso-no-answer | merged with 12.3R8
+- 12.3L4 | logician | inf:oppose-no-rank | hidden premise: inf:oppose-no-rank: a No without technical comments ties with abstaining | applied, type 1: the t:nb-ballot caption now states once "In both, its No is accompanied by comments of a technical nature, and it cannot rule out that its vote decides the result." as 2.6.2 and 2.7.2 require of a negative vote; inf:oppose-no-rank and inf:no-gains-nothing cite the caption's case (fix-r3-ch10.md)
+- 12.3L5 | logician | inf:no-gains-nothing | hidden premise: inf:no-gains-nothing needs the No to come with technical comments | merged with 12.3L4, whose caption statement covers it
+- 12.3L6 | logician | inf:bound-ts-reach | overreach: inf:bound-ts-reach: "which is all that author's gain depends on" goes beyond d:design-bound | sent to fix-r3-ch11.md, type 1
+- 12.3L7 | logician | inf:early-sooner | hidden premise: inf:early-sooner: no cited item says a direction poll speeds the later polls | sent to fix-r3-ch11.md, type 2
+- 12.3L8 | logician | thm:settled | overreach: thm:settled: "A sponsor pays for participants where the decisions it values are made" drops l:settled-sponsor's condition | applied, type 4: now "..., study groups included, while what they bring it is worth their cost." (Theorem; false as stated for a sponsor whose participants are not worth their cost; force kept: each paid participant still votes valuing its interests, and no rule limits how many it pays)
+- 12.3L9 | logician | l:thm-pattern | hidden premise: l:thm-pattern: nothing shows the open choices can all be best replies at once | sent to fix-r3-ch11.md, proof step
+- 12.3L10 | logician | inf:thm-review-undone | overreach: inf:thm-review-undone: "goes undone" covers participants whose choices are taken as given | applied, type 3: the Theorem now says "no player does review worth its cost to users together but not to any one participant"; inf:thm-review-undone and l:thm-gaps follow (fix-r3-ch11.md). Narrowed to players, every decision maker the proof models; force kept
+- 12.3L11 | logician | inf:thm-no-request | hidden premise: inf:thm-no-request: "SD-4 never uses the word trade-off" is not in f:no-drawbacks-asked | applied, type 2: f:no-drawbacks-asked now says neither SD-4 nor any listed clause "uses the word trade-off", which scratch r3_iso_search.py confirms for all three spellings across the extract; inf:thm-no-request already cites it, so no chapter edit is needed (draft 3 finding 8's opening line keeps its support)
+- 12.3L12 | logician | inf:sa-tell-apart | hidden premise: inf:sa-tell-apart: a mover can learn from new colleagues, which also turns votes only after the move | sent to fix-r3-ch12.md, type 3
+- 12.3L13 | logician | inf:al-rise | overreach: inf:al-rise drops "stakes unchanged" | merged with 12.3B9, whose redesign holds poll form fixed
+- 12.3L14 | logician | inf:pa-ease | overreach: inf:pa-ease: stating later needs costs reviewers something, so ease of review gives little reason, not none | applied, type 4: c:pred-parts now says "gives little reason to omit"; inf:pa-ease and inf:pa-tell-apart follow (fix-r3-ch12.md). Prediction; force kept: the model still predicts the omission, and ease of review gives at most a small reason for it
+- 12.3L15 | logician | inf:sf-tell-apart | hidden premise: inf:sf-tell-apart: reflection after submission can also follow a sponsor's loss | applied, type 3: global decision 3: as an assumption, "sponsor losses unrelated to the proposal" fails part 1, so the test is narrowed to observable unrelated losses: c:pred-small-fade now reads "stops rising after a waiting author's sponsor leaves WG21 altogether would tell it apart"; inf:sf-tell-apart follows
+- 12.3L16 | logician | inf:nb-few | overreach: inf:nb-few: its basis does not make positions few rather than many | applied, type 4: c:pred-nb-positions now predicts more positions where forming one costs less (proposals decided at meetings in a body's own country) in place of "few", and c:lever-nb-less now says "fewer plenary objections would hold them" for "seldom"; inf:nb-few and inf:nl-fewer follow. Predictions and a lever; force reduced for the level claim "few", which no item supports; the cost comparison the levers turn on is kept and sharpened
+- 12.3L17 | logician | inf:nb-tell-apart | hidden premise: inf:nb-tell-apart: bodies sending experts in person may disagree more, so agreement predicts a difference too | applied, type 3: global decision 3: that condition fails part 1 (f:in-person-expected itself suggests it is false), so the test holds the body fixed and varies the cost by meeting location: c:pred-nb-positions now compares one body's positions on proposals decided at meetings in its own country, where its experts attend in person at less cost (ax:cost), with those decided elsewhere, which also answers a body choosing meetings by agenda; inf:nb-tell-apart follows (combines 12.3A27)
+- 12.3L18 | logician | inf:co-shortfall | overreach: inf:co-shortfall: "goes undone" claims more than p:review-shortfall | sent to fix-r3-ch12.md, type 3
+- 12.3L19 | logician | inf:ts-delay | overreach: inf:ts-delay: a TS also has a formal ballot, Disposition of Comments, and ISO editing | sent to fix-r3-ch12.md, type 3
+
+### Skeptics A
+
+- 12.3A1 | design room chair | m:players | objection: m:players: taking appointments as given may read as leaving departing free | rejected: a reader drops it on seeing ax:post-risk, f:chairs-appointed, and p:chair-threshold ("chairs serve at the convenor's choice with no fixed term"); taking appointments as given means the pattern does not derive them, and the chair results already rest on ax:post-risk
+- 12.3A2 | design room chair | m:moves-regular | objection: m:moves-regular leaves out moves the rules give a regular | applied, type 2: second sentence now "A regular can also write a paper or file an issue, raise a concern with a chair or on the email lists, comment on minutes, and seek a national position.", citing f:report-early, f:report-followup, f:escalate-deadline, f:minutes-objections; inf:regular-alongside follows (fix-r3-ch11.md)
+- 12.3A3 | design room chair | p:doubt-outside-count | objection: p:doubt-outside-count counts only the vote's arithmetic | applied, type 2: second sentence now "Counted alone, an Against vote changes the result only at one or two votes above the 2:1 threshold, but discussing its concerns can change other votes or the design.", citing f:two-to-one and ax:attention (headline, finding 3; the regular's rule is unchanged and the vote's reach is stated in full); l:vote-count keeps its wording, since it is a lemma about the count
+- 12.3A4 | design room chair | p:repeat-objection | objection: p:repeat-objection: SD-4 describes only insisting the majority cannot proceed | merged with 12.3L1
+- 12.3A5 | design room chair | p:dissent-needs-paper | objection: p:dissent-needs-paper leaves out the issues lists | sent to fix-r3-ch04.md, type 3
+- 12.3A6 | design room chair | l:sg-attendance | objection: l:sg-attendance: a study group meeting by telecon meets alongside no other room | applied, type 3: second sentence now "So when a study group meets alongside other rooms, its voters are those for whom its topic outweighs them." (finding 5 key; p:sg-sponsor's arithmetic holds either way)
+- 12.3A7 | design room chair | l:favor-supported | objection: l:favor-supported: in a poll choosing between colleagues' designs, Favor on one opposes the other | merged with 12.3B1
+- 12.3A8 | design room chair | l:sg-call | objection: l:sg-call leaves the call open when several designs meet the 2:1 norm | sent to fix-r3-ch11.md, type 1
+- 12.3A9 | design room chair | l:dchair-call | objection: l:dchair-call: at a Neutral majority the norm gives no call | sent to fix-r3-ch11.md, type 3
+- 12.3A10 | design room chair | p:cutoff-effect | objection: p:cutoff-effect: SD-4 says it does not significantly delay concrete proposals | rejected: p:cutoff-effect and inf:dchair-delay state what a delay does, which holds whatever weighs against it, and the same SD-4 passage grants the one-meeting delay; the Theorem leaves the delay to the chair, so SD-4's stance enters the chair's weighing under ax:post-risk without changing either statement
+- 12.3A11 | design room chair | inf:wa-tell-apart | objection: inf:wa-tell-apart: no item shows the chairs' plenary summaries are public | sent to fix-r3-ch12.md, type 1
+- 12.3A12 | design room chair | inf:wa-tell-apart | objection: inf:wa-tell-apart: objectors raise at plenary mainly what went unanswered, so the sample leans that way | applied, type 3: c:pred-written-answers now tells the explanations apart by "a larger unanswered share among omitted than stated objections, in chairs' plenary summaries", so the selection applies to both groups; inf:wa-tell-apart follows
+- 12.3A13 | design room chair | c:lever-reasons-all | objection: c:lever-reasons-all: supporters whose vote seldom matters would also stop voting | applied, proof step: second sentence now "The model predicts fewer Neutral votes, fewer Favor votes from doubters and from supporters whose vote seldom changes the result, and more participants not voting."; inf:ra-favor and inf:ra-shift follow (lever; strengthened)
+- 12.3A14 | design room chair | p:integration | objection: p:integration: early TS merging for integration testing is a check | rejected: f:early-merge describes merging a TS early to permit integration testing in the IS's context; it names no step in which anyone checks whether designs adopted in separate papers work together, which is f:no-integration-check's absence, confirmed by its search for integrat; p:integration's subject is change papers approved separately, and l:checks-deadlock already lists early merging among the checks (draft 3's finding 7 states the contrast)
+- 12.3A15 | convenor | p:who-votes | objection: p:who-votes: the proof never says whether a guest participates in d:user's sense | applied, type 1: d:user now "A user is a person who writes C++ and does not participate, as a participant or as a guest a convenor invites.", so "no user votes" stays plain (finding 4: claim unchanged)
+- 12.3A16 | convenor | m:moves-convenor | objection: m:moves-convenor leaves out documenting outcomes, answering minutes comments, and reviewing participation | applied, type 2: second sentence now "The convenor can also ask in plenary whether Against votes are personal or national body positions, see outcomes documented, address comments on minutes, and review participation.", citing f:minutes-objections and f:inactive-experts; l:convenor-given follows
+- 12.3A17 | convenor | l:objection-forms | objection: l:objection-forms: ISO 5.4 exempts ad hoc groups and comment resolution from its deadlines | sent to fix-r3-ch04.md, type 2
+- 12.3A18 | convenor | l:removal-polls | objection: l:removal-polls: a removal answering a ballot comment is also judged by whether it improves consensus | applied, type 2: f:near-unanimous now also quotes "Any technical changes made during ballot comment resolution have one goal: to improve consensus."; l:removal-polls follows (fix-r3-ch05.md). The 2:1 norm still decides the call under d:follows-norm, so p:burden-flip stands
+- 12.3A19 | convenor | p:plenary-ratifies | objection: p:plenary-ratifies states as an outcome what SD-4 states as guidance | applied, wording: "SD-4 says objections not escalated in time should get no weight" (matching l:plenary-late-weight)
+- 12.3A20 | convenor | inf:convenor-against-objection | objection: inf:convenor-against-objection equates an unescalated plenary Against vote with an objection raised in plenary | rejected: f:plenary-consent makes an Against position an objection to unanimous consent, and f:plenary-weight covers objections "not so escalated" that are "raised or re-raised in plenary", which by its words includes any objection not escalated, mild or serious; a plenary Against vote is how a participant raises an objection there
+- 12.3A21 | convenor | l:iso-comment-answers | objection: l:iso-comment-answers reaches appeals | merged with 12.3R8, which narrows the lemma to a working group or ballot objection; its point on p:written-answer is not adopted, since 6.2.2 and 6.3.3 ask only that an appeal be considered, decided, or addressed, not answered in writing
+- 12.3A22 | convenor | p:nb-comment | objection: p:nb-comment: ISO gives negative votes treatment SD-4's equal handling does not | rejected: the ballot table's caption states the case, a body that expects its comments to fare the same under any vote, and p:credible-threat and l:settled-nb are stated for that body; a body that expects ISO's attempts to resolve negative votes to favor its comments is outside the case, which the caption makes plain
+- 12.3A23 | convenor | l:ballot-rules | objection: l:ballot-rules leaves out ISO's contact before discounting a negative vote | rejected (with 12.3B19): l:ballot-rules states the counting rule 2.6.3 and 2.7.3 give; ISO's contact step decides in unclear cases whether a body's comments are technical, after which the same rule applies, so it limits no effect a later item states, and the ballot table now states that the No is accompanied by technical comments (12.3L4)
+- 12.3A24 | convenor | l:checks-hearing | objection: l:checks-hearing: ISO makes the Code mandatory, not a request | rejected: "asks for" describes SD-4's slide accurately, and no result turns on whether ISO also makes the Code mandatory, since the proof assumes no bad faith and derives nothing from these items' force; l:checks-hearing lists them as checks either way
+- 12.3A25 | convenor | inf:rm-tell-apart | objection: inf:rm-tell-apart: removal polls at ballot comment resolution run under other tests | applied, type 3: c:pred-removals now counts "failed removal polls outside ballot comment resolution" and cites f:near-unanimous; inf:rm-tell-apart follows
+- 12.3A26 | convenor | inf:nb-evidence | objection: inf:nb-evidence: ballot comments include comments a body did not vet | sent to fix-r3-ch12.md, type 3
+- 12.3A27 | convenor | inf:nb-tell-apart | objection: inf:nb-tell-apart: in-person bodies also have more to disagree with | merged with 12.3L17
+- 12.3A28 | convenor | l:thm-pattern | objection: l:thm-pattern assumes the open choices admit mutual best replies | merged with 12.3L9
+- 12.3A29 | convenor | p:who-takes-part | objection: p:who-takes-part omits remote participation | rejected: p:who-takes-part cites f:remote and claims only that those who vote bear the cost of taking part or have it paid, which holds for remote and in-person taking part alike; l:settled-user's "full price" is the price of whatever form of taking part gives a vote, so whether a remote participant is in the room changes no conclusion
+- 12.3A30 | author of a large proposal | l:small-other-moves | objection: l:small-other-moves: "is also a result-seeking or design-bound author" does not follow | sent to fix-r3-ch11.md, proof step
+- 12.3A31 | author of a large proposal | p:first-part | objection: p:first-part: the missing request explains omission, not why the smallest part is best | applied, wording: second sentence now "SD-4 asks no paper to state those needs, and the smallest part fixing the structure that can pass is reviewed soonest, so a design-bound author does best proposing it first." (its reason is its own child l:first-part-smallest; claim unchanged)
+- 12.3A32 | author of a large proposal | l:first-part-smallest | objection: l:first-part-smallest ignores the added costs of a later part | rejected: the lemma compares two first parts, each followed by later parts, so neither option is the whole design, and d:does-better holds equal every value a statement does not name, so the paper, presentation, and polls of later parts are held equal while the lemma weighs how soon each part fixes the features
+- 12.3A33 | author of a large proposal | l:first-part-foresight | objection: l:first-part-foresight fails when later parts are already published | applied, type 3: ax:first-review now says reviewers cannot study in detail what later parts will require "while those parts are unpublished"; l:first-part-foresight follows (fix-r3-ch06.md). p:first-part, l:thm-first-part, and the Theorem say "can be adopted before", which holds whenever the later parts are unpublished (finding 9 keys)
+- 12.3A34 | author of a large proposal | l:bound-early | objection: l:bound-early: an author cannot know a poll can pass, and a failed poll has a lasting cost | merged with 12.3B2
+- 12.3A35 | author of a large proposal | inf:bound-ts-reach | objection: inf:bound-ts-reach goes beyond d:design-bound | merged with 12.3L6
+- 12.3A36 | author of a large proposal | inf:rs-state-rank | objection: inf:rs-state-rank: stating takes time the case does not weigh | applied, type 1: the t:disclose caption now states "Writing the statement takes time worth less to a result-seeking author than the better design it brings."; inf:rs-state-rank cites the case (fix-r3-ch11.md)
+- 12.3A37 | author of a large proposal | p:disclosure | objection: p:disclosure omits SD-4's request that an author show thorough consideration | applied, type 2: f:show-alternatives now also quotes "The author should demonstrate that they have considered the problem reasonably thoroughly, and are not just running with the first idea that occurred to them."; p:disclosure is unchanged, since the sentence asks for thorough consideration of the problem and its alternatives, not for drawbacks, so it limits no effect p:disclosure states
+- 12.3A38 | author of a large proposal | ind:reversal-grows | objection: ind:reversal-grows: TS designs are built on with change expected | rejected: the induction claims that reversal cost grows, not its rate, and work built on a TS design is still work a reversal redoes; f:ts-feedback and l:implementation-informs already say a TS's users should not rely on it in production; the proposed Fact, "WG21 has never adopted a TS or white paper into the IS without significant change", states feature history, which the sealed-history rule bars as support
+- 12.3A39 | author of a large proposal | p:incumbent-start | objection: p:incumbent-start omits SD-4's grace-period call for alternatives | applied, type 2: f:ts-default now also quotes "That window is a limited “grace period” wherein any participants who prefer a different approach than the one in that proposal should be actively working on developing their own alternative proposals."; p:incumbent-start already cites f:ts-default; l:ts-merge-default follows (fix-r3-ch05.md)
+- 12.3A40 | author of a large proposal | c:pred-sponsor-against | objection: c:pred-sponsor-against: who was present appears only in protected records | sent to fix-r3-ch12.md, type 1
+- 12.3A41 | author of a large proposal | inf:al-study | objection: inf:al-study: returning readers read mainly what changed | merged with 12.3B9, whose redesign measures length added since the previous revision
+- 12.3A42 | author of a large proposal | inf:pa-tell-apart | objection: inf:pa-tell-apart counts omissions of later parts not yet designed | sent to fix-r3-ch12.md, type 3
+- 12.3A43 | author of a large proposal | c:pred-first-part | objection: c:pred-first-part: the mailings cannot show which authors are design-bound | applied, type 3: c:pred-first-part now uses an observable stand-in, "more often where the authors' stated sponsor has interests depending on its features", d:design-bound's own example read through stated affiliation as inf:sa-evidence allows; inf:fp-seldom and inf:fp-tell-apart follow (combines 12.3B6)
+- 12.3A44 | author of a large proposal | c:pred-small-fade | objection: c:pred-small-fade: self-funding cannot be read from the mailings | sent to fix-r3-ch12.md, type 1
+- 12.3A45 | author of a large proposal | c:pred-defects | objection: c:pred-defects: no difference also follows when the condition fails | applied, type 4: second sentence now "No difference would count against the model or that condition, ..." (prediction; force kept: the prediction is unchanged, and its counter-evidence is stated exactly); inf:de-predict follows
+- 12.3A46 | author of a large proposal | inf:co-tell-apart | objection: inf:co-tell-apart: topics with competing papers are often harder | applied, type 3: c:pred-competing now matches "scope, size, implementation experience, and turnout" and cites ax:unknown; inf:co-tell-apart follows
+- 12.3A47 | author of a large proposal | inf:sl-predict | objection: inf:sl-predict: separate-sponsor proposals differ before any limit | applied, type 3: c:lever-sponsor-limit now predicts a change: "once the limit applies, margins fall for proposals whose authors one sponsor pays beyond it, relative to those with as many authors paid by separate sponsors"; inf:sl-predict follows
+- 12.3A48 | author of a large proposal | inf:lw-predict | objection: inf:lw-predict holds only if the required record is public | applied, type 3: c:lever-written-answer now requires "a written answer to each objection in a public record" (with 12.3D29) and cites f:protected; inf:lw-borne and inf:lw-predict follow
+- 12.3A49 | author of a large proposal | inf:ts-delay | objection: inf:ts-delay: a TS still has its ballot, Disposition of Comments, and ISO editing | merged with 12.3L19
+
+### Skeptics B
+
+- 12.3B1 | employer standards lead | l:favor-supported | objection: l:favor-supported: in a poll between two colleagues' designs, Favor on one is Against the other | applied, type 3: l:settled-regular now opens "In a poll on one proposal," and so does the Theorem's regular sentence; SD-4's multiple polls poll each alternative that way (f:multiple-polls), while its approval polls, used typically for names, and polls between two colleagues' designs make a vote for one a vote against the other; l:favor-supported follows (settled lemma and Theorem; force kept for the polls the results describe) (combines 12.3A7)
+- 12.3B2 | employer standards lead | l:bound-early | objection: l:bound-early weighs the gain of passing sooner but not the cost of failing sooner | sent to fix-r3-ch11.md, proof step
+- 12.3B3 | employer standards lead | inf:bound-ts-reach | objection: inf:bound-ts-reach: a sponsor can gain from a TS's early reach | merged with 12.3L6
+- 12.3B4 | employer standards lead | inf:sa-share | objection: inf:sa-share: authors' own Favor votes alone shrink the Against share | applied, type 3: c:pred-sponsor-against now predicts "a smaller Against share of non-author Favor-plus-Against votes"; inf:sa-share follows: set aside the authors' own Favor votes, which the author list bounds
+- 12.3B5 | employer standards lead | inf:sa-tell-apart | objection: inf:sa-tell-apart: learning from new colleagues also turns votes after the move | merged with 12.3L12, which adopts this finding's timing test
+- 12.3B6 | employer standards lead | c:pred-first-part | objection: c:pred-first-part: no way to pick design-bound authors' papers | merged with 12.3A43
+- 12.3B7 | employer standards lead | inf:rp-tell-apart | objection: inf:rp-tell-apart: the accept-decisions norm also predicts a drop at the poll | sent to fix-r3-ch12.md, type 3
+- 12.3B8 | employer standards lead | inf:wa-tell-apart | objection: inf:wa-tell-apart: plenary summaries may need consent | merged with 12.3A11
+- 12.3B9 | C++ user | c:pred-abstention-length | objection: c:pred-abstention-length: any aging effect yields the same pattern | applied, type 3: c:pred-abstention-length now compares revisions at the same place in their sequences by the length each adds, in polls of the same form, relative to other papers polled at the same meetings; the inf:al steps follow (combines 12.3L13 and 12.3A41)
+- 12.3B10 | C++ user | inf:pa-tell-apart | objection: inf:pa-tell-apart counts omissions of parts not yet designed | merged with 12.3A42
+- 12.3B11 | C++ user | inf:wa-predict | objection: inf:wa-predict weighs only the costs of a written answer | sent to fix-r3-ch12.md, proof step
+- 12.3B12 | C++ user | inf:de-tell-apart | objection: inf:de-tell-apart: Against voters search a feature more after adoption | sent to fix-r3-ch12.md, type 3
+- 12.3B13 | C++ user | l:thm-objections | objection: l:thm-objections: "count only in fixed forms" reads as excluding persuasion | rejected: the sentence says where an objection enters the decision, and an objection that persuades enters it through the votes it changes, which are cast in the room at the poll; l:objection-forms gives those forms, so the sentence holds as written
+- 12.3B14 | C++ user | l:thm-pattern | objection: l:thm-pattern: open choices can depend on one another | merged with 12.3L9
+- 12.3B15 | C++ user | inf:thm-sizes-small | objection: inf:thm-sizes-small drops the one-author attribute | sent to fix-r3-ch11.md, type 3
+- 12.3B16 | national body head | p:sponsor-votes | objection: p:sponsor-votes omits that national bodies choose whom to appoint | applied, type 2: global decision 4: second sentence now "Each is appointed by a national body or liaison that chooses whom to appoint, SC22 may cap only how many each appoints, and at SC22 each national body counts once."; inf:thm-no-cap follows (fix-r3-ch11.md). National bodies' appointments come first in each meeting's order and are among the open choices the Theorem covers
+- 12.3B17 | national body head | l:thm-deciders | objection: l:thm-deciders: a national body's own rules can give users a vote on its position | applied, type 3: the Theorem now says "No user votes in WG21's polls or ballots", the scope p:who-votes proves; m:moves-user adds "vote on its position where its rules allow" (INCITS: f:incits-one-vote, f:incits-organization, f:incits-position), and l:settled-user's cheaper moves end "a move through a national body"; l:thm-deciders, inf:thm-no-user-vote, and l:user-moves follow (Theorem and settled lemma; force kept: users vote in neither WG21's polls nor its ballots)
+- 12.3B18 | national body head | l:removal-polls | objection: l:removal-polls: a removal answering a negative vote is weighed toward improving consensus | merged with 12.3A18, which adds the SD-4 sentence; its narrowing of the 2:1 burden to removals outside ballot comment resolution is not adopted, since under d:follows-norm the chair's call on any removal poll follows the norm, and SD-4's goal adds a test rather than replacing it
+- 12.3B19 | national body head | l:ballot-rules | objection: l:ballot-rules omits ISO's contact step for negative votes | rejected: l:ballot-rules states the counting rule 2.6.3 and 2.7.3 give; the contact step decides in unclear cases whether comments are technical, after which the same rule applies, so it limits no effect a later item states (global decision 4)
+- 12.3B20 | national body head | c:lever-nb-more | objection: c:lever-nb-more: ISO bars formal discussion of a document out for ballot | applied, type 2: global decision 4: new Fact f:ballot-discussion quotes 1.7.5; c:lever-nb-more now ends "outside documents out for ballot or comment" and cites it; a chapter step states the limit (fix-r3-ch12.md)
+- 12.3B21 | national body head | inf:nl-ballot | objection: inf:nl-ballot: appeals and agenda objections can also stop a document | applied, type 3: c:lever-nb-less now says "their only move counting directly toward stopping a document on any ground" and cites f:agenda-notice; inf:nl-ballot follows: an appeal on a draft needs principle or harm to reputation (f:appeal-technical), and an agenda objection needs off-agenda action
+- 12.3B22 | national body head | inf:nb-evidence | objection: inf:nb-evidence: the rules keep vetted ballot comments off decided matters | sent to fix-r3-ch12.md, type 3

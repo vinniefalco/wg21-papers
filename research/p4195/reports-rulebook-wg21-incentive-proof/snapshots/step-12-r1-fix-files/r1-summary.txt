@@ -1,0 +1,17 @@
+counts by disposition: A 173, S 100, M 48, R 13
+fixes by type (applied and sent): type 1 15, type 2 18, type 3 47, type 4 32, wording 160, proof step 1
+applied by type: type 1 11, type 2 10, type 3 28, type 4 19, wording 105, proof step 0
+sent by type: type 1 4, type 2 8, type 3 19, type 4 13, wording 55, proof step 1
+type 4 IDs: 12.1R1 (f:no-merit-ruling), 12.1R2 (p:who-decides), 12.1R4 (ch2 In plain terms), 12.1R5 (p:against-costs-more), 12.1R7 (p:definition-without-procedure), 12.1R9 (l:minutes-others), 12.1R10 (inf:call-above-norm), 12.1R14 (inf:directed-change), 12.1R15 (thm:settled), 12.1R16 (l:thm-disclosure), 12.1R17 (ch11 In plain terms), 12.1R20 (inf:nm-unsettled), 12.1D10 (p:who-votes), 12.1L3 (m:moves-chair), 12.1L6 (p:least-cost-response), 12.1L7 (l:reason-fades), 12.1L9 (p:newcomer), 12.1L16 (p:parts), 12.1L17 (l:first-part-oppose), 12.1L18 (l:first-part-smallest), 12.1L19 (p:large-position), 12.1L22 (p:sg-decides), 12.1L29 (p:chair-confidence), 12.1L33 (l:merit-in-vote), 12.1L37 (l:incits-votes), 12.1L42 (l:settled-small-author), 12.1L46 (p:checks), 12.1L52 (inf:pa-sequence), 12.1L53 (inf:rp-changes), 12.1A36 (p:large-position), 12.1B26 (thm:settled), 12.1B46 (c:lever-nb-less)
+dispatch: chapter | findings sent | spine lines | needing new proof steps | role
+  ch-02 | 2 | 5 | 0 | fix-instructions
+  ch-03 | 7 | 8 | 1 | fix-instructions
+  ch-04 | 7 | 11 | 4 | fix-instructions
+  ch-05 | 6 | 5 | 4 | fix-instructions
+  ch-06 | 4 | 7 | 4 | fix-instructions
+  ch-07 | 9 | 5 | 0 | fix-instructions
+  ch-08 | 6 | 7 | 5 | fix-instructions
+  ch-09 | 4 | 3 | 2 | fix-instructions
+  ch-10 | 3 | 12 | 5 | fix-instructions
+  ch-11 | 35 | 16 | 17 | chapter-fill-instructions
+  ch-12 | 17 | 16 | 22 | chapter-fill-instructions

@@ -1,0 +1,21 @@
+tag: step-12-r1-fix-files
+taken: 2026-10-19 14:34:05
+note: round 1 fix files and reconcile decisions as written, before the fix subagents close their lines
+
+fix-r1-ch02.md	5392	c8abb599908e7ab4f563dd99508ce3954d9578baf953b31939557951dc134d85	c:\Users\Vinnie\cursor\cabinet\_scratch\reports-rulebook-wg21-incentive-proof\fix-r1-ch02.md
+fix-r1-ch03.md	7558	d178a260d746f149ca31ee152cdf60caebbfab42b3d5770ede43b0bb95d62151	c:\Users\Vinnie\cursor\cabinet\_scratch\reports-rulebook-wg21-incentive-proof\fix-r1-ch03.md
+fix-r1-ch04.md	10927	8f641d2a7a3a48fb3db176c296c277073634e96200e6f358a0e944f3b32db4ff	c:\Users\Vinnie\cursor\cabinet\_scratch\reports-rulebook-wg21-incentive-proof\fix-r1-ch04.md
+fix-r1-ch05.md	7238	c78ee086ce0983bdd46435843767f45dc517efc833118fada0c3c526cf5d7263	c:\Users\Vinnie\cursor\cabinet\_scratch\reports-rulebook-wg21-incentive-proof\fix-r1-ch05.md
+fix-r1-ch06.md	7788	e22b130df7da157dcd40e315057bb353953247802c3817a4fdce37b3fcbc25c7	c:\Users\Vinnie\cursor\cabinet\_scratch\reports-rulebook-wg21-incentive-proof\fix-r1-ch06.md
+fix-r1-ch07.md	6751	16c1696d303f7611bb733e5e9737809a9a6fd77db6f39fde1bdc813fbb513819	c:\Users\Vinnie\cursor\cabinet\_scratch\reports-rulebook-wg21-incentive-proof\fix-r1-ch07.md
+fix-r1-ch08.md	8137	b10ad3ae619f4ed800d0d5e2a17247f35a8bef7abb0128eed145da41b6a24135	c:\Users\Vinnie\cursor\cabinet\_scratch\reports-rulebook-wg21-incentive-proof\fix-r1-ch08.md
+fix-r1-ch09.md	5680	731bd4dd7778ea7204637e033243d9e09201eb5615070697bab1583cf3d61b76	c:\Users\Vinnie\cursor\cabinet\_scratch\reports-rulebook-wg21-incentive-proof\fix-r1-ch09.md
+fix-r1-ch10.md	10127	d40bc648ac33fe709bb0988c44c48d6e193a2cd3aa3a5cb98500490bd2511b45	c:\Users\Vinnie\cursor\cabinet\_scratch\reports-rulebook-wg21-incentive-proof\fix-r1-ch10.md
+fix-r1-ch11.md	28560	fcfc81c03d012a6c07c8165be6f91dc29bf3450b683d6f4645ae9670a9f543ec	c:\Users\Vinnie\cursor\cabinet\_scratch\reports-rulebook-wg21-incentive-proof\fix-r1-ch11.md
+fix-r1-ch12.md	16678	f1357b6514e0605d0d2fc2715a44c591cb7f642bdc9900438c3d046ef78ca166	c:\Users\Vinnie\cursor\cabinet\_scratch\reports-rulebook-wg21-incentive-proof\fix-r1-ch12.md
+r1-decisions-a.txt	28494	754b1e23bdd23e57643c9b97969eb1b770e764780a5c8f3822364c4c5514767c	c:\Users\Vinnie\cursor\cabinet\_scratch\reports-rulebook-wg21-incentive-proof\r1-decisions-a.txt
+r1-decisions-b.txt	32083	e8be50785b127722ab7fbd8a9768690b6948a44b388cf785cfbfed1a3a733ae1	c:\Users\Vinnie\cursor\cabinet\_scratch\reports-rulebook-wg21-incentive-proof\r1-decisions-b.txt
+r1-findings.tsv	146052	f18f81fd46f3f0c6c764506c591c2c09a49f675489eb3e363e393c9f024cecaf	c:\Users\Vinnie\cursor\cabinet\_scratch\reports-rulebook-wg21-incentive-proof\r1-findings.tsv
+r1-ledger-parts.md	49289	47573335c51abe594714366207163f1a3cfdb40d965cc1df386a657f4753405d	c:\Users\Vinnie\cursor\cabinet\_scratch\reports-rulebook-wg21-incentive-proof\r1-ledger-parts.md
+r1-log-section.md	63654	051d0f5e4c859b3c8176d19d6c21fea2a00f9bd89514e2814b3f4002660009c7	c:\Users\Vinnie\cursor\cabinet\_scratch\reports-rulebook-wg21-incentive-proof\r1-log-section.md
+r1-summary.txt	1747	8c5d8d91649d5c70b546773221910d3327c1e905138e6f9b3a718369f2721941	c:\Users\Vinnie\cursor\cabinet\_scratch\reports-rulebook-wg21-incentive-proof\r1-summary.txt

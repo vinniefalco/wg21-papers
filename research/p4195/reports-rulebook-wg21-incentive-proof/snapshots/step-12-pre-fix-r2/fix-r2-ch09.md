@@ -1,0 +1,29 @@
+# Round 2 fixes, chapter 9
+
+Context from the round 2 reconcile, which changed the foundation and the spine before this file was written:
+
+- Absence facts. `f:no-drawbacks-asked` and `f:no-interest-statement` now cover SD-4 and every quoted ISO clause, so "the rules ask no ..." is supported for drawbacks, who pays, and interests. Write "no proposal paper" where the claim is about drawbacks, since SD-4 asks a TS or white paper for its must-address controversial issues.
+- Scope. `d:follows-norm` now says what advances in a subgroup, and what Against votes block there, is what happens under a chair who follows the norm and finds no sustained opposition. Do not add that condition to sentences; cite `d:follows-norm`.
+- `ax:support` now says a vote the colleague cannot attribute gives no reason for less ready support.
+- New facts: `f:plenary-polls` (plenary voters and the convenor's polls), `f:report-followup` (file the issue or write the paper), `f:meeting-access` (ISO 5.3.1 on invitation letters, accessibility, and locations), `f:in-situ` (drafts the wording rooms reviewed with the changes applied). Extended facts: `f:minutes` (minute-taking), `f:negative-welcome` (broad understanding), `f:iso-early` (substantial comments tabled at meetings), `f:presenter` (qualified to answer detailed questions).
+- The Theorem now names polling rivals side by side for design room chairs, and ends its first paragraph with a sentence on the choices it leaves open, which each player makes in the way that does best for them given the others' choices. `l:checks-attendance` is cut from the spine and chapter 11.
+- Words. Write "the next edition", not "the next IS"; "subgroup", not "room", where a subgroup is meant; "the 2:1 threshold" or "meeting the 2:1 norm", not "the line"; and in chapter 12, "the model predicts" for every prediction a step states.
+- Length. Each item has at most two sentences of at most 30 words. Where a statement needs more, keep its claim in the item and make each other sentence a child step with its own key, one sentence each.
+- Citations. A child may cite only foundation items, spine items of earlier chapters, earlier items of its own chapter, or its own children.
+- Spine lines below quote statements already changed in this chapter and in `02-spine.md`. Do not edit those statements; make their children prove them, or cut children that no longer serve them. Never soften a plain, sharp, true statement.
+
+## Spine statements changed by the reconcile
+
+p:who-takes-part | spine change, round 2 reconcile | statement changed | The spine statement now reads: "Fees are barred and meeting places should not significantly limit attendance, and only those who bear the cost of taking part, or whose sponsors do, vote in WG21's polls. ISO can remove inactive national body experts, and participants can propose only for needs they and their sponsors know, which need not match users', since users differ from them." Make its children prove it, or cut children that no longer serve it.
+p:reward-timing | spine change, round 2 reconcile | statement changed | The spine statement now reads: "Authors get the adoption they value at the poll. A flaw that implementation and use have not yet exposed costs them only later and in part, and its cost can fall on any user of the feature." Make its children prove it, or cut children that no longer serve it.
+p:merit-gap | spine change, round 2 reconcile | statement changed | The spine statement now reads: "Winning a consensus call and producing the design serving users best coincide only as far as voters can judge that at the poll and weigh no other value above it. SD-4 assigns no one to rule on it for them." Make its children prove it, or cut children that no longer serve it.
+p:integration | spine change, round 2 reconcile | statement changed | The spine statement now reads: "Change papers approved separately at one meeting first come together when the project editor merges their wording, which the editor's report records and a pre-ballot editing committee verifies. No SD-4 step checks whether the designs work together, while each author gains from their own design's adoption and a conflict costs users and later rework." Make its children prove it, or cut children that no longer serve it. Add the in-situ case (f:in-situ) to l:separate-approval or l:editor-merge: when the wording rooms reviewed a whole new draft with the changes applied, plenary approves the changes in that form and no editing committee is needed. Neither case is a step that checks whether designs work together, so l:conflict-costs and the absence stand.
+p:written-answer | spine change, round 2 reconcile | statement changed | The spine statement now reads: "No rule requires a written answer to an objection beyond an author's defense of declining a directed change, ISO's response to enquiry comments, and a TS ballot's Disposition of Comments. For the author, a written answer stating the objection makes it easier to raise again but also shows later readers what would not be new, SD-4's test for repeated objections." Make its children prove it, or cut children that no longer serve it.
+
+## Findings
+
+l:iso-comment-answers | rules check, unsupported rule claim (12.2R8) | l:iso-comment-answers: ISO does more with final-draft comments than note them (2.7.5 editorial errors, 2.7.7 reconsideration) | Write its second sentence as "On a final draft it records comments as noted for future consideration and requires no written answer to them." Cite f:comments-noted and f:failed-fdis. ("only notes" was false; force kept, since no written answer is required)
+
+## Follow-on edits from findings applied to the foundation or spine
+
+l:traced-voters | follow-on of 12.2A9 | plenary voters | Cite f:plenary-polls: in plenary polls each person present whose name is listed in ISO's global directory can vote, so plenary voters, like subgroup voters, are registered experts (f:registered).
